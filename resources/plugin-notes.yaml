@@ -1,0 +1,33 @@
+# Maintenance status not reflected in labels etc.
+artifactory: "Does not accept new pull requests"
+testabilityexplorer: "Sources seem to be missing from GitHub"
+
+# Details on known issues, e.g. limited impact
+clearcase: "Form validation will not work"
+embeddable-build-status: "The 'link' parameter may not work anymore from frames, but use case is unclear"
+monitoring: "Issue only affects a page that was broken anyway"
+periodicbackup: "JS has been broken since 2.426 anyway, no further impact. Cleanup in https://github.com/jenkinsci/periodicbackup-plugin/pull/27"
+repo: "Form validation for the repo binary path does not work"
+
+# Metadata Misconfiguration
+gitlab-merge-request-jenkins: "Not hosted in jenkinsci GitHub organization"
+repository: "Broken metadata; hosted at https://github.com/jenkinsci/maven-repository-plugin"
+show-build-parameters: "Not hosted in jenkinsci GitHub organization; no maintainers"
+
+# Document plugins with inherent(ish) issues
+badge: "Configuration-dependent: External image URLs (but probably expected as is)"
+dashboard-view: "Configuration-dependent: Iframe/Image portlets"
+login-theme: "Configuration-dependent: Custom CSS/JS"
+simple-theme-plugin: "Configuration-dependent"
+
+# Document releases fixing all known issues, keep for a while after release but remove later
+github-branch-source: "https://github.com/jenkinsci/github-branch-source-plugin/releases/tag/1925.v62fb_7ffb_08ce" # 2025-11-25
+extra-columns: "https://github.com/jenkinsci/extra-columns-plugin/releases/tag/extra-columns-1.28" # 2025-11-30
+oic-auth: "https://github.com/jenkinsci/oic-auth-plugin/releases/tag/4.626.ve5a_d9f26c051" # 2025-12-02
+custom-folder-icon: "https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.22" # 2025-12-04
+gitee: "https://github.com/jenkinsci/gitee-plugin/releases/tag/1255.v1b_42e96a_378b_" # 2025-12-04
+gitlab-plugin: "https://github.com/jenkinsci/gitlab-plugin/releases/tag/gitlab-plugin-1.9.11" # 2025-12-08
+customizable-header: "https://github.com/jenkinsci/customizable-header-plugin/releases/tag/255.v3a_5dec1a_b_e28" # 2025-12-09
+github-pullrequest: "https://github.com/KostyaSha/github-integration-plugin/releases/tag/0.7.3" # 2025-12-11
+gravatar: "https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8" # 2025-12-15
+monitoring: "https://github.com/jenkinsci/monitoring-plugin/releases/tag/monitoring-2.6.0" # 2025-12-16

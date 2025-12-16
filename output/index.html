@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins Plugins CSP Compatibility Overview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        .stat-item {
+            flex: 1;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .filter-container {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .filter-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background-color 0.2s;
+        }
+
+        .filter-button.active {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .filter-button:not(.active) {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .filter-button:hover {
+            opacity: 0.9;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        .modal textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            resize: vertical;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 15px;
+        }
+
+        .modal-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .modal-button.primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .modal-button.secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .modal-button:hover {
+            opacity: 0.9;
+        }
+
+        .modal-error {
+            color: #dc3545;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .filter-active-indicator {
+            display: inline-block;
+            margin-left: 10px;
+            padding: 3px 8px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        thead {
+            background: #343a40;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 12px 8px;
+            text-align: left;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        th:hover {
+            background: #495057;
+        }
+
+        th.sortable::after {
+            content: ' ↕';
+            opacity: 0.5;
+        }
+
+        th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .number {
+            text-align: right;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .badge-issues {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .badge-scanner {
+            background-color: #ffc107;
+            color: #000;
+        }
+
+        .notes {
+            font-size: 12px;
+            color: #dc3545;
+            white-space: pre-line;
+            max-width: 300px;
+        }
+
+        .notes a {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            padding: 20px;
+            background: #f8d7da;
+            color: #721c24;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .empty-cell {
+            color: #999;
+            text-align: center;
+        }
+
+        /* Tooltip styles */
+        .issue-tooltip {
+            position: absolute;
+            background: white;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 2000;
+            max-width: 500px;
+            min-width: 300px;
+            display: none;
+            pointer-events: auto;
+        }
+
+        .issue-tooltip.show {
+            display: block;
+        }
+
+        .tooltip-header {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #dc3545;
+        }
+
+        .tooltip-content {
+            font-size: 13px;
+            color: #444;
+        }
+
+        .tooltip-issue-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tooltip-issue-item {
+            padding: 6px 0;
+            line-height: 1.5;
+        }
+
+        .tooltip-issue-item a {
+            color: #0066cc;
+            text-decoration: none;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+
+        .tooltip-issue-item a:hover {
+            text-decoration: underline;
+        }
+
+        .tooltip-addressed {
+            color: #666;
+            font-style: italic;
+            margin-left: 4px;
+        }
+
+        .issues-clickable {
+            cursor: help;
+            position: relative;
+        }
+
+        .issues-clickable:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jenkins Plugins CSP Compatibility Overview</h1>
+
+        <div class="stats" id="stats">
+            <div class="stat-item">
+                <div class="stat-label">Total Plugins</div>
+                <div class="stat-value" id="totalPlugins">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Plugins With Problems</div>
+                <div class="stat-value" id="pluginsWithProblems">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Plugins Without Problems</div>
+                <div class="stat-value" id="pluginsWithoutProblems">-</div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <input type="text" id="filterInput" placeholder="Filter by plugin ID...">
+            <button id="filterButton" class="filter-button">Show Problems Only</button>
+            <button id="jsonFilterButton" class="filter-button">Filter by JSON</button>
+        </div>
+
+        <div id="loading" class="loading">Loading data...</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <!-- JSON Filter Modal -->
+        <div id="jsonModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Filter by JSON Plugin List</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <p>Paste the output of <code>https://jenkins.example.org/pluginManager/api/json?tree=plugins[shortName]</code> :</p>
+                <textarea id="jsonInput" placeholder='{"plugins":[{"shortName":"plugin-id-1"},{"shortName":"plugin-id-2"}]}'></textarea>
+                <div id="modalError" class="modal-error" style="display: none;"></div>
+                <div class="modal-buttons">
+                    <button class="modal-button secondary" id="clearJsonFilter">Clear Filter</button>
+                    <button class="modal-button primary" id="applyJsonFilter">Apply Filter</button>
+                </div>
+            </div>
+        </div>
+
+        <table id="pluginTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th class="sortable" data-column="id">Plugin ID</th>
+                    <th class="sortable number" data-column="popularity">Popularity</th>
+                    <th class="sortable" data-column="date">Release Date</th>
+                    <th class="sortable" data-column="scm">GitHub Repository</th>
+                    <th class="sortable number" data-column="issues">Issues</th>
+                    <th class="sortable number" data-column="scanner">Scanner</th>
+                    <th class="sortable" data-column="notes">Notes</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+
+        <!-- Tooltip for issue details -->
+        <div id="issueTooltip" class="issue-tooltip"></div>
+    </div>
+
+    <script>
+        let pluginsData = [];
+        let filteredData = [];
+        let currentSort = { column: 'popularity', direction: 'desc' };
+        let showProblemsOnly = false;
+        let jsonFilterPlugins = null; // Set of plugin IDs to filter by
+        let currentTooltipElement = null; // Track current tooltip trigger
+
+        // Parse URL to create a display label
+        function createIssueLabel(url) {
+            // Check if it's a Jira issue
+            if (url.includes('issues.jenkins.io/browse/')) {
+                const match = url.match(/\/browse\/(JENKINS-\d+)/);
+                if (match) return match[1];
+            }
+
+            // Check if it's a GitHub issue
+            if (url.includes('github.com') && url.includes('/issues/')) {
+                const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)\/issues\/(\d+)/);
+                if (match) {
+                    const org = match[1];
+                    const repo = match[2];
+                    const issueNum = match[3];
+                    return `${org}/${repo}#${issueNum}`;
+                }
+            }
+
+            // Check if it's a GitHub PR
+            if (url.includes('github.com') && url.includes('/pull/')) {
+                const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)\/pull\/(\d+)/);
+                if (match) {
+                    const org = match[1];
+                    const repo = match[2];
+                    const prNum = match[3];
+                    return `${org}/${repo}#${prNum}`;
+                }
+            }
+
+            // Check if it's a GitHub commit
+            if (url.includes('github.com') && url.includes('/commit/')) {
+                const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)\/commit\/([a-f0-9]+)/);
+                if (match) {
+                    const org = match[1];
+                    const repo = match[2];
+                    const commitHash = match[3].substring(0, 7); // Short hash
+                    return `${org}/${repo}@${commitHash}`;
+                }
+            }
+
+            // Fallback to the URL itself
+            return url;
+        }
+
+        // Parse GitHub URL to create a scanner label (filename#line)
+        function createScannerLabel(url) {
+            // Extract filename and line number from GitHub blob URL
+            // Format: https://github.com/org/repo/blob/commit/path/to/file.ext#L123
+            if (url.includes('github.com') && url.includes('/blob/')) {
+                const match = url.match(/\/blob\/[^\/]+\/(.+?)(?:#L(\d+))?$/);
+                if (match) {
+                    const fullPath = match[1];
+                    const lineNum = match[2];
+                    // Get just the filename from the path
+                    const filename = fullPath.split('/').pop();
+                    if (lineNum) {
+                        return `${filename}#${lineNum}`;
+                    }
+                    return filename;
+                }
+            }
+
+            // Fallback to the URL itself
+            return url;
+        }
+
+        // Create tooltip content HTML for issues
+        function createTooltipContent(pluginName, issueDetails) {
+            if (!issueDetails || issueDetails.length === 0) {
+                return '';
+            }
+
+            let html = `<div class="tooltip-header">${escapeHtml(pluginName)} - Issues</div>`;
+            html += '<div class="tooltip-content"><ul class="tooltip-issue-list">';
+
+            issueDetails.forEach(detail => {
+                const issueUrl = detail.issue;
+                const issueLabel = createIssueLabel(issueUrl);
+
+                html += '<li class="tooltip-issue-item">';
+                html += `<a href="${escapeHtml(issueUrl)}" target="_blank">${escapeHtml(issueLabel)}</a>`;
+
+                if (detail.fix) {
+                    const fixLabel = createIssueLabel(detail.fix);
+                    html += `<span class="tooltip-addressed"> (addressed by <a href="${escapeHtml(detail.fix)}" target="_blank">${escapeHtml(fixLabel)}</a>)</span>`;
+                }
+
+                html += '</li>';
+            });
+
+            html += '</ul></div>';
+            return html;
+        }
+
+        // Create tooltip content HTML for scanner findings, grouped by type
+        function createScannerTooltipContent(pluginName, scannerDetails) {
+            if (!scannerDetails || scannerDetails.length === 0) {
+                return '';
+            }
+
+            let html = `<div class="tooltip-header">${escapeHtml(pluginName)} - Scanner Findings</div>`;
+            html += '<div class="tooltip-content">';
+
+            // Group findings by type
+            const grouped = {};
+            scannerDetails.forEach(detail => {
+                const type = detail.type || 'Unknown';
+                if (!grouped[type]) {
+                    grouped[type] = [];
+                }
+                grouped[type].push(detail);
+            });
+
+            // Sort types alphabetically
+            const sortedTypes = Object.keys(grouped).sort();
+
+            // Render each group
+            sortedTypes.forEach(type => {
+                html += `<div style="margin-bottom: 12px;">`;
+                html += `<div style="font-weight: bold; color: #666; margin-bottom: 4px;">${escapeHtml(type)}</div>`;
+                html += '<ul class="tooltip-issue-list">';
+
+                grouped[type].forEach(detail => {
+                    const url = detail.url;
+                    const label = createScannerLabel(url);
+
+                    html += '<li class="tooltip-issue-item">';
+                    html += `<a href="${escapeHtml(url)}" target="_blank">${escapeHtml(label)}</a>`;
+                    html += '</li>';
+                });
+
+                html += '</ul></div>';
+            });
+
+            html += '</div>';
+            return html;
+        }
+
+        // Show tooltip for issues
+        function showTooltip(event, plugin) {
+            if (!plugin.issueDetails || plugin.issueDetails.length === 0) {
+                return;
+            }
+
+            const tooltip = document.getElementById('issueTooltip');
+            const content = createTooltipContent(plugin.displayName || plugin.id, plugin.issueDetails);
+
+            tooltip.innerHTML = content;
+            tooltip.classList.add('show');
+
+            // Position the tooltip
+            positionTooltip(event.currentTarget, tooltip);
+
+            currentTooltipElement = event.currentTarget;
+        }
+
+        // Show tooltip for scanner findings
+        function showScannerTooltip(event, plugin) {
+            if (!plugin.scannerDetails || plugin.scannerDetails.length === 0) {
+                return;
+            }
+
+            const tooltip = document.getElementById('issueTooltip');
+            const content = createScannerTooltipContent(plugin.displayName || plugin.id, plugin.scannerDetails);
+
+            tooltip.innerHTML = content;
+            tooltip.classList.add('show');
+
+            // Position the tooltip
+            positionTooltip(event.currentTarget, tooltip);
+
+            currentTooltipElement = event.currentTarget;
+        }
+
+        // Position tooltip near the trigger element
+        function positionTooltip(triggerElement, tooltip) {
+            const rect = triggerElement.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
+
+            // Try to position below the element
+            let top = rect.bottom + window.scrollY + 8;
+            let left = rect.left + window.scrollX + (rect.width / 2) - (tooltipRect.width / 2);
+
+            // Adjust if tooltip goes off screen horizontally
+            if (left < 10) {
+                left = 10;
+            } else if (left + tooltipRect.width > window.innerWidth - 10) {
+                left = window.innerWidth - tooltipRect.width - 10;
+            }
+
+            // Adjust if tooltip goes off screen vertically (position above instead)
+            if (top + tooltipRect.height > window.innerHeight + window.scrollY - 10) {
+                top = rect.top + window.scrollY - tooltipRect.height - 8;
+            }
+
+            tooltip.style.top = top + 'px';
+            tooltip.style.left = left + 'px';
+        }
+
+        // Hide tooltip
+        function hideTooltip() {
+            const tooltip = document.getElementById('issueTooltip');
+            tooltip.classList.remove('show');
+            currentTooltipElement = null;
+        }
+
+        // Global click handler to close tooltip when clicking outside
+        document.addEventListener('click', (event) => {
+            const tooltip = document.getElementById('issueTooltip');
+            const isClickInside = tooltip.contains(event.target) ||
+                                 (currentTooltipElement && currentTooltipElement.contains(event.target));
+
+            if (!isClickInside && tooltip.classList.contains('show')) {
+                hideTooltip();
+            }
+        });
+
+        // Load and display data
+        async function loadData() {
+            try {
+                const response = await fetch('plugin_report.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                pluginsData = await response.json();
+                filteredData = [...pluginsData];
+
+                updateStats();
+                sortData('popularity', 'desc');
+                renderTable();
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('pluginTable').style.display = 'table';
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error loading data: ${error.message}`;
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            const totalPlugins = pluginsData.length;
+
+            // Count plugins with problems (non-zero / non-"-" Issues or Scanner)
+            // A plugin has problems if issues > 0 OR scanner > 0
+            const pluginsWithProblems = pluginsData.filter(p => {
+                const hasIssues = p.issues && p.issues > 0;
+                const hasScanner = p.scanner && p.scanner > 0;
+                return hasIssues || hasScanner;
+            }).length;
+
+            // Count plugins without problems (both Issues and Scanner are 0 or "-")
+            // A plugin has no problems if (issues === 0 or undefined) AND (scanner === 0 or undefined)
+            const pluginsWithoutProblems = pluginsData.filter(p => {
+                const hasIssues = p.issues && p.issues > 0;
+                const hasScanner = p.scanner && p.scanner > 0;
+                return !hasIssues && !hasScanner;
+            }).length;
+
+            document.getElementById('totalPlugins').textContent = totalPlugins.toLocaleString();
+            document.getElementById('pluginsWithProblems').textContent = pluginsWithProblems.toLocaleString();
+            document.getElementById('pluginsWithoutProblems').textContent = pluginsWithoutProblems.toLocaleString();
+        }
+
+        // Sort data
+        function sortData(column, direction) {
+            currentSort = { column, direction };
+
+            filteredData.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                // Handle undefined values (missing fields)
+                const aUndefined = aVal === undefined;
+                const bUndefined = bVal === undefined;
+
+                // For numeric columns (issues, scanner), undefined should sort as lower than 0
+                if (column === 'issues' || column === 'scanner') {
+                    // Both undefined
+                    if (aUndefined && bUndefined) return 0;
+
+                    // Treat undefined as -1 for sorting purposes (lower than 0)
+                    const aNum = aUndefined ? -1 : aVal;
+                    const bNum = bUndefined ? -1 : bVal;
+
+                    if (aNum < bNum) return direction === 'asc' ? -1 : 1;
+                    if (aNum > bNum) return direction === 'asc' ? 1 : -1;
+                    return 0;
+                }
+
+                // For non-numeric columns, undefined sorts to end
+                if (aUndefined && bUndefined) return 0;
+                if (aUndefined) return direction === 'asc' ? 1 : -1;
+                if (bUndefined) return direction === 'asc' ? -1 : 1;
+
+                // Handle string comparison
+                if (typeof aVal === 'string' && typeof bVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+
+                    // Handle empty strings
+                    if (!aVal && !bVal) return 0;
+                    if (!aVal) return direction === 'asc' ? 1 : -1;
+                    if (!bVal) return direction === 'asc' ? -1 : 1;
+                }
+
+                // For numeric values (including 0), compare directly
+                if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            updateSortIndicators();
+        }
+
+        // Update sort indicators in table headers
+        function updateSortIndicators() {
+            document.querySelectorAll('th').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+                if (th.dataset.column === currentSort.column) {
+                    th.classList.add(currentSort.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+                }
+            });
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            filteredData.forEach(plugin => {
+                const row = document.createElement('tr');
+
+                // Format date as YYYY-MM-DD
+                let date = '-';
+                if (plugin.date) {
+                    const d = new Date(plugin.date);
+                    const year = d.getFullYear();
+                    const month = String(d.getMonth() + 1).padStart(2, '0');
+                    const day = String(d.getDate()).padStart(2, '0');
+                    date = `${year}-${month}-${day}`;
+                }
+
+                // Create badges for issues and scanner
+                let issuesBadge;
+                if ('issues' in plugin) {
+                    if (plugin.issues > 0) {
+                        // Make the badge clickable if there are issue details
+                        const hasDetails = plugin.issueDetails && plugin.issueDetails.length > 0;
+                        const clickableClass = hasDetails ? 'issues-clickable' : '';
+                        issuesBadge = `<span class="badge badge-issues ${clickableClass}" data-plugin-id="${escapeHtml(plugin.id)}" data-type="issue">${plugin.issues}</span>`;
+                    } else {
+                        issuesBadge = '0';
+                    }
+                } else {
+                    issuesBadge = '<span class="empty-cell">-</span>';
+                }
+
+                let scannerBadge;
+                if ('scanner' in plugin) {
+                    if (plugin.scanner > 0) {
+                        // Make the badge clickable if there are scanner details
+                        const hasDetails = plugin.scannerDetails && plugin.scannerDetails.length > 0;
+                        const clickableClass = hasDetails ? 'issues-clickable' : '';
+                        scannerBadge = `<span class="badge badge-scanner ${clickableClass}" data-plugin-id="${escapeHtml(plugin.id)}" data-type="scanner">${plugin.scanner}</span>`;
+                    } else {
+                        scannerBadge = '0';
+                    }
+                } else {
+                    scannerBadge = '<span class="empty-cell">-</span>';
+                }
+
+                const notes = plugin.notes
+                    ? `<div class="notes">${convertNotesToHtml(plugin.notes)}</div>`
+                    : '<span class="empty-cell">-</span>';
+
+                const scm = plugin.scm
+                    ? `<a href="${escapeHtml(plugin.scm)}" target="_blank">${escapeHtml(plugin.scm)}</a>`
+                    : '<span class="empty-cell">-</span>';
+
+                const pluginUrl = `https://plugins.jenkins.io/${encodeURIComponent(plugin.id)}`;
+                const displayName = plugin.displayName || plugin.id;
+
+                row.innerHTML = `
+                    <td><strong><a href="${pluginUrl}" target="_blank">${escapeHtml(displayName)}</a></strong></td>
+                    <td class="number">${plugin.popularity.toLocaleString()}</td>
+                    <td class="date">${date}</td>
+                    <td>${scm}</td>
+                    <td class="number">${issuesBadge}</td>
+                    <td class="number">${scannerBadge}</td>
+                    <td>${notes}</td>
+                `;
+
+                tbody.appendChild(row);
+            });
+
+            // Add event listeners for issue and scanner tooltips
+            document.querySelectorAll('.issues-clickable').forEach(badge => {
+                const pluginId = badge.getAttribute('data-plugin-id');
+                const type = badge.getAttribute('data-type');
+                const plugin = filteredData.find(p => p.id === pluginId);
+
+                if (plugin) {
+                    if (type === 'scanner' && plugin.scannerDetails) {
+                        badge.addEventListener('click', (event) => {
+                            event.stopPropagation();
+                            showScannerTooltip(event, plugin);
+                        });
+                    } else if (type === 'issue' && plugin.issueDetails) {
+                        badge.addEventListener('click', (event) => {
+                            event.stopPropagation();
+                            showTooltip(event, plugin);
+                        });
+                    }
+                }
+            });
+        }
+
+        // Convert notes text to HTML with clickable links
+        function convertNotesToHtml(text) {
+            // Escape HTML first
+            const escaped = escapeHtml(text);
+            // Convert HTTPS URLs to clickable links that open in new window
+            const urlRegex = /(https:\/\/[^\s]+)/g;
+            return escaped.replace(urlRegex, '<a href="$1" target="_blank">$1</a>');
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Filter data
+        function filterData(searchTerm) {
+            const term = searchTerm.toLowerCase();
+            filteredData = pluginsData.filter(plugin => {
+                const matchesSearch = plugin.id.toLowerCase().includes(term);
+                // Only consider it a problem if the field exists AND is greater than 0
+                const hasProblems = (plugin.issues && plugin.issues > 0) || (plugin.scanner && plugin.scanner > 0);
+
+                // Check JSON filter
+                const matchesJsonFilter = !jsonFilterPlugins || jsonFilterPlugins.has(plugin.id);
+
+                if (showProblemsOnly) {
+                    return matchesSearch && hasProblems && matchesJsonFilter;
+                }
+                return matchesSearch && matchesJsonFilter;
+            });
+            sortData(currentSort.column, currentSort.direction);
+            renderTable();
+            updateJsonFilterButton();
+        }
+
+        // Toggle problems filter
+        function toggleProblemsFilter() {
+            showProblemsOnly = !showProblemsOnly;
+            const button = document.getElementById('filterButton');
+
+            if (showProblemsOnly) {
+                button.classList.add('active');
+                button.textContent = 'Show All';
+            } else {
+                button.classList.remove('active');
+                button.textContent = 'Show Problems Only';
+            }
+
+            const searchTerm = document.getElementById('filterInput').value;
+            filterData(searchTerm);
+        }
+
+        // Update JSON filter button appearance
+        function updateJsonFilterButton() {
+            const button = document.getElementById('jsonFilterButton');
+            const existing = button.querySelector('.filter-active-indicator');
+
+            if (jsonFilterPlugins) {
+                button.classList.add('active');
+                if (!existing) {
+                    const indicator = document.createElement('span');
+                    indicator.className = 'filter-active-indicator';
+                    indicator.textContent = `${jsonFilterPlugins.size} plugins`;
+                    button.appendChild(indicator);
+                } else {
+                    existing.textContent = `${jsonFilterPlugins.size} plugins`;
+                }
+            } else {
+                button.classList.remove('active');
+                if (existing) {
+                    existing.remove();
+                }
+            }
+        }
+
+        // Show JSON filter modal
+        function showJsonModal() {
+            document.getElementById('jsonModal').style.display = 'block';
+            document.getElementById('modalError').style.display = 'none';
+        }
+
+        // Hide JSON filter modal
+        function hideJsonModal() {
+            document.getElementById('jsonModal').style.display = 'none';
+        }
+
+        // Apply JSON filter
+        function applyJsonFilter() {
+            const jsonText = document.getElementById('jsonInput').value.trim();
+            const errorDiv = document.getElementById('modalError');
+
+            if (!jsonText) {
+                errorDiv.textContent = 'Please paste a JSON document';
+                errorDiv.style.display = 'block';
+                return;
+            }
+
+            try {
+                const data = JSON.parse(jsonText);
+
+                if (!data.plugins || !Array.isArray(data.plugins)) {
+                    errorDiv.textContent = 'JSON must contain a "plugins" array';
+                    errorDiv.style.display = 'block';
+                    return;
+                }
+
+                // Extract shortName values
+                const shortNames = new Set();
+                for (const plugin of data.plugins) {
+                    if (plugin.shortName) {
+                        shortNames.add(plugin.shortName);
+                    }
+                }
+
+                if (shortNames.size === 0) {
+                    errorDiv.textContent = 'No valid shortName fields found in plugins array';
+                    errorDiv.style.display = 'block';
+                    return;
+                }
+
+                jsonFilterPlugins = shortNames;
+                const searchTerm = document.getElementById('filterInput').value;
+                filterData(searchTerm);
+                hideJsonModal();
+            } catch (e) {
+                errorDiv.textContent = `Invalid JSON: ${e.message}`;
+                errorDiv.style.display = 'block';
+            }
+        }
+
+        // Clear JSON filter
+        function clearJsonFilter() {
+            jsonFilterPlugins = null;
+            document.getElementById('jsonInput').value = '';
+            const searchTerm = document.getElementById('filterInput').value;
+            filterData(searchTerm);
+            hideJsonModal();
+        }
+
+        // Event listeners
+        document.getElementById('filterInput').addEventListener('input', (e) => {
+            filterData(e.target.value);
+        });
+
+        document.getElementById('filterButton').addEventListener('click', toggleProblemsFilter);
+        document.getElementById('jsonFilterButton').addEventListener('click', showJsonModal);
+
+        // Modal event listeners
+        document.querySelector('.close').addEventListener('click', hideJsonModal);
+        document.getElementById('applyJsonFilter').addEventListener('click', applyJsonFilter);
+        document.getElementById('clearJsonFilter').addEventListener('click', clearJsonFilter);
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (event) => {
+            const modal = document.getElementById('jsonModal');
+            if (event.target === modal) {
+                hideJsonModal();
+            }
+        });
+
+        // Allow Enter key in textarea to apply filter (Ctrl+Enter)
+        document.getElementById('jsonInput').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                applyJsonFilter();
+            }
+        });
+
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                const column = th.dataset.column;
+                const direction = currentSort.column === column && currentSort.direction === 'asc'
+                    ? 'desc'
+                    : 'asc';
+                sortData(column, direction);
+                renderTable();
+            });
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
