@@ -31,3 +31,4 @@ customizable-header: "https://github.com/jenkinsci/customizable-header-plugin/re
 github-pullrequest: "https://github.com/KostyaSha/github-integration-plugin/releases/tag/0.7.3" # 2025-12-11
 gravatar: "https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8" # 2025-12-15
 monitoring: "https://github.com/jenkinsci/monitoring-plugin/releases/tag/monitoring-2.6.0" # 2025-12-16
+design-library: "https://github.com/jenkinsci/design-library-plugin/releases/tag/417.vce0571393f5b_" # 2025-12-19

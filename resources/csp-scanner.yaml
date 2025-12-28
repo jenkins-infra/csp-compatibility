@@ -4309,10 +4309,7 @@
 - repo: description-setter-plugin
   findings: []
 - repo: design-library-plugin
-  findings:
-    - url: https://github.com/jenkinsci/design-library-plugin/blob/31d2a112bd12f566a84dba24945747cc23827de4/src/main/resources/lib/samples/code.jelly#L27
-      type: Inline Event Handler
-      assessment: TODO
+  findings: []
 - repo: deveo-plugin
   findings: []
 - repo: device-watcher-plugin
