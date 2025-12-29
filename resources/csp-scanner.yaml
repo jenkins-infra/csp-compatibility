@@ -9122,10 +9122,7 @@
       type: Inline Script Block
       assessment: TODO
 - repo: repo-plugin
-  findings:
-    - url: https://github.com/jenkinsci/repo-plugin/blob/30fe94b5003948264329d41b1b26294b674919bd/src/main/resources/hudson/plugins/repo/RepoScm/global.jelly#L13
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: report-diff-plugin
   findings: []
 - repo: report-generic-chart-column-plugin

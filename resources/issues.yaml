@@ -1604,6 +1604,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74132
     fix: https://github.com/jenkinsci/repo-plugin/pull/89
+    release: https://github.com/jenkinsci/repo-plugin/releases/tag/repo-1.17.0-r2
 - id: report-info
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74268
