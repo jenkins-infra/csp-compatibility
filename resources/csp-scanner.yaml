@@ -7031,10 +7031,7 @@
       type: Inline Script Block
       assessment: TODO
 - repo: matomo-analytics-plugin
-  findings:
-    - url: https://github.com/jenkinsci/matomo-analytics-plugin/blob/bc801b014dcfaa8c0c169bf5f69874aeeb54ab61/src/main/resources/io/jenkins/plugins/matomoanalytics/MatomoPageDecorator/footer.jelly#L6
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: matrix-auth-plugin
   findings: []
 - repo: matrix-combinations-plugin
