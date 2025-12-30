@@ -1158,6 +1158,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74700
     fix: https://github.com/jenkinsci/matomo-analytics-plugin/pull/6
     release: https://github.com/jenkinsci/matomo-analytics-plugin/releases/tag/1.34.v7fe4d35786a_5
+  - issue: https://github.com/jenkinsci/matomo-analytics-plugin/issues/7
+    fix: https://github.com/jenkinsci/matomo-analytics-plugin/pull/8
 - id: matrix-combinations-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74161
