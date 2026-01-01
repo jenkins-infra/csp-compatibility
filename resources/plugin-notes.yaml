@@ -34,3 +34,4 @@ monitoring: "https://github.com/jenkinsci/monitoring-plugin/releases/tag/monitor
 design-library: "https://github.com/jenkinsci/design-library-plugin/releases/tag/417.vce0571393f5b_" # 2025-12-19
 repo: "https://github.com/jenkinsci/repo-plugin/releases/tag/repo-1.17.0-r2" # 2025-12-29
 matomo-analytics: "https://github.com/jenkinsci/matomo-analytics-plugin/releases/tag/1.34.v7fe4d35786a_5" # 2025-12-29
+testng-plugin: "https://github.com/jenkinsci/testng-plugin-plugin/releases/tag/979.vf6c805a_a_76a_2" # 2026-01-01

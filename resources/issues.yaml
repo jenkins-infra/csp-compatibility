@@ -1910,6 +1910,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74897
     fix: https://github.com/jenkinsci/testng-plugin-plugin/pull/335
+    release: https://github.com/jenkinsci/testng-plugin-plugin/releases/tag/979.vf6c805a_a_76a_2
 - id: testopia
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74621
