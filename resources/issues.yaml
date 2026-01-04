@@ -280,6 +280,7 @@
 - id: cctray-xml
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74363
+    fix: https://github.com/jenkinsci/cctray-xml-plugin/pull/109
 - id: changes-since-last-success
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74231
