@@ -281,6 +281,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74363
     fix: https://github.com/jenkinsci/cctray-xml-plugin/pull/109
+    release: https://github.com/jenkinsci/cctray-xml-plugin/releases/tag/155.v5139a_4591a_3e
 - id: changes-since-last-success
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74231

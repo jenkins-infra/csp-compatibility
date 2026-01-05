@@ -1935,10 +1935,7 @@
 - repo: cccc-plugin
   findings: []
 - repo: cctray-xml-plugin
-  findings:
-    - url: https://github.com/jenkinsci/cctray-xml-plugin/blob/087ad5e10ac38156367800b512c570fd22af1a72/src/main/resources/org/jenkinsci/plugins/cctrayxml/CCTrayXmlPageDecorator/footer.jelly#L26
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: cdevents-plugin
   findings: []
 - repo: cerberus-testing-plugin
