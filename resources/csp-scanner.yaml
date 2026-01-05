@@ -21206,13 +21206,7 @@
 - repo: xygeni-sensor-plugin
   findings: []
 - repo: yaml-axis-plugin
-  findings:
-    - url: https://github.com/jenkinsci/yaml-axis-plugin/blob/997f8f7fa064caf0e6cf31ef96566e8829b31a1e/src/main/resources/org/jenkinsci/plugins/yamlaxis/YamlMatrixExecutionStrategy/config.jelly#L3
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/yaml-axis-plugin/blob/997f8f7fa064caf0e6cf31ef96566e8829b31a1e/src/main/resources/org/jenkinsci/plugins/yamlaxis/YamlMatrixExecutionStrategy/config.jelly#L21
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: yandex-cloud-workers-plugin
   findings: []
 - repo: yandex-metrica-plugin

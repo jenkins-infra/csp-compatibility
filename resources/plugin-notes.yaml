@@ -36,3 +36,4 @@ repo: "https://github.com/jenkinsci/repo-plugin/releases/tag/repo-1.17.0-r2" # 2
 matomo-analytics: "https://github.com/jenkinsci/matomo-analytics-plugin/releases/tag/1.34.v7fe4d35786a_5" # 2025-12-29
 testng-plugin: "https://github.com/jenkinsci/testng-plugin-plugin/releases/tag/979.vf6c805a_a_76a_2" # 2026-01-01
 cctray-xml: "https://github.com/jenkinsci/cctray-xml-plugin/releases/tag/155.v5139a_4591a_3e" # 2026-01-04
+yaml-axis: "https://github.com/jenkinsci/yaml-axis-plugin/releases/tag/380.v09eb_4d50d200" # 2026-01-05

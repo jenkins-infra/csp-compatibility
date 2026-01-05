@@ -2111,6 +2111,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74428
     fix: https://github.com/jenkinsci/yaml-axis-plugin/pull/169
+    release: https://github.com/jenkinsci/yaml-axis-plugin/releases/tag/380.v09eb_4d50d200
 - id: yandex-metrica
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74675
