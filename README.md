@@ -1,8 +1,53 @@
 # CSP Compatibility
 
+## Usage
+
 Access the current Jenkins Plugins CSP Compatibility report [here](https://daniel-beck.github.io/csp-compatibility/).
 
-## Overview
+By default, this lists all plugins sorted by popularity.
+You can filter this list in multiple ways:
+
+* Filter by plugin ID
+* Only show plugins with known unresolved issues.
+* "Filter by JSON", providing the output of `…/pluginManager/api/json?tree=plugins[shortName]`.
+  This makes it easy to check a specific Jenkins instance's readiness for CSP enforcement.
+
+### Determining compatibility
+
+#### Issue Column
+
+This column lists known Jira or GH issues filed against the plugin, noting a (potential) incompatibility with CSP enforcement in some way.
+Some issues note clear incompatibilities (e.g., inline JavaScript that gets rejected), others are the result of static checks of the source code, and others note inherent problems with some features.
+The presence of an unresolved issue is a fairly reliable indicator that the plugin may have a problem, but as those need to be manually created, especially less popular plugins may not have had an issue filed, despite being incompatible.
+
+If there have never been issues tracked in this repository for a plugin, the column shows `-`.
+If there had been issues but they have been resolved and the fixes released, the column shows `0`.
+
+If a plugin is compatible with CSP enforcement but there's an open issue listed, or a plugin is incompatible despite there not being an issue, please file a pull request updating `resources/issues.yaml` as appropriate.
+
+#### Scanner Column
+
+This column lists the findings from the output of [a simple utility](https://github.com/daniel-beck/csp-scanner/) that was used to quickly identify incompatibilities across the Jenkins plugin ecosystem.
+There are several limitations with this tool:
+
+* It is a snapshot in time and may be outdated.
+  The output was most recently recorded in late 2025 for most plugins in the list.
+* Some source code patterns are known to be false positives or false negatives.
+* Some (few) plugins host their source code outside the `@jenkinsci` GitHub organization, or the source code may not be readily available.
+  These are generally skipped.
+
+Overall, the reliability of this column is moderate.
+If a plugin works well but shows an issue in this column, please file a pull request marking the finding as _False Positive_ in `resources/csp-scanner.yaml`.
+
+#### Notes
+
+This column provides additional information for a given plugin, such as:
+
+* the latest release containing fixes for findings;
+* notes on remaining unresolved issues (e.g., affected features, whether it can be addressed by the plugin at all);
+* noting that a plugin is deprecated, is looking for new maintainers, has unresolved security vulnerabilities, or appears unmaintained, all indicating a reduced chance for a plugin's incompatibilities to be fixed.
+
+## Repository Overview
 
 This repository combines a number of resource files to provide information about the compatibility of Jenkins plugins with Content Security Policy (CSP).
 For details on those files, see the "Resource Files" section below.
