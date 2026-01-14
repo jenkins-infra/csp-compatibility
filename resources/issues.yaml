@@ -2038,6 +2038,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74008
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1884
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.12.0
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3243
 - id: wattspeed
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74696
