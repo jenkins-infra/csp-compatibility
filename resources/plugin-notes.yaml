@@ -8,6 +8,7 @@ embeddable-build-status: "The 'link' parameter may not work anymore from frames,
 monitoring: "Issue only affects a page that was broken anyway"
 periodicbackup: "JS has been broken since 2.426 anyway, no further impact. Cleanup in https://github.com/jenkinsci/periodicbackup-plugin/pull/27"
 repo: "Form validation for the repo binary path does not work"
+warnings-ng: "Custom icons from other domains are not automatically allowed"
 
 # Metadata Misconfiguration
 gitlab-merge-request-jenkins: "Not hosted in jenkinsci GitHub organization"
