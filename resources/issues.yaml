@@ -214,14 +214,17 @@
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/144
   - issue: https://issues.jenkins.io/browse/JENKINS-74053
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/145
+    release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74054
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/147
   - issue: https://issues.jenkins.io/browse/JENKINS-74055
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/149
+    release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74056
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/148
   - issue: https://issues.jenkins.io/browse/JENKINS-74057
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/146
+    release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74806
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/150
 - id: build-requester
