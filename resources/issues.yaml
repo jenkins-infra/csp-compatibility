@@ -490,6 +490,7 @@
   findings:
   - issue: https://github.com/jenkinsci/dashboard-view-plugin/issues/435
     fix: https://github.com/jenkinsci/dashboard-view-plugin/pull/436
+    release: https://github.com/jenkinsci/dashboard-view-plugin/releases/tag/2.558.v96b_901978e47
   - issue: https://github.com/jenkinsci/dashboard-view-plugin/issues/437
 - id: dbCharts
   findings:
