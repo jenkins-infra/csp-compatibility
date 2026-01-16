@@ -2,7 +2,7 @@
 
 ## Usage
 
-Access the current Jenkins Plugins CSP Compatibility report [here](https://daniel-beck.github.io/csp-compatibility/).
+Access the current Jenkins Plugins CSP Compatibility report [here](https://jenkins-infra.github.io/csp-compatibility/).
 
 By default, this lists all plugins sorted by popularity.
 You can filter this list in multiple ways:
