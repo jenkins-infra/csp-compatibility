@@ -9101,10 +9101,7 @@
 - repo: remote-file-plugin
   findings: []
 - repo: remote-result-trigger-plugin
-  findings:
-    - url: https://github.com/jenkinsci/remote-result-trigger-plugin/blob/ec9b9b25e61cbc6481dd9af9d12662d6273b150a/src/main/resources/io/jenkins/plugins/remote/result/trigger/RemoteBuildResultTrigger/config.jelly#L13
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: remote-terminal-access-plugin
   findings: []
 - repo: remoting-kafka-plugin
