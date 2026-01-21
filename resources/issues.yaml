@@ -2021,7 +2021,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74421
   - issue: https://issues.jenkins.io/browse/JENKINS-74422
-- id: vmanager
+- id: vmanager-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74749
 - id: vsphere-cloud
