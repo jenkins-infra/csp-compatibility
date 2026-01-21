@@ -1613,7 +1613,9 @@
     fix: https://github.com/jenkinsci/release-plugin/pull/48
 - id: remote-result-trigger
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74580
+  - issue: https://github.com/jenkinsci/remote-result-trigger-plugin/issues/41
+    fix: https://github.com/jenkinsci/remote-result-trigger-plugin/pull/42
+    release: https://github.com/jenkinsci/remote-result-trigger-plugin/releases/tag/3.171.v3d9730904fa_7
 - id: remoting-kafka
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74517
