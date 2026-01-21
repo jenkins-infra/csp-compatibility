@@ -15,7 +15,9 @@ show-build-parameters: "Not hosted in jenkinsci GitHub organization; no maintain
 
 # Document plugins with inherent(ish) issues
 badge: "Configuration-dependent: External image URLs (but probably expected as is)"
-dashboard-view: "Configuration-dependent: Iframe/Image portlets"
+dashboard-view: |- # 2026-01-14
+  https://github.com/jenkinsci/dashboard-view-plugin/releases/tag/2.558.v96b_901978e47
+  Configuration-dependent: Iframe/Image portlets
 login-theme: "Configuration-dependent: Custom CSS/JS"
 simple-theme-plugin: "Configuration-dependent"
 warnings-ng: "Configuration-dependent: Custom icons from other domains are not automatically allowed"
@@ -39,5 +41,4 @@ build-pipeline-plugin: "https://github.com/jenkinsci/build-pipeline-plugin/relea
 cctray-xml: "https://github.com/jenkinsci/cctray-xml-plugin/releases/tag/155.v5139a_4591a_3e" # 2026-01-04
 yaml-axis: "https://github.com/jenkinsci/yaml-axis-plugin/releases/tag/380.v09eb_4d50d200" # 2026-01-05
 json-parameter: "https://github.com/jenkinsci/json-parameter-plugin/releases/tag/96.vf950fb_b_79615" # 2026-01-10
-dashboard-view: "https://github.com/jenkinsci/dashboard-view-plugin/releases/tag/2.558.v96b_901978e47" # 2026-01-14
 sidebar-link: "https://github.com/jenkinsci/sidebar-link-plugin/releases/tag/sidebar-link-2.5.0" # 2026-01-15
