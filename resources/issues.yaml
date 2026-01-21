@@ -1164,6 +1164,9 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74451
   - issue: https://issues.jenkins.io/browse/JENKINS-74452
+- id: matlab
+  findings:
+  - issue: https://issues.jenkins.io/browse/JENKINS-76363
 - id: matomo-analytics
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74700
@@ -1562,6 +1565,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74249
   - issue: https://issues.jenkins.io/browse/JENKINS-74250
   - issue: https://issues.jenkins.io/browse/JENKINS-74251
+- id: qualys-cs
+  findings:
+  - issue: https://issues.jenkins.io/browse/JENKINS-76362
 - id: qualys-iac-security
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74617
@@ -1956,6 +1962,9 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74694
   - issue: https://issues.jenkins.io/browse/JENKINS-74695
+- id: unblocked
+  findings:
+  - issue: https://github.com/jenkinsci/unblocked-plugin/issues/15
 - id: uno-choice
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74025

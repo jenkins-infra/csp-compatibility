@@ -1,6 +1,7 @@
 # Maintenance status not reflected in labels etc.
 artifactory: "Does not accept new pull requests"
 testabilityexplorer: "Sources seem to be missing from GitHub"
+aio-tests: "Has no issue tracker"
 
 # Details on known issues, e.g. limited impact
 clearcase: "Form validation will not work"
