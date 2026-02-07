@@ -2029,6 +2029,8 @@
 - id: vigilnz-security
   findings:
   - issue: https://github.com/jenkinsci/vigilnz-security-plugin/issues/14
+    fix: https://github.com/jenkinsci/vigilnz-security-plugin/commit/7b574536cc3a3c2251571ae0c2d108c8ac7b4b0b
+    release: https://github.com/jenkinsci/vigilnz-security-plugin/releases/tag/2.0.0 # First release offered to users with the fix
 - id: virtualbox
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74421

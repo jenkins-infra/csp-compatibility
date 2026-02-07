@@ -11243,13 +11243,7 @@
 - repo: views-containing-job-plugin
   findings: []
 - repo: vigilnz-security-plugin
-  findings:
-  - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/a682fdadca127378df9ba1e4614cfb661260494c/src/main/resources/io/jenkins/plugins/vigilnz/ui/ScanResultAction/index.jelly#L33
-    type: Inline Event Handler
-    assessment: True Positive
-  - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/a682fdadca127378df9ba1e4614cfb661260494c/src/main/resources/io/jenkins/plugins/vigilnz/credentials/TokenCredentials/credentials.jelly#L6
-    type: Inline Script Block
-    assessment: True Positive
+  findings: []
 - repo: violation-columns-plugin
   findings: []
 - repo: violation-comments-to-github-plugin
