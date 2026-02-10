@@ -5061,7 +5061,7 @@
   findings:
     - url: https://github.com/jenkinsci/ez-templates-plugin/blob/6fd147d98a4518ebbfb200144deab5fac9ad0824/src/main/resources/com/joelj/jenkins/eztemplates/TemplateProperty/config.jelly#L26
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
 - repo: ezwall-plugin
   findings:
     - url: https://github.com/jenkinsci/ezwall-plugin/blob/49ec3a037f1c829582c27a5ab0af0b4e25022d53/src/main/webapp/js/libs/jquery-1.7.1.min.js#L2
