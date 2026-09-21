@@ -189,16 +189,7 @@
 - repo: android-signing-plugin
   findings: []
 - repo: anka-build-plugin
-  findings:
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L327
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L431
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/CertCredentials/config.jelly#L16
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: ansible-plugin
   findings: []
 - repo: ansible-tower-plugin

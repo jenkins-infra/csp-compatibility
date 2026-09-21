@@ -40,6 +40,14 @@
 - id: anka-build
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74520
+    fix: https://github.com/jenkinsci/anka-build-plugin/pull/38
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-2.13.0
+  - issue: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L327
+    fix: https://github.com/jenkinsci/anka-build-plugin/commit/6ce84980152f88d1930f03bdb25c4137eaf0ac53
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-3.0.0
+  - issue: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L431
+    fix: https://github.com/jenkinsci/anka-build-plugin/commit/6ce84980152f88d1930f03bdb25c4137eaf0ac53
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-3.0.0
 - id: ApicaLoadtest
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74631
