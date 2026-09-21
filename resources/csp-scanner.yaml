@@ -2010,13 +2010,7 @@
 - repo: chroot-plugin
   findings: []
 - repo: chucknorris-plugin
-  findings:
-    - url: https://github.com/jenkinsci/chucknorris-plugin/blob/7a5b40c7b6a5b4d85680b90592969a19eaa582a9/src/main/resources/hudson/plugins/chucknorris/RoundhouseAction/floatingBox.jelly#L12
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/chucknorris-plugin/blob/7a5b40c7b6a5b4d85680b90592969a19eaa582a9/src/main/resources/hudson/plugins/chucknorris/RoundhouseAction/summary.jelly#L15
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: ci-with-toad-edge-plugin
   findings:
     - url: https://github.com/jenkinsci/ci-with-toad-edge-plugin/blob/d029af2ca0d925a8b5ff8ab7e2b76b7f0efcb124/src/main/resources/ci/with/toad/edge/ReportFrameAction/index.jelly#L13

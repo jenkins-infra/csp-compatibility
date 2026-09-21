@@ -304,7 +304,11 @@
 - id: chucknorris
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74157
+    fix: https://github.com/jenkinsci/chucknorris-plugin/pull/240
+    release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
   - issue: https://issues.jenkins.io/browse/JENKINS-74158
+    fix: https://github.com/jenkinsci/chucknorris-plugin/pull/241
+    release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
 - id: ci-with-toad-edge
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74615
