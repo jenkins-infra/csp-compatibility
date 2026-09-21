@@ -9705,43 +9705,40 @@
   findings:
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L100
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L275
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L42
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L109
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L46
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L727
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L107
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L369
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L44
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L107
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L435
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L44
       type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/src/main/resources/cz/mendelu/xotradov/SimpleQueueWidget/index.jelly#L137
-      type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
 - repo: simple-theme-plugin
   findings: []
 - repo: simpleclearcase-plugin
@@ -11008,10 +11005,7 @@
 - repo: validating-string-parameter-plugin
   findings: []
 - repo: validating-yaml-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/validating-yaml-parameter-plugin/blob/4f53971ab3b8af6fcdbe7449195282a39eaf8ad3/src/main/resources/io/jenkins/plugins/validating_yaml_parameter/ValidatingYamlParameterDefinition/index.jelly#L35
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: variables-replace-plugin
   findings: []
 - repo: variant-plugin

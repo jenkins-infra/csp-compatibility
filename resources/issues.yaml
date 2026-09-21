@@ -1801,6 +1801,8 @@
 - id: simple-queue
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74334
+    fix: https://github.com/jenkinsci/simple-queue-plugin/pull/24
+    release: https://github.com/jenkinsci/simple-queue-plugin/releases/tag/simple-queue-1.4.10
 - id: simple-theme-plugin
   findings:
   - issue: https://github.com/jenkinsci/simple-theme-plugin/issues/280
@@ -2055,6 +2057,8 @@
 - id: validating-yaml-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74507
+    fix: https://github.com/jenkinsci/validating-yaml-parameter-plugin/pull/194
+    release: https://github.com/jenkinsci/validating-yaml-parameter-plugin/releases/tag/368.va_3f58ce0025e
 - id: veracode-scan
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74238
