@@ -2582,10 +2582,7 @@
       type: Inline Event Handler
       assessment: TODO
 - repo: computer-queue-plugin
-  findings:
-    - url: https://github.com/jenkinsci/computer-queue-plugin/blob/564df592ce4c43bd8523fde374bb466a98f68389/src/main/resources/org/jenkinsci/plugins/computerqueue/ComputerQueue/queue.jelly#L59
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: compuware-common-configuration-plugin
   findings:
     - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L17

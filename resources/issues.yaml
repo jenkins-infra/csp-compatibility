@@ -384,6 +384,8 @@
 - id: computer-queue-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74505
+    fix: https://github.com/jenkinsci/computer-queue-plugin/pull/11
+    release: https://github.com/jenkinsci/computer-queue-plugin/releases/tag/54.v2ede89b_dd741
 - id: compuware-common-configuration
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74485
