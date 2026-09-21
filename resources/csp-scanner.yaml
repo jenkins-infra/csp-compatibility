@@ -6452,10 +6452,7 @@
 - repo: keep-slave-offline
   findings: []
 - repo: keeper-secrets-manager-plugin
-  findings:
-    - url: https://github.com/jenkinsci/keeper-secrets-manager-plugin/blob/00d3747a2090f667532d38bf7ed03fe46c8c78b3/src/main/resources/io/jenkins/plugins/ksm/credential/KsmCredential/config.jelly#L36
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: kerberos-sso-plugin
   findings: []
 - repo: keyboard-shortcuts-plugin
@@ -9117,10 +9114,7 @@
 - repo: resources-ai-chatbot-plugin
   findings: []
 - repo: rest-list-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/rest-list-parameter-plugin/blob/9506fdc4bd0723e207fb1ed6b5f636eceeb706ca/src/main/resources/io/jenkins/plugins/restlistparam/RestListParameterDefinition/index.jelly#L54
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: restricted-register-plugin
   findings:
     - url: https://github.com/jenkinsci/restricted-register-plugin/blob/0815b48c507f878185b3eb9b3217dbe9f0e1cc42/src/main/resources/com/infullmobile/jenkins/plugin/restrictedregister/security/hudson/HudsonSecurityRealmRegistration/activateFragment.jelly#L39

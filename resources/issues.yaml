@@ -1097,6 +1097,8 @@
 - id: keeper-secrets-manager
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74514
+    fix: https://github.com/jenkinsci/keeper-secrets-manager-plugin/pull/53
+    release: https://github.com/jenkinsci/keeper-secrets-manager-plugin/releases/tag/1.0-103.v8e5cc0b5ead3
 - id: keyboard-shortcuts-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74397
@@ -1695,6 +1697,8 @@
 - id: rest-list-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74375
+    fix: https://github.com/jenkinsci/rest-list-parameter-plugin/pull/258
+    release: https://github.com/jenkinsci/rest-list-parameter-plugin/releases/tag/357.v98054477666d
 - id: restricted-register
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74518
