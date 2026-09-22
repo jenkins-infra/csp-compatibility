@@ -917,6 +917,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74746
     fix: https://github.com/jenkinsci/htmlpublisher-plugin/pull/312
     release: https://github.com/jenkinsci/htmlpublisher-plugin/releases/tag/htmlpublisher-1.37
+  - issue: https://github.com/jenkinsci/htmlpublisher-plugin/issues/609
 - id: htmlresource
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74350
