@@ -40,6 +40,14 @@
 - id: anka-build
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74520
+    fix: https://github.com/jenkinsci/anka-build-plugin/pull/38
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-2.13.0
+  - issue: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L327
+    fix: https://github.com/jenkinsci/anka-build-plugin/commit/6ce84980152f88d1930f03bdb25c4137eaf0ac53
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-3.0.0
+  - issue: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L431
+    fix: https://github.com/jenkinsci/anka-build-plugin/commit/6ce84980152f88d1930f03bdb25c4137eaf0ac53
+    release: https://github.com/jenkinsci/anka-build-plugin/releases/tag/anka-build-3.0.0
 - id: ApicaLoadtest
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74631
@@ -304,7 +312,11 @@
 - id: chucknorris
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74157
+    fix: https://github.com/jenkinsci/chucknorris-plugin/pull/240
+    release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
   - issue: https://issues.jenkins.io/browse/JENKINS-74158
+    fix: https://github.com/jenkinsci/chucknorris-plugin/pull/241
+    release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
 - id: ci-with-toad-edge
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74615
@@ -380,6 +392,8 @@
 - id: computer-queue-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74505
+    fix: https://github.com/jenkinsci/computer-queue-plugin/pull/11
+    release: https://github.com/jenkinsci/computer-queue-plugin/releases/tag/54.v2ede89b_dd741
 - id: compuware-common-configuration
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74485
@@ -1091,6 +1105,8 @@
 - id: keeper-secrets-manager
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74514
+    fix: https://github.com/jenkinsci/keeper-secrets-manager-plugin/pull/53
+    release: https://github.com/jenkinsci/keeper-secrets-manager-plugin/releases/tag/1.0-103.v8e5cc0b5ead3
 - id: keyboard-shortcuts-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74397
@@ -1689,6 +1705,8 @@
 - id: rest-list-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74375
+    fix: https://github.com/jenkinsci/rest-list-parameter-plugin/pull/258
+    release: https://github.com/jenkinsci/rest-list-parameter-plugin/releases/tag/357.v98054477666d
 - id: restricted-register
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74518
@@ -1795,6 +1813,8 @@
 - id: simple-queue
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74334
+    fix: https://github.com/jenkinsci/simple-queue-plugin/pull/24
+    release: https://github.com/jenkinsci/simple-queue-plugin/releases/tag/simple-queue-1.4.10
 - id: simple-theme-plugin
   findings:
   - issue: https://github.com/jenkinsci/simple-theme-plugin/issues/280
@@ -2049,6 +2069,8 @@
 - id: validating-yaml-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74507
+    fix: https://github.com/jenkinsci/validating-yaml-parameter-plugin/pull/194
+    release: https://github.com/jenkinsci/validating-yaml-parameter-plugin/releases/tag/368.va_3f58ce0025e
 - id: veracode-scan
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74238

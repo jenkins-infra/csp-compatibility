@@ -189,16 +189,7 @@
 - repo: android-signing-plugin
   findings: []
 - repo: anka-build-plugin
-  findings:
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L327
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/AnkaMgmtCloud/config.jelly#L431
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/anka-build-plugin/blob/1ff7f5a189fd2dcda050c9a894df0b5d03f310b9/src/main/resources/com/veertu/plugin/anka/CertCredentials/config.jelly#L16
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: ansible-plugin
   findings: []
 - repo: ansible-tower-plugin
@@ -2010,13 +2001,7 @@
 - repo: chroot-plugin
   findings: []
 - repo: chucknorris-plugin
-  findings:
-    - url: https://github.com/jenkinsci/chucknorris-plugin/blob/7a5b40c7b6a5b4d85680b90592969a19eaa582a9/src/main/resources/hudson/plugins/chucknorris/RoundhouseAction/floatingBox.jelly#L12
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/chucknorris-plugin/blob/7a5b40c7b6a5b4d85680b90592969a19eaa582a9/src/main/resources/hudson/plugins/chucknorris/RoundhouseAction/summary.jelly#L15
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: ci-with-toad-edge-plugin
   findings:
     - url: https://github.com/jenkinsci/ci-with-toad-edge-plugin/blob/d029af2ca0d925a8b5ff8ab7e2b76b7f0efcb124/src/main/resources/ci/with/toad/edge/ReportFrameAction/index.jelly#L13
@@ -2588,10 +2573,7 @@
       type: Inline Event Handler
       assessment: TODO
 - repo: computer-queue-plugin
-  findings:
-    - url: https://github.com/jenkinsci/computer-queue-plugin/blob/564df592ce4c43bd8523fde374bb466a98f68389/src/main/resources/org/jenkinsci/plugins/computerqueue/ComputerQueue/queue.jelly#L59
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: compuware-common-configuration-plugin
   findings:
     - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L17
@@ -6461,10 +6443,7 @@
 - repo: keep-slave-offline
   findings: []
 - repo: keeper-secrets-manager-plugin
-  findings:
-    - url: https://github.com/jenkinsci/keeper-secrets-manager-plugin/blob/00d3747a2090f667532d38bf7ed03fe46c8c78b3/src/main/resources/io/jenkins/plugins/ksm/credential/KsmCredential/config.jelly#L36
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: kerberos-sso-plugin
   findings: []
 - repo: keyboard-shortcuts-plugin
@@ -9126,10 +9105,7 @@
 - repo: resources-ai-chatbot-plugin
   findings: []
 - repo: rest-list-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/rest-list-parameter-plugin/blob/9506fdc4bd0723e207fb1ed6b5f636eceeb706ca/src/main/resources/io/jenkins/plugins/restlistparam/RestListParameterDefinition/index.jelly#L54
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: restricted-register-plugin
   findings:
     - url: https://github.com/jenkinsci/restricted-register-plugin/blob/0815b48c507f878185b3eb9b3217dbe9f0e1cc42/src/main/resources/com/infullmobile/jenkins/plugin/restrictedregister/security/hudson/HudsonSecurityRealmRegistration/activateFragment.jelly#L39
@@ -9714,43 +9690,40 @@
   findings:
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L100
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L275
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L42
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L109
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L46
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L727
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L107
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L369
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L44
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L107
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L435
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
     - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L44
       type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/src/main/resources/cz/mendelu/xotradov/SimpleQueueWidget/index.jelly#L137
-      type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
 - repo: simple-theme-plugin
   findings: []
 - repo: simpleclearcase-plugin
@@ -11017,10 +10990,7 @@
 - repo: validating-string-parameter-plugin
   findings: []
 - repo: validating-yaml-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/validating-yaml-parameter-plugin/blob/4f53971ab3b8af6fcdbe7449195282a39eaf8ad3/src/main/resources/io/jenkins/plugins/validating_yaml_parameter/ValidatingYamlParameterDefinition/index.jelly#L35
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: variables-replace-plugin
   findings: []
 - repo: variant-plugin
