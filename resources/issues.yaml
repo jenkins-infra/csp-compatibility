@@ -1184,7 +1184,11 @@
 - id: lucene-search
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74352
+    fix: https://github.com/jenkinsci/lucene-search-plugin/pull/78
+    release: https://github.com/jenkinsci/lucene-search-plugin/releases/tag/432.v6c035fb_7b_67a
   - issue: https://issues.jenkins.io/browse/JENKINS-74353
+    fix: https://github.com/jenkinsci/lucene-search-plugin/pull/78
+    release: https://github.com/jenkinsci/lucene-search-plugin/releases/tag/432.v6c035fb_7b_67a
 - id: m2release
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74073
