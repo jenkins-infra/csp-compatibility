@@ -6725,37 +6725,7 @@
 - repo: lotus-connections-plugin
   findings: []
 - repo: lucene-search-plugin
-  findings:
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L114
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L115
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L97
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L98
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/management/LuceneManager/index.jelly#L23
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/management/LuceneManager/index.jelly#L24
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/management/LuceneManager/index.jelly#L45
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L111
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/FreeTextSearch/search-results.jelly#L91
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/lucene-search-plugin/blob/972fe925f2c977f7396be82e92b7e303640b72d1/src/main/resources/org/jenkinsci/plugins/lucene/search/management/LuceneManager/index.jelly#L9
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: m2release-plugin
   findings: []
 - repo: mabl-integration-plugin
