@@ -20845,37 +20845,7 @@
 - repo: wxwork-notification-plugin
   findings: []
 - repo: xcode-plugin
-  findings:
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/DeveloperProfileLoader/config.jelly#L62
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/ExportIpa/config.jelly#L211
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/ExportIpa/config.jelly#L44
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/KeychainUnlockStep/config.jelly#L49
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/XCodeBuilder/config.jelly#L283
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/XCodeBuilder/config.jelly#L44
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/DeveloperProfileLoader/config.jelly#L27
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/ExportIpa/config.jelly#L27
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/KeychainUnlockStep/config.jelly#L27
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/XCodeBuilder/config.jelly#L27
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: xfpanel-plugin
   findings:
     - url: https://github.com/jenkinsci/xfpanel-plugin/blob/c7bfbe5f8d631f877323666257dd8433d4485b59/src/main/resources/maps/hudson/plugin/xfpanel/XFPanelView/configure-entries.jelly#L53
