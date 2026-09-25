@@ -28,5 +28,5 @@ agent-server-parameter: https://github.com/jenkinsci/agent-server-parameter-plug
 list-git-branches-parameter: https://github.com/jenkinsci/list-git-branches-parameter-plugin/releases/tag/76.v7a_a_7a_5065278 # 2026-08-13
 deploy-dashboard: https://github.com/jenkinsci/deploy-dashboard-plugin/releases/tag/deploy-dashboard-0.2.0 # 2026-08-19
 clif-performance-testing: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72 # 2026-08-24
-
 keycloak: https://github.com/jenkinsci/keycloak-plugin/releases/tag/keycloak-2.4.0 # 2026-09-02
+xcode-plugin: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3 # 2026-09-22

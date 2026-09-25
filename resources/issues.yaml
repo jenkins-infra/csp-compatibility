@@ -2184,12 +2184,16 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74111
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
+    release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
   - issue: https://issues.jenkins.io/browse/JENKINS-74112
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
+    release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
   - issue: https://issues.jenkins.io/browse/JENKINS-74113
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
+    release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
   - issue: https://issues.jenkins.io/browse/JENKINS-74114
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
+    release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
 - id: xfpanel
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74398
