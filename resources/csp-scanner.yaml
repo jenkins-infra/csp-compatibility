@@ -4119,31 +4119,7 @@
 - repo: delete-log-plugin
   findings: []
 - repo: delivery-pipeline-plugin
-  findings:
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/pipeline/DeliveryPipelineView/index.jelly#L29
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/pipeline/DeliveryPipelineView/index.jelly#L33
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/pipeline/DeliveryPipelineView/index.jelly#L37
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/pipeline/DeliveryPipelineView/main.jelly#L66
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/workflow/WorkflowPipelineView/index.jelly#L29
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/workflow/WorkflowPipelineView/index.jelly#L33
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/workflow/WorkflowPipelineView/index.jelly#L37
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/delivery-pipeline-plugin/blob/61d59b556062d3db9d46487b9a524ceeebe80de1/src/main/resources/se/diabol/jenkins/workflow/WorkflowPipelineView/main.jelly#L66
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: delphix-plugin
   findings: []
 - repo: depbuilder-plugin
@@ -6201,10 +6177,7 @@
       type: Inline Script Block
       assessment: TODO
 - repo: jira-integration-plugin
-  findings:
-    - url: https://github.com/jenkinsci/jira-integration-plugin/blob/f3c027b8346734195493cf2b13aaaa3c7097acb8/src/main/java/org/marvelution/jji/sync/JiraSyncAction.java#L120
-      type: FormApply#applyResponse
-      assessment: TODO
+  findings: []
 - repo: jira-issue-updater-plugin
   findings: []
 - repo: jira-plugin
@@ -7822,19 +7795,7 @@
       type: Legacy checkUrl
       assessment: TODO
 - repo: p4-plugin
-  findings:
-    - url: https://github.com/jenkinsci/p4-plugin/blob/3a854ac60f1953426d06fb2c711fd9ada998808d/src/main/resources/org/jenkinsci/plugins/p4/workspace/ManualWorkspaceImpl/config.jelly#L10
-      type: Inline Event Handler
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/p4-plugin/blob/3a854ac60f1953426d06fb2c711fd9ada998808d/src/main/resources/org/jenkinsci/plugins/p4/workspace/ManualWorkspaceImpl/config.jelly#L26
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/p4-plugin/blob/3a854ac60f1953426d06fb2c711fd9ada998808d/src/main/java/org/jenkinsci/plugins/p4/console/P4ConsoleAnnotator.java#L39
-      type: Javascript scheme (Java)
-      assessment: True Positive # https://github.com/jenkinsci/p4-plugin/pull/250
-    - url: https://github.com/jenkinsci/p4-plugin/blob/3a854ac60f1953426d06fb2c711fd9ada998808d/src/main/resources/org/jenkinsci/plugins/p4/tagging/TagAction/tagForm.jelly#L50
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: p4sa-plugin
   findings: []
 - repo: paaslane-plugin
@@ -10455,22 +10416,7 @@
 - repo: test-results-aggregator-plugin
   findings: []
 - repo: test-results-analyzer-plugin
-  findings:
-    - url: https://github.com/jenkinsci/test-results-analyzer-plugin/blob/311c99b5e5c5ae4c3ee583dbbf07eba296a25f00/src/main/webapp/jquery/js/jquery-1.11.1.min.js#L2
-      type: (g)eval Call
-      assessment: TODO
-    - url: https://github.com/jenkinsci/test-results-analyzer-plugin/blob/311c99b5e5c5ae4c3ee583dbbf07eba296a25f00/src/main/webapp/js/chart-generator.js#L89
-      type: (g)eval Call
-      assessment: TODO
-    - url: https://github.com/jenkinsci/test-results-analyzer-plugin/blob/311c99b5e5c5ae4c3ee583dbbf07eba296a25f00/src/main/resources/org/jenkinsci/plugins/testresultsanalyzer/TestResultsAnalyzerAction/index.jelly#L84
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/test-results-analyzer-plugin/blob/311c99b5e5c5ae4c3ee583dbbf07eba296a25f00/src/main/resources/org/jenkinsci/plugins/testresultsanalyzer/TestResultsAnalyzerAction/index.jelly#L128
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/test-results-analyzer-plugin/blob/311c99b5e5c5ae4c3ee583dbbf07eba296a25f00/src/main/resources/org/jenkinsci/plugins/testresultsanalyzer/TestResultsAnalyzerAction/index.jelly#L19
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: test-stability-plugin
   findings: []
 - repo: testInProgress-plugin
@@ -10883,10 +10829,7 @@
       type: Legacy checkUrl
       assessment: TODO
 - repo: unblocked-plugin
-  findings:
-    - url: https://github.com/jenkinsci/unblocked-plugin/blob/7320ac151526f5e9fd0eba3b28baca9c39b3eee0/src/main/resources/io/jenkins/plugins/unblocked/UnblockedConfig/config.jelly#L11
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: unicorn-plugin
   findings: []
 - repo: unique-id-plugin

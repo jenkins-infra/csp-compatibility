@@ -6,6 +6,7 @@ aio-tests: "Has no issue tracker"
 # Details on known issues, e.g. limited impact
 clearcase: "Form validation will not work"
 email-ext: "Email template testing does not work"
+htmlpublisher: "Reports do not show when Resource Root URL is set"
 embeddable-build-status: "The 'link' parameter may not work anymore from frames, but use case is unclear"
 periodicbackup: "JS has been broken since 2.426 anyway, no further impact. Cleanup in https://github.com/jenkinsci/periodicbackup-plugin/pull/27"
 
@@ -30,3 +31,11 @@ deploy-dashboard: https://github.com/jenkinsci/deploy-dashboard-plugin/releases/
 clif-performance-testing: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72 # 2026-08-24
 keycloak: https://github.com/jenkinsci/keycloak-plugin/releases/tag/keycloak-2.4.0 # 2026-09-02
 xcode-plugin: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3 # 2026-09-22
+
+copy-project-link: https://github.com/jenkinsci/copy-project-link-plugin/releases/tag/171.va_078d4fc7da_0 # 2026-09-29
+vsphere-cloud: https://github.com/jenkinsci/vsphere-cloud-plugin/releases/tag/4.604.v8d1097b_6767f # 2026-09-30
+delivery-pipeline-plugin: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800 # 2026-10-03
+p4: https://github.com/jenkinsci/p4-plugin/releases/tag/p4-1.18.1 # 2026-10-09
+test-results-analyzer: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1 # 2026-10-10
+jira-integration: https://github.com/jenkinsci/jira-integration-plugin/releases/tag/5.10.0-100.v711f5d839b_c8 # 2026-11-03
+unblocked: https://github.com/jenkinsci/unblocked-plugin/releases/tag/1.99.v247fec9f2362 # 2026-11-03

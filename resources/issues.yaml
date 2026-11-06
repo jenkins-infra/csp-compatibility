@@ -429,6 +429,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74240
     fix: https://github.com/jenkinsci/copy-project-link-plugin/pull/117
+    release: https://github.com/jenkinsci/copy-project-link-plugin/releases/tag/171.va_078d4fc7da_0
 - id: copyartifact
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-73956
@@ -529,12 +530,16 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74082
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/41
+    release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
   - issue: https://issues.jenkins.io/browse/JENKINS-74083
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/38
+    release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
   - issue: https://issues.jenkins.io/browse/JENKINS-74084
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/41
+    release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
   - issue: https://issues.jenkins.io/browse/JENKINS-74085
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/37
+    release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
 - id: dependency-check-jenkins-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74072
@@ -918,6 +923,7 @@
     fix: https://github.com/jenkinsci/htmlpublisher-plugin/pull/312
     release: https://github.com/jenkinsci/htmlpublisher-plugin/releases/tag/htmlpublisher-1.37
   - issue: https://github.com/jenkinsci/htmlpublisher-plugin/issues/609
+    fix: https://github.com/jenkinsci/htmlpublisher-plugin/issues/618
 - id: htmlresource
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74350
@@ -1015,6 +1021,8 @@
 - id: jira-integration
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74739
+    fix: https://github.com/jenkinsci/jira-integration-plugin/pull/22
+    release: https://github.com/jenkinsci/jira-integration-plugin/releases/tag/5.10.0-100.v711f5d839b_c8
 - id: JiraTestResultReporter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74232
@@ -1454,6 +1462,7 @@
     release: https://github.com/jenkinsci/p4-plugin/releases/tag/p4-1.17.3
   - issue: https://issues.jenkins.io/browse/JENKINS-76334
     fix: https://github.com/jenkinsci/p4-plugin/pull/250
+    release: https://github.com/jenkinsci/p4-plugin/releases/tag/p4-1.18.1
 - id: parasoft-findings
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74337
@@ -1975,11 +1984,17 @@
 - id: test-results-analyzer
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74074
-    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
+    # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
+    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
+    release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
   - issue: https://issues.jenkins.io/browse/JENKINS-74751
-    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
+    # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
+    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
+    release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
   - issue: https://issues.jenkins.io/browse/JENKINS-75012
-    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/123
+    # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/123
+    fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
+    release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
 - id: testabilityexplorer
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74546
@@ -2031,6 +2046,8 @@
 - id: unblocked
   findings:
   - issue: https://github.com/jenkinsci/unblocked-plugin/issues/15
+    fix: https://github.com/jenkinsci/unblocked-plugin/pull/26
+    release: https://github.com/jenkinsci/unblocked-plugin/releases/tag/1.99.v247fec9f2362
 - id: uno-choice
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74025
@@ -2110,6 +2127,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74894
     fix: https://github.com/jenkinsci/vsphere-cloud-plugin/pull/139
+    release: https://github.com/jenkinsci/vsphere-cloud-plugin/releases/tag/4.604.v8d1097b_6767f
 - id: warnings-ng
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-73894
