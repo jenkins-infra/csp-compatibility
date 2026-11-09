@@ -6548,7 +6548,7 @@
   findings:
     - url: https://github.com/jenkinsci/lacework-security-scanner-plugin/blob/62f5ba3ccf055b6327513ab9e49009b9ed42a70c/src/main/java/io/jenkins/plugins/laceworkscannerbuildstep/LaceworkScannerExecuter.java#L176
       type: Inline Script Block (Java)
-      assessment: TODO
+      assessment: False Positive
 - repo: lambda-test-runner-plugin
   findings: []
 - repo: lambdatest-automation-plugin
