@@ -1642,6 +1642,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74617
   - issue: https://issues.jenkins.io/browse/JENKINS-74618
   - issue: https://issues.jenkins.io/browse/JENKINS-74619
+- id: qualys-was
+  findings:
+  - issue: https://issues.jenkins.io/browse/JENKINS-76576
 - id: r7insight-log-forwarder
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74643
