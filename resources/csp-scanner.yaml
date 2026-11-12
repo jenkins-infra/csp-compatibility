@@ -23,7 +23,7 @@
     - url: https://github.com/jenkinsci/BlameSubversion-plugin/blob/7a66d02e3aa9a9a6761ffa89d1b89dbbab77178f/src/main/java/hudson/scm/BlameSubversionSCM.java#L1980
       type: Javascript scheme (Java)
       assessment: TODO
-- repo: JDK_Parameter_Choice
+- repo: JDK_Parameter_Plugin-plugin
   findings: []
 - repo: JiraTestResultReporter-plugin
   findings: []
@@ -50,7 +50,7 @@
   findings: []
 - repo: active-choices-plugin
   findings:
-    - url: https://github.com/jenkinsci/active-choices-plugin/blob/e45761729bfe10277b295aa588ad3010f434eac3/webpack.config.js#L17
+    - url: https://github.com/jenkinsci/active-choices-plugin/blob/1d6dd0eeec1aab884f8cdd46abfe73e234a03333/webpack.config.js#L17
       type: (g)eval Call
       assessment: False Positive
 - repo: active-directory-plugin
@@ -531,22 +531,22 @@
   findings: []
 - repo: aws-codebuild-plugin
   findings:
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L115
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L115
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L127
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L127
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L144
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L144
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L22
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L22
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L48
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L48
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/efa3c9ff90e8c4f266634da725111002a3cfa819/src/main/resources/CodeBuildAction/index.jelly#L80
+    - url: https://github.com/jenkinsci/aws-codebuild-plugin/blob/b52369c399197c36aba328cbac2fb7d242cf8a4e/src/main/resources/CodeBuildAction/index.jelly#L80
       type: Inline Script Block
       assessment: TODO
 - repo: aws-codecommit-jobs-plugin
@@ -601,7 +601,7 @@
   findings: []
 - repo: azure-ad-plugin
   findings:
-    - url: https://github.com/jenkinsci/azure-ad-plugin/blob/b2d4d8cc86b05aa0c65d4f3f805a89fba3c0ae44/src/main/java/com/microsoft/jenkins/azuread/avatar/EntraAvatarResolver.java#L8
+    - url: https://github.com/jenkinsci/azure-ad-plugin/blob/580efe2cbc2ce9f07ad5176a6b3936b374b59c80/src/main/java/com/microsoft/jenkins/azuread/avatar/EntraAvatarResolver.java#L8
       type: Avatar images extension points
       assessment: False Positive
 - repo: azure-app-service-plugin
@@ -804,10 +804,10 @@
   findings: []
 - repo: bitbucket-branch-source-plugin
   findings:
-    - url: https://github.com/jenkinsci/bitbucket-branch-source-plugin/blob/b7bf7ab2630de65249d70aa33fb71c1404a023f0/src/main/java/com/cloudbees/jenkins/plugins/bitbucket/impl/avatars/BitbucketRepoAvatarMetadataAction.java#L39
+    - url: https://github.com/jenkinsci/bitbucket-branch-source-plugin/blob/ae3f03428c76c0a9fbfaf4f867be0ee153d4a21b/src/main/java/com/cloudbees/jenkins/plugins/bitbucket/impl/avatars/BitbucketRepoAvatarMetadataAction.java#L39
       type: Avatar images extension points
       assessment: False Positive
-    - url: https://github.com/jenkinsci/bitbucket-branch-source-plugin/blob/b7bf7ab2630de65249d70aa33fb71c1404a023f0/src/main/java/com/cloudbees/jenkins/plugins/bitbucket/impl/avatars/BitbucketTeamAvatarMetadataAction.java#L38
+    - url: https://github.com/jenkinsci/bitbucket-branch-source-plugin/blob/ae3f03428c76c0a9fbfaf4f867be0ee153d4a21b/src/main/java/com/cloudbees/jenkins/plugins/bitbucket/impl/avatars/BitbucketTeamAvatarMetadataAction.java#L38
       type: Avatar images extension points
       assessment: False Positive
 - repo: bitbucket-build-status-notifier-plugin
@@ -877,22 +877,25 @@
   findings: []
 - repo: blueocean-plugin
   findings:
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/website/prettify/prettify.js#L35
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/website/prettify/prettify.js#L35
       type: (g)eval Call
       assessment: False Positive
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/website/prettify/prettify.js#L36
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/website/prettify/prettify.js#L36
       type: (g)eval Call
       assessment: False Positive
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/website/prettify/prettify.js#L37
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/website/prettify/prettify.js#L37
       type: (g)eval Call
       assessment: False Positive
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/website/prettify/prettify.js#L40
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/website/prettify/prettify.js#L40
       type: (g)eval Call
       assessment: False Positive
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/examples/blue-ocean/index.html#L26
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/blueocean-web/src/main/resources/io/jenkins/blueocean/PageStatePreloadDecorator/header.jelly#L3
+      type: Inline Script Block
+      assessment: False Positive # JSON
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/examples/blue-ocean/index.html#L26
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/blueocean-plugin/blob/4e9fbde125d1992411545003dec9d870b658902c/jenkins-design-language/examples/blue-ocean/index.html#L27
+    - url: https://github.com/jenkinsci/blueocean-plugin/blob/e66dee5a419e64ebfe7083febec48c64fbe859ef/jenkins-design-language/examples/blue-ocean/index.html#L27
       type: Outside script src
       assessment: False Positive
 - repo: bmc-cfa-plugin
@@ -1096,7 +1099,7 @@
   findings: []
 - repo: browserstack-integration-plugin
   findings:
-    - url: https://github.com/jenkinsci/browserstack-integration-plugin/blob/8f35d9790ff70a578d20d9d4ea6c48e8cee76517/src/main/resources/com/browserstack/automate/ci/jenkins/AutomateTestAction/summary.jelly#L38
+    - url: https://github.com/jenkinsci/browserstack-integration-plugin/blob/22dfca2bfd10290d4fea69ed0134cc5984b975a1/src/main/resources/com/browserstack/automate/ci/jenkins/AutomateTestAction/summary.jelly#L38
       type: Inline Script Block
       assessment: TODO
 - repo: btc-embeddedplatform-plugin
@@ -1224,254 +1227,62 @@
       type: Inline Script Block
       assessment: TODO
 - repo: build-monitor-plugin
-  findings:
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L1130
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17495
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17655
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17669
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17670
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17681
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17751
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17764
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17764
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17782
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L17822
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L24624
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L24719
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L24916
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L24932
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L24941
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25086
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25245
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25293
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25638
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25638
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25647
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25652
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25668
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25668
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25674
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25678
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25681
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25681
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25682
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25685
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25685
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25687
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25688
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25689
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25731
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L25811
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L26158
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L26658
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L26689
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L26767
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L26802
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L28237
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L29289
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.js#L7508
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L142
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L145
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L146
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L146
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L183
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L183
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L187
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L273
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L275
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L278
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L278
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L279
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L290
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/angular-1.5.8/angular.min.js#L299
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/ui-bootstrap-custom-tpls-0.4.0.js#L21
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/ui-bootstrap-custom-tpls-0.4.0.js#L28
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/ui-bootstrap-custom-tpls-0.4.0.js#L46
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/webapp/vendor/ui-bootstrap-custom-tpls-0.4.0.js#L47
-      type: (g)eval Call
-      assessment: False Positive
-    - url: https://github.com/jenkinsci/build-monitor-plugin/blob/eae798cc9095ae11f04c92ff3dbdeedae95f778d/build-monitor-plugin/src/main/resources/com/smartcodeltd/jenkinsci/plugins/buildmonitor/BuildMonitorView/index.jelly#L57
-      type: Outside script src
-      assessment: False Positive # Sort of? Nothing breaks if this gets rejected.
+  findings: []
 - repo: build-name-setter-plugin
   findings: []
 - repo: build-notifications-plugin
   findings: []
 - repo: build-pipeline-plugin
   findings:
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/webapp/js/jquery-ui-1.8.14.custom.min.js#L489
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/webapp/js/jquery-ui-1.8.14.custom.min.js#L489
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L65
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L65
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L71
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L71
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L109
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L109
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L118
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L118
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L125
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L125
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L129
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L129
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L140
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L140
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L145
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L145
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L64
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L64
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L97
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/BuildCardExtension/buildCardTemplate.jelly#L97
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L135
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L135
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L22
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L22
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L28
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L28
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L35
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/BuildPipelineView/bpp.jelly#L35
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/AbstractNameValueHeader/rowHeader.jelly#L24
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/AbstractNameValueHeader/rowHeader.jelly#L24
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/7da034aeb41b3d452d84cdbed39a0ab8726fb5ca/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/PipelineHeaderExtension/columnHeader.jelly#L30
+    - url: https://github.com/jenkinsci/build-pipeline-plugin/blob/90e8731c4fd6c1830d4d6b28e19dde9135f05ddc/src/main/resources/au/com/centrumsystems/hudson/plugin/buildpipeline/extension/PipelineHeaderExtension/columnHeader.jelly#L30
       type: Inline Script Block
       assessment: TODO
 - repo: build-steps-from-json-plugin
@@ -1658,7 +1469,7 @@
   findings: []
 - repo: buildresult-trigger-plugin
   findings:
-    - url: https://github.com/jenkinsci/buildresult-trigger-plugin/blob/cb01b27699517309d5b8c42095ce857178dc85b6/src/main/resources/org/jenkinsci/plugins/buildresulttrigger/BuildResultTrigger/config.jelly#L16
+    - url: https://github.com/jenkinsci/buildresult-trigger-plugin/blob/46154032d263b002bb8432a4bd4085e641837d3d/src/main/resources/org/jenkinsci/plugins/buildresulttrigger/BuildResultTrigger/config.jelly#L16
       type: Legacy checkUrl
       assessment: TODO
 - repo: buildrotator-plugin
@@ -1721,7 +1532,10 @@
 - repo: caffeine-api-plugin
   findings: []
 - repo: calendar-view-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/calendar-view-plugin/blob/359170aded9c1bedef038af252329cfc7d3f6eb4/src/main/resources/io/jenkins/plugins/view/calendar/CalendarView/main.jelly#L41
+      type: Inline Script Block
+      assessment: False Positive # JSON
 - repo: caliper-ci-plugin
   findings: []
 - repo: call-remote-job-plugin
@@ -4133,24 +3947,18 @@
 - repo: dependency-analyzer-plugin
   findings: []
 - repo: dependency-check-plugin
-  findings:
-    - url: https://github.com/jenkinsci/dependency-check-plugin/blob/98a6a9d50d1a50ec3a9eedf71c41d467faf3df1e/src/main/webapp/js/libs/tipped.js#L10
-      type: (g)eval Call
-      assessment: False Positive # While this finding looks real, the tooltips work as expected without triggering CSP, indicating unused code in the library.
+  findings: []
 - repo: dependency-queue-plugin
   findings: []
 - repo: dependency-track-plugin
   findings: []
 - repo: depgraph-view-plugin
   findings:
-    - url: https://github.com/jenkinsci/depgraph-view-plugin/blob/aef4b5ff552257e3914716351f14b3f1af7d1545/src/main/webapp/js/jquery-1.7.2.min.js#L2
+    - url: https://github.com/jenkinsci/depgraph-view-plugin/blob/2c2a9c194f04de7e89a1edec7a13ce9f14de8ce3/src/main/webapp/js/jquery-1.7.2.min.js#L2
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/depgraph-view-plugin/blob/aef4b5ff552257e3914716351f14b3f1af7d1545/src/main/webapp/js/jquery-ui-1.8.9.custom.min.js#L481
+    - url: https://github.com/jenkinsci/depgraph-view-plugin/blob/2c2a9c194f04de7e89a1edec7a13ce9f14de8ce3/src/main/webapp/js/jquery-ui-1.8.9.custom.min.js#L481
       type: (g)eval Call
-      assessment: TODO
-    - url: https://github.com/jenkinsci/depgraph-view-plugin/blob/aef4b5ff552257e3914716351f14b3f1af7d1545/src/main/resources/hudson/plugins/depgraph_view/AbstractDependencyGraphAction/jsplumb.jelly#L62
-      type: Inline Script Block
       assessment: TODO
 - repo: deploy-dashboard-plugin
   findings: []
@@ -5082,35 +4890,35 @@
       assessment: TODO
 - repo: fortify-plugin
   findings:
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L29
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L29
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L80
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L80
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L82
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L82
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L84
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/issuesByFriorityTable.jelly#L84
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/nextPrevButtons.jelly#L25
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/nextPrevButtons.jelly#L25
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/fortify-plugin/blob/ecdb47f60efd2e56713e11a74cfe8d6906c64f18/src/main/resources/com/fortify/plugin/jenkins/TableAction/nextPrevButtons.jelly#L30
+    - url: https://github.com/jenkinsci/fortify-plugin/blob/1a2639318da0301b7417c1ca8e53806678f9ac42/src/main/resources/com/fortify/plugin/jenkins/TableAction/nextPrevButtons.jelly#L30
       type: Javascript scheme
       assessment: TODO
 - repo: frugal-testing-plugin
   findings: []
 - repo: fstrigger-plugin
   findings:
-    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/d4b47c78d9efd3a7e823b3e947a54b177fda88c8/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FileNameTrigger/config.jelly#L13
+    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/59619f8a06e449604ef164384deeb0a923e88e62/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FileNameTrigger/config.jelly#L13
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/d4b47c78d9efd3a7e823b3e947a54b177fda88c8/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FileNameTrigger/config.jelly#L67
+    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/59619f8a06e449604ef164384deeb0a923e88e62/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FileNameTrigger/config.jelly#L67
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/d4b47c78d9efd3a7e823b3e947a54b177fda88c8/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FolderContentTrigger/config.jelly#L36
+    - url: https://github.com/jenkinsci/fstrigger-plugin/blob/59619f8a06e449604ef164384deeb0a923e88e62/src/main/resources/org/jenkinsci/plugins/fstrigger/triggers/FolderContentTrigger/config.jelly#L36
       type: Legacy checkUrl
       assessment: TODO
 - repo: ftp-rename-plugin
@@ -5189,7 +4997,7 @@
   findings: []
 - repo: gerrit-code-review-plugin
   findings:
-    - url: https://github.com/jenkinsci/gerrit-code-review-plugin/blob/6b6a798524bdfe52e38dd09d6f79d5c40f353297/src/main/java/jenkins/plugins/gerrit/GerritLogo.java#L22
+    - url: https://github.com/jenkinsci/gerrit-code-review-plugin/blob/a069e24d74f04db87a517c80ea11d950702bf727/src/main/java/jenkins/plugins/gerrit/GerritLogo.java#L22
       type: Avatar images extension points
       assessment: False Positive # Always local
 - repo: gerrit-trigger-plugin
@@ -5243,7 +5051,7 @@
   findings: []
 - repo: gitea-plugin
   findings:
-    - url: https://github.com/jenkinsci/gitea-plugin/blob/75e47974c01d4abbcfa41b5d139fd719d5e614a7/src/main/java/org/jenkinsci/plugin/gitea/GiteaAvatar.java#L34
+    - url: https://github.com/jenkinsci/gitea-plugin/blob/e67c38df12bdc44e6045cb5d9d195488901ea17f/src/main/java/org/jenkinsci/plugin/gitea/GiteaAvatar.java#L34
       type: Avatar images extension points
       assessment: False Positive
 - repo: gitee-plugin
@@ -5308,10 +5116,10 @@
   findings: []
 - repo: github-branch-source-plugin
   findings:
-    - url: https://github.com/jenkinsci/github-branch-source-plugin/blob/4381d7149a3ab5f1f5a4ae6a6f9a37ccd8f3ef65/src/main/java/org/jenkinsci/plugins/github_branch_source/GitHubOrgMetadataAction.java#L46
+    - url: https://github.com/jenkinsci/github-branch-source-plugin/blob/b778ddf95c79f29f707153a4a3293c6af2e2cfe2/src/main/java/org/jenkinsci/plugins/github_branch_source/GitHubOrgMetadataAction.java#L46
       type: Avatar images extension points
       assessment: False Positive
-    - url: https://github.com/jenkinsci/github-branch-source-plugin/blob/4381d7149a3ab5f1f5a4ae6a6f9a37ccd8f3ef65/src/main/java/org/jenkinsci/plugins/github_branch_source/GitHubRepoMetadataAction.java#L34
+    - url: https://github.com/jenkinsci/github-branch-source-plugin/blob/b778ddf95c79f29f707153a4a3293c6af2e2cfe2/src/main/java/org/jenkinsci/plugins/github_branch_source/GitHubRepoMetadataAction.java#L34
       type: Avatar images extension points
       assessment: False Positive
 - repo: github-checks-plugin
@@ -5342,7 +5150,7 @@
   findings: []
 - repo: gitlab-branch-source-plugin
   findings:
-    - url: https://github.com/jenkinsci/gitlab-branch-source-plugin/blob/9781b1cdb72a1f1a3a8c937993b293637294d54e/src/main/java/io/jenkins/plugins/gitlabbranchsource/helpers/GitLabAvatar.java#L8
+    - url: https://github.com/jenkinsci/gitlab-branch-source-plugin/blob/73c84b04428fc0f54bfa4caf9cb5dbe656c8ba5c/src/main/java/io/jenkins/plugins/gitlabbranchsource/helpers/GitLabAvatar.java#L8
       type: Avatar images extension points
       assessment: False Positive
 - repo: gitlab-kubernetes-credentials-plugin
@@ -5354,7 +5162,13 @@
 - repo: gitlab-plugin
   findings: []
 - repo: global-build-stats-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/global-build-stats-plugin/blob/03b3fbd5517e6b3055a6462d12c3d1e41193edc1/src/main/resources/hudson/plugins/global_build_stats/GlobalBuildStatsPlugin/buildHistory.jelly#L25
+      type: Inline Script Block
+      assessment: False Positive # JSON
+    - url: https://github.com/jenkinsci/global-build-stats-plugin/blob/03b3fbd5517e6b3055a6462d12c3d1e41193edc1/src/main/resources/hudson/plugins/global_build_stats/GlobalBuildStatsPlugin/index.jelly#L26
+      type: Inline Script Block
+      assessment: False Positive # JSON
 - repo: global-pipeline-parameters-plugin
   findings: []
 - repo: global-post-script-plugin
@@ -5543,166 +5357,166 @@
   findings: []
 - repo: hp-application-automation-tools-plugin
   findings:
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/common/model/VariableWrapper/config.jelly#L47
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/common/model/VariableWrapper/config.jelly#L47
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentModel/config.jelly#L136
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentModel/config.jelly#L136
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentModel/config.jelly#L145
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentModel/config.jelly#L145
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentParameterModel/config.jelly#L46
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/model/AutEnvironmentParameterModel/config.jelly#L46
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/model/ParallelRunnerEnvironmentModel/config.jelly#L68
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/model/ParallelRunnerEnvironmentModel/config.jelly#L68
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L42
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L42
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L56
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L56
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L66
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L66
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L246
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L246
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L259
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L259
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L294
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L294
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L345
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L345
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L356
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L356
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L368
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L368
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L377
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L377
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L392
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L392
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L402
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L402
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L213
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L213
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L268
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L268
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L296
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L296
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L353
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L353
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L369
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L369
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L417
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L417
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L428
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L428
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L456
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L456
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L187
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L187
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L209
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L209
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L103
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L103
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L105
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L105
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L80
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L80
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L87
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/UftSettingsModel/config.jelly#L87
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/custom/customOptionalBlock.jelly#L88
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/custom/customOptionalBlock.jelly#L88
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/custom/customRepeatable.jelly#L136
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/custom/customRepeatable.jelly#L136
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/custom/customRepeatable.jelly#L141
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/custom/customRepeatable.jelly#L141
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/healthanalyzer/customOptionalBlock.jelly#L88
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/healthanalyzer/customOptionalBlock.jelly#L88
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/configuration/ConfigurationAction/index.jelly#L57
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/configuration/ConfigurationAction/index.jelly#L57
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/configuration/ConfigurationActionMultibranch/index.jelly#L57
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/configuration/ConfigurationActionMultibranch/index.jelly#L57
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L109
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/octane/testrunner/TestsToRunConverterBuilder/config.jelly#L109
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L109
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L109
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L250
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L250
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L325
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/PcBuilder/config.jelly#L325
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromAlmBuilder/config.jelly#L304
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromAlmBuilder/config.jelly#L324
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromCodelessBuilder/config.jelly#L106
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromCodelessBuilder/config.jelly#L106
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L467
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/RunFromFileBuilder/config.jelly#L467
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L76
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/run/UploadAppBuilder/config.jelly#L76
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L112
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L112
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L117
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L117
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L122
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L122
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L127
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/uft/model/SpecifyParametersModel/config.jelly#L127
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/custom/customRepeatable.jelly#L46
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/custom/customRepeatable.jelly#L46
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/custom/customOptionalBlock.jelly#L88
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/custom/customOptionalBlock.jelly#L88
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/lib/healthanalyzer/customOptionalBlock.jelly#L88
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/lib/healthanalyzer/customOptionalBlock.jelly#L88
       type: Javascript scheme
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/results/PerformanceProjectAction/index.jelly#L64
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/results/PerformanceProjectAction/index.jelly#L64
       type: Outside script src
       assessment: TODO
-    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/f59df3dcb3e96d266839ceec22196c57a9da8662/src/main/resources/com/microfocus/application/automation/tools/results/PerformanceProjectAction/index.jelly#L67
+    - url: https://github.com/jenkinsci/hp-application-automation-tools-plugin/blob/bd7d5a52b5052199152c7b74d896f16d2ec830bd/src/main/resources/com/microfocus/application/automation/tools/results/PerformanceProjectAction/index.jelly#L67
       type: Outside script src
       assessment: TODO
 - repo: hp-operations-orchestration-plugin
@@ -5776,7 +5590,10 @@
       type: Inline Script Block
       assessment: TODO
 - repo: htmlpublisher-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/htmlpublisher-plugin/blob/8d2148c55bca6949f575fadd0bded0368920d878/src/main/java/htmlpublisher/HtmlPublisher.java#L255
+      type: Inline Script Block (Java)
+      assessment: TODO
 - repo: htmlresource-plugin
   findings:
     - url: https://github.com/jenkinsci/htmlresource-plugin/blob/a10c444cc158ec1413a7095800e22096981da43f/src/main/resources/com/cwctravel/jenkinsci/plugins/htmlresource/HTMLResourceManagement/index.jelly#L47
@@ -6128,11 +5945,6 @@
   findings: []
 - repo: jenkins-infra-test-plugin
   findings: []
-- repo: jenkins-keycloak-plugin
-  findings:
-    - url: https://github.com/jenkinsci/keycloak-plugin/blob/8cbbd4632077a18b1617b443f2bc2cd2118b72c1/src/main/java/org/jenkinsci/plugins/KeycloakAvatarResolver.java#L9
-      type: Avatar images extension points
-      assessment: False Positive # https://github.com/jenkinsci/keycloak-plugin/blob/8cbbd4632077a18b1617b443f2bc2cd2118b72c1/src/main/java/org/jenkinsci/plugins/KeycloakAvatarProperty.java#L83
 - repo: jenkins-multijob-plugin
   findings: []
 - repo: jenkins-xcp-ci-plugin
@@ -6182,27 +5994,33 @@
   findings: []
 - repo: jira-plugin
   findings:
-    - url: https://github.com/jenkinsci/jira-plugin/blob/6672f0ac6e5ef8125593b64a8ac757b4a9294566/docs/index.html#L13
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L13
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/jira-plugin/blob/6672f0ac6e5ef8125593b64a8ac757b4a9294566/docs/index.html#L21
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L21
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/jira-plugin/blob/6672f0ac6e5ef8125593b64a8ac757b4a9294566/docs/index.html#L22
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L22
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/jira-plugin/blob/6672f0ac6e5ef8125593b64a8ac757b4a9294566/docs/index.html#L23
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L23
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/jira-plugin/blob/6672f0ac6e5ef8125593b64a8ac757b4a9294566/docs/index.html#L24
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L24
+      type: Outside script src
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L26
+      type: Outside script src
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/jira-plugin/blob/50419a60e17a165341b4ad3b90aa6d3db947230b/docs/index.html#L30
       type: Outside script src
       assessment: False Positive
 - repo: jira-steps-plugin
   findings:
-    - url: https://github.com/jenkinsci/jira-steps-plugin/blob/f10e947e1ed54027bd4f565f900f26fa6ea5fb30/hugo/layouts/partials/custom-head.html#L1
+    - url: https://github.com/jenkinsci/jira-steps-plugin/blob/dd1b3987e0404a5265b7f480ce50a3e96156b340/hugo/layouts/partials/custom-head.html#L1
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/jira-steps-plugin/blob/f10e947e1ed54027bd4f565f900f26fa6ea5fb30/hugo/layouts/partials/menu-footer.html#L5
+    - url: https://github.com/jenkinsci/jira-steps-plugin/blob/dd1b3987e0404a5265b7f480ce50a3e96156b340/hugo/layouts/partials/menu-footer.html#L5
       type: Outside script src
       assessment: False Positive
 - repo: jira-trigger-plugin
@@ -6383,7 +6201,10 @@
 - repo: junit-attachments-plugin
   findings: []
 - repo: junit-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/junit-plugin/blob/ab2a899eab9728a9c6213b98128aca928cf22d83/src/main/resources/hudson/tasks/junit/History/index.jelly#L47
+      type: Inline Script Block
+      assessment: False Positive # JSON
 - repo: junit-realtime-test-reporter-plugin
   findings: []
 - repo: junit-sql-storage-plugin
@@ -6427,6 +6248,11 @@
     - url: https://github.com/jenkinsci/keyboard-shortcuts-plugin/blob/46df0096f1e9f7796d1372a932a4bced3986a758/src/main/webapp/js/keyboard-shortcuts.js#L269
       type: setTimeout/setInterval with String Argument
       assessment: TODO
+- repo: keycloak-plugin
+  findings:
+    - url: https://github.com/jenkinsci/keycloak-plugin/blob/aaaaeadafffdcf500ad4c8dd849f16d0b8b0700b/src/main/java/org/jenkinsci/plugins/KeycloakAvatarResolver.java#L9
+      type: Avatar images extension points
+      assessment: False Positive # https://github.com/jenkinsci/keycloak-plugin/blob/8cbbd4632077a18b1617b443f2bc2cd2118b72c1/src/main/java/org/jenkinsci/plugins/KeycloakAvatarProperty.java#L83
 - repo: kiuwan-plugin
   findings: []
 - repo: klaros-testmanagement-plugin
@@ -6555,28 +6381,28 @@
   findings: []
 - repo: last-changes-plugin
   findings:
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/highlightjs-9.12.0.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/js/jquery.min.js#L2
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/js/jquery.min.js#L2
       type: (g)eval Call
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/sample.html#L14
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/sample.html#L14
       type: Inline Script Block
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
-    - url: https://github.com/jenkinsci/last-changes-plugin/blob/acabef5994c63affb0464152c5f2d39181acc583/src/main/webapp/sample.html#L25
+    - url: https://github.com/jenkinsci/last-changes-plugin/blob/a7cd5af38b13e81409444c219fe4e28b739eb213/src/main/webapp/sample.html#L25
       type: Inline Script Block
       assessment: False Positive # Manual testing indicates this plugin works despite findings, so probably FP
 - repo: lastfailureversioncolumn-plugin
@@ -6747,25 +6573,16 @@
   findings: []
 - repo: managed-scripts-plugin
   findings:
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/PowerShellBuildStep/config.jelly#L16
+    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/7a58514089143b2eb89ae87a6448ca32f31537d7/src/main/resources/org/jenkinsci/plugins/managedscripts/PowerShellBuildStep/config.jelly#L8
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/PowerShellBuildStep/config.jelly#L8
+    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/7a58514089143b2eb89ae87a6448ca32f31537d7/src/main/resources/org/jenkinsci/plugins/managedscripts/ScriptBuildStep/config.jelly#L8
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/ScriptBuildStep/config.jelly#L19
+    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/7a58514089143b2eb89ae87a6448ca32f31537d7/src/main/resources/org/jenkinsci/plugins/managedscripts/WinBatchBuildStep/config.jelly#L8
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/ScriptBuildStep/config.jelly#L8
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/WinBatchBuildStep/config.jelly#L16
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/WinBatchBuildStep/config.jelly#L8
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/a612f35ce5a0716686a2dde0ea89ea4117030902/src/main/resources/org/jenkinsci/plugins/managedscripts/ScriptConfig/edit-config.jelly#L58
+    - url: https://github.com/jenkinsci/managed-scripts-plugin/blob/7a58514089143b2eb89ae87a6448ca32f31537d7/src/main/resources/org/jenkinsci/plugins/managedscripts/ScriptConfig/edit-config.jelly#L59
       type: Inline Script Block
       assessment: TODO
 - repo: mantis-plugin
@@ -7404,7 +7221,7 @@
       assessment: TODO
 - repo: multibranch-action-triggers-plugin
   findings: []
-- repo: multibranch-build-strategy-extension
+- repo: multibranch-build-strategy-extension-plugin
   findings: []
 - repo: multibranch-filter-plugin
   findings: []
@@ -7624,9 +7441,9 @@
   findings: []
 - repo: oic-auth-plugin
   findings:
-    - url: https://github.com/jenkinsci/oic-auth-plugin/blob/e5ad9f26c051e68242b5bb5df3f74c5e8030df88/src/main/java/org/jenkinsci/plugins/oic/OicAvatarResolver.java#L8
+    - url: https://github.com/jenkinsci/oic-auth-plugin/blob/8a8b74c97cd4b826e7427706c0ce390076680053/src/main/java/org/jenkinsci/plugins/oic/avatar/AvatarResolver.java#L13
       type: Avatar images extension points
-      assessment: False Positive # https://github.com/jenkinsci/oic-auth-plugin/pull/681
+      assessment: False Positive # https://github.com/jenkinsci/oic-auth-plugin/pull/681 + https://github.com/jenkinsci/oic-auth-plugin/pull/793
 - repo: oidc-backchannel-logout-plugin
   findings: []
 - repo: oidc-provider-plugin
@@ -7785,13 +7602,13 @@
   findings: []
 - repo: ownership-plugin
   findings:
-    - url: https://github.com/jenkinsci/ownership-plugin/blob/845bab37c1008350f501fe57f3279cee3bf9a332/src/main/resources/com/synopsys/arc/jenkins/plugins/ownership/ItemOwnershipAction/propertyConfig.jelly#L68
+    - url: https://github.com/jenkinsci/ownership-plugin/blob/b41d439617c277afdd89c1a98fb15f95577359e7/src/main/resources/com/synopsys/arc/jenkins/plugins/ownership/ItemOwnershipAction/propertyConfig.jelly#L73
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/ownership-plugin/blob/845bab37c1008350f501fe57f3279cee3bf9a332/src/main/resources/com/synopsys/arc/jenkins/plugins/ownership/util/ui/UserSelector/config.jelly#L29
+    - url: https://github.com/jenkinsci/ownership-plugin/blob/b41d439617c277afdd89c1a98fb15f95577359e7/src/main/resources/com/synopsys/arc/jenkins/plugins/ownership/util/ui/UserSelector/config.jelly#L29
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/ownership-plugin/blob/845bab37c1008350f501fe57f3279cee3bf9a332/src/main/resources/org/jenkinsci/plugins/ownership/integrations/securityinspector/PermissionsForOwnerReportBuilder/configureReport.jelly#L62
+    - url: https://github.com/jenkinsci/ownership-plugin/blob/b41d439617c277afdd89c1a98fb15f95577359e7/src/main/resources/org/jenkinsci/plugins/ownership/integrations/securityinspector/PermissionsForOwnerReportBuilder/configureReport.jelly#L66
       type: Legacy checkUrl
       assessment: TODO
 - repo: p4-plugin
@@ -8055,19 +7872,19 @@
   findings: []
 - repo: performance-plugin
   findings:
-    - url: https://github.com/jenkinsci/performance-plugin/blob/8140e669791040212f5fbf8145eddfc21bbe8cea/docs/stats.html#L45
+    - url: https://github.com/jenkinsci/performance-plugin/blob/e69e11844523288a687d2c619227b61f99cd0482/docs/stats.html#L45
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/performance-plugin/blob/8140e669791040212f5fbf8145eddfc21bbe8cea/docs/stats.html#L41
+    - url: https://github.com/jenkinsci/performance-plugin/blob/e69e11844523288a687d2c619227b61f99cd0482/docs/stats.html#L41
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/performance-plugin/blob/8140e669791040212f5fbf8145eddfc21bbe8cea/docs/stats.html#L42
+    - url: https://github.com/jenkinsci/performance-plugin/blob/e69e11844523288a687d2c619227b61f99cd0482/docs/stats.html#L42
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/performance-plugin/blob/8140e669791040212f5fbf8145eddfc21bbe8cea/docs/stats.html#L43
+    - url: https://github.com/jenkinsci/performance-plugin/blob/e69e11844523288a687d2c619227b61f99cd0482/docs/stats.html#L43
       type: Outside script src
       assessment: False Positive
-    - url: https://github.com/jenkinsci/performance-plugin/blob/8140e669791040212f5fbf8145eddfc21bbe8cea/docs/stats.html#L44
+    - url: https://github.com/jenkinsci/performance-plugin/blob/e69e11844523288a687d2c619227b61f99cd0482/docs/stats.html#L44
       type: Outside script src
       assessment: False Positive
 - repo: performance-signature-dynatrace-plugin
@@ -9322,6 +9139,8 @@
     - url: https://github.com/jenkinsci/scm-sync-configuration-plugin/blob/16e5593cd1f866c68ec9a8d4a62db2c8e0bfe23b/src/main/resources/hudson/plugins/scm_sync_configuration/ScmSyncConfigurationPlugin/scms/svn/config.jelly#L5
       type: Legacy checkUrl
       assessment: TODO
+- repo: scm-trait-commit-skip-plugin
+  findings: []
 - repo: scm2job-plugin
   findings: []
 - repo: scmskip-plugin
@@ -9817,6 +9636,8 @@
       type: Legacy checkUrl
       assessment: TODO
 - repo: snakeyaml-api-plugin
+  findings: []
+- repo: snakeyaml-engine-api-plugin
   findings: []
 - repo: snowglobe-plugin
   findings:
@@ -10552,9 +10373,21 @@
   findings: []
 - repo: theme-manager-plugin
   findings:
-    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/97f05fac4b6a198c1a3ddf3e8887e696a7744fd1/src/main/java/io/jenkins/plugins/thememanager/Theme.java#L26
+    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/587224fde1f602cfbbbbf3aea108530b041e210d/src/main/java/io/jenkins/plugins/thememanager/Theme.java#L26
       type: Inline Script Block (Java)
       assessment: False Positive
+    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/587224fde1f602cfbbbbf3aea108530b041e210d/src/main/resources/io/jenkins/plugins/thememanager/ThemeManagerBluePageDecorator/header.jelly#L3
+      type: Inline Script Block
+      assessment: False Positive # JSON
+    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/587224fde1f602cfbbbbf3aea108530b041e210d/src/main/resources/io/jenkins/plugins/thememanager/ThemeManagerPageDecorator/header.jelly#L3
+      type: Inline Script Block
+      assessment: False Positive # JSON
+    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/587224fde1f602cfbbbbf3aea108530b041e210d/src/main/resources/io/jenkins/plugins/thememanager/ThemeManagerSimplePageDecorator/simple-head.jelly#L9
+      type: Inline Script Block
+      assessment: False Positive # JSON
+    - url: https://github.com/jenkinsci/theme-manager-plugin/blob/587224fde1f602cfbbbbf3aea108530b041e210d/src/main/resources/io/jenkins/plugins/thememanager/ThemeManagerSimplePageDecorator/simple-header.jelly#L3
+      type: Inline Script Block
+      assessment: False Positive # JSON
 - repo: themis-plugin
   findings: []
 - repo: thin-backup-plugin
