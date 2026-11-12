@@ -38,6 +38,8 @@
       assessment: TODO
 - repo: abap-ci-plugin
   findings: []
+- repo: abend-aid-plugin
+  findings: []
 - repo: absint-a3-plugin
   findings: []
 - repo: absint-astree-plugin
@@ -50,10 +52,14 @@
   findings: []
 - repo: active-choices-plugin
   findings:
-    - url: https://github.com/jenkinsci/active-choices-plugin/blob/1d6dd0eeec1aab884f8cdd46abfe73e234a03333/webpack.config.js#L17
+    - url: https://github.com/jenkinsci/active-choices-plugin/blob/15ae17e17137308a51c2f17d08ce7a2fd93fb727/webpack.config.js#L17
       type: (g)eval Call
       assessment: False Positive
 - repo: active-directory-plugin
+  findings: []
+- repo: active-git-branches-plugin
+  findings: []
+- repo: active-jobs-filter-plugin
   findings: []
 - repo: acunetix-360-scan-plugin
   findings:
@@ -95,15 +101,17 @@
   findings: []
 - repo: agent-setup-plugin
   findings: []
+- repo: ai-agent-plugin
+  findings: []
 - repo: aio-tests-plugin
   findings:
-    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/2a89fdce4a83ca0b49714be00d36e78862be7459/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L25
+    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/31792c4d9adc0af39025a07f291fb6c2f7484bda/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L25
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/2a89fdce4a83ca0b49714be00d36e78862be7459/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L53
+    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/31792c4d9adc0af39025a07f291fb6c2f7484bda/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L53
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/2a89fdce4a83ca0b49714be00d36e78862be7459/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L92
+    - url: https://github.com/jenkinsci/aio-tests-plugin/blob/31792c4d9adc0af39025a07f291fb6c2f7484bda/src/main/resources/com/navarambh/aiotests/postbuildsteps/AIOTestsResultRecorder/config.jelly#L92
       type: Inline Script Block
       assessment: TODO
 - repo: akeyless-plugin
@@ -141,19 +149,19 @@
   findings: []
 - repo: amazon-inspector-image-scanner-plugin
   findings:
-    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/0d772fd6545bc9b1034b075dc3751b9590593ed0/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L101
+    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/2a3582369fe5a188e3daa52e293c15e6b55f67cf/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L101
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/0d772fd6545bc9b1034b075dc3751b9590593ed0/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L137
+    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/2a3582369fe5a188e3daa52e293c15e6b55f67cf/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L137
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/0d772fd6545bc9b1034b075dc3751b9590593ed0/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L155
+    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/2a3582369fe5a188e3daa52e293c15e6b55f67cf/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L155
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/0d772fd6545bc9b1034b075dc3751b9590593ed0/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L170
+    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/2a3582369fe5a188e3daa52e293c15e6b55f67cf/src/main/resources/com/amazon/inspector/jenkins/amazoninspectorbuildstep/AmazonInspectorBuilder/config.jelly#L170
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/0d772fd6545bc9b1034b075dc3751b9590593ed0/src/main/resources/index.html#L413
+    - url: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/blob/2a3582369fe5a188e3daa52e293c15e6b55f67cf/src/main/resources/index.html#L413
       type: Inline Script Block
       assessment: TODO
 - repo: amqp-build-trigger-plugin
@@ -224,10 +232,15 @@
   findings: []
 - repo: appcircle-enterprise-app-store-plugin
   findings: []
+- repo: appcircle-publish-plugin
+  findings: []
 - repo: appcircle-testing-distribution-plugin
   findings: []
 - repo: appdome-build-2secure-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/appdome-build-2secure-plugin/blob/829caf3749593654d0effd80c1229304ccc58bea/src/main/resources/io/jenkins/plugins/appdome/build/to/secure/AppdomeBuilder/config.jelly#L75
+      type: Inline Script Block
+      assessment: TODO
 - repo: appdome-validate-2secure-plugin
   findings: []
 - repo: appdynamics-plugin
@@ -235,7 +248,19 @@
 - repo: appetize-plugin
   findings: []
 - repo: appknox-scanner-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/appknox-scanner-plugin/blob/0783fa3122109dff274efeccfc1d7e1dd169f371/src/main/resources/io/jenkins/plugins/scanner/AppknoxScanner/config.jelly#L10
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/appknox-scanner-plugin/blob/0783fa3122109dff274efeccfc1d7e1dd169f371/src/main/resources/io/jenkins/plugins/scanner/AppknoxScanner/config.jelly#L19
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/appknox-scanner-plugin/blob/0783fa3122109dff274efeccfc1d7e1dd169f371/src/main/resources/io/jenkins/plugins/scanner/AppknoxScanner/config.jelly#L7
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/appknox-scanner-plugin/blob/0783fa3122109dff274efeccfc1d7e1dd169f371/src/main/resources/io/jenkins/plugins/scanner/AppknoxScanner/config.jelly#L47
+      type: Inline Script Block
+      assessment: TODO
 - repo: applatix-plugin
   findings: []
 - repo: application-director-plugin
@@ -251,37 +276,37 @@
   findings: []
 - repo: appscan-plugin
   findings:
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L36
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L32
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L40
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L36
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L44
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L40
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L138
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L138
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L142
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L142
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L18
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L18
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ResultsRetriever/summary.jelly#L22
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ResultsRetriever/summary.jelly#L22
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L8
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L8
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/DynamicAnalyzer/config.jelly#L64
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/DynamicAnalyzer/config.jelly#L64
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/StaticAnalyzer/config.jelly#L82
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/StaticAnalyzer/config.jelly#L82
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/appscan-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L9
+    - url: https://github.com/jenkinsci/appscan-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L9
       type: Outside script src
       assessment: TODO
 - repo: appspider-build-scanner-plugin
@@ -348,6 +373,13 @@
     - url: https://github.com/jenkinsci/artifact-diff-plugin/blob/82cd2a99c4f6dbd32c9c7dbfafd21c35b835106d/src/main/resources/org/jenkinsci/plugins/artifactdiff/ArtifactDifference/html.jelly#L80
       type: Inline Event Handler
       assessment: TODO
+- repo: artifact-explorer-plugin
+  findings:
+    - url: https://github.com/jenkinsci/artifact-explorer-plugin/blob/933898445fc2a5e3a21e0f2299a7f0e0f7c0ad5c/src/main/java/io/jenkins/plugins/artifactexplorer/MarkdownRenderer.java#L286
+      type: Javascript scheme (Java)
+      assessment: False Positive
+- repo: artifact-image-preview-plugin
+  findings: []
 - repo: artifact-manager-s3-plugin
   findings: []
 - repo: artifact-promotion-plugin
@@ -466,6 +498,8 @@
   findings: []
 - repo: async-job-plugin
   findings: []
+- repo: asyntai-knowledge-sync-plugin
+  findings: []
 - repo: atlassian-bitbucket-server-integration-plugin
   findings: []
 - repo: atlassian-jira-software-cloud-plugin
@@ -500,6 +534,22 @@
   findings: []
 - repo: audit2db-plugin
   findings: []
+- repo: auditflow-plugin
+  findings:
+    - url: https://github.com/jenkinsci/auditflow-plugin/blob/5fc641e7256d19d029a4f84a77a6173373deeb55/src/main/resources/io/jenkins/plugins/auditlogger/WebhookEndpoint/config.jelly#L23
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/auditflow-plugin/blob/5fc641e7256d19d029a4f84a77a6173373deeb55/src/main/resources/io/jenkins/plugins/auditlogger/WebhookEndpoint/config.jelly#L7
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/auditflow-plugin/blob/5fc641e7256d19d029a4f84a77a6173373deeb55/src/main/resources/io/jenkins/plugins/auditlogger/AuditFlowPageDecorator/footer.jelly#L26
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/auditflow-plugin/blob/5fc641e7256d19d029a4f84a77a6173373deeb55/src/main/resources/io/jenkins/plugins/auditlogger/AuditLoggerConfiguration/config.jelly#L180
+      type: Inline Script Block
+      assessment: TODO
+- repo: auth-commons-plugin
+  findings: []
 - repo: authentication-tokens-plugin
   findings: []
 - repo: authorize-project-plugin
@@ -516,9 +566,11 @@
   findings: []
 - repo: avatar-plugin
   findings:
-    - url: https://github.com/jenkinsci/avatar-plugin/blob/2e722a1e67ea55155cd2ea1e57d8bd1ae284c26a/src/main/java/net/hurstfrost/jenkins/avatar/user/AvatarResolver.java#L8
+    - url: https://github.com/jenkinsci/avatar-plugin/blob/8ef8ea5d33ee9e5b68f746d7f9b21b32c067e3e4/src/main/java/net/hurstfrost/jenkins/avatar/user/AvatarResolver.java#L8
       type: Avatar images extension points
       assessment: False Positive # No outside avatars
+- repo: awarely-scan-plugin
+  findings: []
 - repo: aws-batch-plugin
   findings: []
 - repo: aws-beanstalk-publisher-plugin
@@ -649,6 +701,8 @@
 - repo: badge-plugin
   findings: []
 - repo: basic-branch-build-strategies-plugin
+  findings: []
+- repo: batch-control-plugin
   findings: []
 - repo: batch-task-plugin
   findings: []
@@ -900,162 +954,162 @@
       assessment: False Positive
 - repo: bmc-cfa-plugin
   findings:
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L170
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L170
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L173
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L173
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L251
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L251
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L252
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L252
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L253
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L253
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L254
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L254
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/fe106798d1a63dfdc3ea1ea52c71269091fe9fde/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L255
+    - url: https://github.com/jenkinsci/bmc-cfa-plugin/blob/a3bf13f31cdd90dbb7dcfa51dde42b8eaae0e1a8/src/main/resources/com/bmc/ims/BmcCfaBuilder/config.jelly#L255
       type: Inline Event Handler
       assessment: TODO
 - repo: bmc-change-manager-imstm-plugin
   findings:
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L101
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L101
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L108
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L108
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L134
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L134
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L140
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L140
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L146
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L146
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L152
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L152
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L158
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L158
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L164
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L164
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L170
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L170
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L176
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L176
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L183
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L183
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L198
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L198
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L204
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L204
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L210
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L210
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L216
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L216
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L223
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L223
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L230
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L230
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L236
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L236
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L243
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L243
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L250
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L250
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L257
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L257
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L281
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L281
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L29
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L29
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L307
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L307
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L335
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L335
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L342
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L342
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L384
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L384
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L391
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L391
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L398
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L398
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L405
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L405
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L412
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L412
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L433
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L433
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L440
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L440
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L447
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L447
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L489
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L489
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L503
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L503
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L510
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L510
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L542
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L542
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L582
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L582
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L607
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L607
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L628
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L628
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L632
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L632
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L636
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L636
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L89
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L89
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/535713a367dd753746d957ec58570b9271849e75/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L13
+    - url: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/blob/821d8b9d482859a5c79fc587cde84ac30b33d147/src/main/resources/com/bmc/ims/BmcDlpBuilder/config.jelly#L13
       type: Inline Script Block
       assessment: TODO
 - repo: bmc-rpd-plugin
@@ -1125,6 +1179,8 @@
 - repo: build-blocker-plugin
   findings: []
 - repo: build-cause-run-condition-plugin
+  findings: []
+- repo: build-change-investigator-plugin
   findings: []
 - repo: build-discarder-plugin
   findings: []
@@ -1754,6 +1810,8 @@
     - url: https://github.com/jenkinsci/changes-since-last-success-plugin/blob/ffc86a2bdc32c397f0c313bc61edbd0560b7011a/src/main/resources/com/cloudbees/jenkins/plugins/changelog/ChangelogAction/index.jelly#L37
       type: Inline Event Handler
       assessment: TODO
+- repo: chaos-butler-plugin
+  findings: []
 - repo: chaos-monkey-plugin
   findings: []
 - repo: chartjs-api-plugin
@@ -1762,33 +1820,33 @@
   findings: []
 - repo: chatwork-plugin
   findings:
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L6
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L10
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L7
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L7
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L8
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L8
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L9
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/config.jelly#L9
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/global.jelly#L45
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/global.jelly#L46
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/chatwork-plugin/blob/cc08dd93b416d470417ffe9ca06b8ad8a77c09b9/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/global.jelly#L47
+    - url: https://github.com/jenkinsci/chatwork-plugin/blob/63bd906c2986ecabb2738a21c1660e9796109fa8/src/main/resources/com/vexus2/jenkins/chatwork/jenkinschatworkplugin/ChatworkPublisher/global.jelly#L48
       type: Inline Script Block
       assessment: TODO
 - repo: checkmarx-ast-scanner-plugin
   findings:
-    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/ba592769ff2af0caff48cac49eef41e7a003cfb4/src/main/resources/com/checkmarx/jenkins/CheckmarxScanBuilder/config.jelly#L120
+    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/5a98aec1d5cc0ba104dfc248ea38da931ac19176/src/main/resources/com/checkmarx/jenkins/CheckmarxScanBuilder/config.jelly#L120
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/ba592769ff2af0caff48cac49eef41e7a003cfb4/src/main/resources/com/checkmarx/jenkins/CheckmarxScanBuilder/config.jelly#L24
+    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/5a98aec1d5cc0ba104dfc248ea38da931ac19176/src/main/resources/com/checkmarx/jenkins/CheckmarxScanBuilder/config.jelly#L24
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/ba592769ff2af0caff48cac49eef41e7a003cfb4/src/main/resources/com/checkmarx/jenkins/CheckmarxScanResultsAction/index.jelly#L470
+    - url: https://github.com/jenkinsci/checkmarx-ast-scanner-plugin/blob/5a98aec1d5cc0ba104dfc248ea38da931ac19176/src/main/resources/com/checkmarx/jenkins/CheckmarxScanResultsAction/index.jelly#L470
       type: Inline Script Block
       assessment: TODO
 - repo: checkmarx-plugin
@@ -1800,6 +1858,8 @@
 - repo: chef-identity-plugin
   findings: []
 - repo: chef-tracking-plugin
+  findings: []
+- repo: chinese-workday-plugin
   findings: []
 - repo: chocolate-theme-plugin
   findings: []
@@ -1908,7 +1968,7 @@
   findings: []
 - repo: clif-performance-testing-plugin
   findings:
-    - url: https://github.com/jenkinsci/clif-performance-testing-plugin/blob/3bac6ea37d25f8c400b638c58e21f9c9471a381b/src/main/webapp/yui/utilities.js#L1432
+    - url: https://github.com/jenkinsci/clif-performance-testing-plugin/blob/14f815674f664e79f7d8e609347f48fb86ec9b80/src/main/webapp/yui/utilities.js#L1432
       type: (g)eval Call
       assessment: TODO
 - repo: cloud-stats-plugin
@@ -2390,30 +2450,30 @@
   findings: []
 - repo: compuware-common-configuration-plugin
   findings:
-    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L17
+    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/5a8a6bf980aa2fe9f099c369b4727d200a9f815b/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L17
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L20
+    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/5a8a6bf980aa2fe9f099c369b4727d200a9f815b/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L20
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L5
+    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/5a8a6bf980aa2fe9f099c369b4727d200a9f815b/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L5
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/4a9f696e77a24f1b688d120c7738a55d62d5bd27/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L8
+    - url: https://github.com/jenkinsci/compuware-common-configuration-plugin/blob/5a8a6bf980aa2fe9f099c369b4727d200a9f815b/src/main/resources/com/compuware/jenkins/common/configuration/HostConnection/HostConnection.jelly#L8
       type: Legacy checkUrl
       assessment: TODO
 - repo: compuware-ispw-operations-plugin
   findings:
-    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/929d7613f09c305da84b8c1dc33dbe07882743ec/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequest/config.jelly#L36
+    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/0c893c6e7709931a47670dcf7264fe18d85f0a33/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequest/config.jelly#L36
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/929d7613f09c305da84b8c1dc33dbe07882743ec/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequestStep/config.jelly#L37
+    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/0c893c6e7709931a47670dcf7264fe18d85f0a33/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequestStep/config.jelly#L37
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/929d7613f09c305da84b8c1dc33dbe07882743ec/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequest/config.jelly#L53
+    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/0c893c6e7709931a47670dcf7264fe18d85f0a33/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequest/config.jelly#L53
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/929d7613f09c305da84b8c1dc33dbe07882743ec/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequestStep/config.jelly#L57
+    - url: https://github.com/jenkinsci/compuware-ispw-operations-plugin/blob/0c893c6e7709931a47670dcf7264fe18d85f0a33/src/main/resources/com/compuware/ispw/restapi/IspwRestApiRequestStep/config.jelly#L57
       type: Inline Script Block
       assessment: TODO
 - repo: compuware-scm-downloader-plugin
@@ -2445,6 +2505,8 @@
   findings: []
 - repo: config-file-provider-plugin
   findings: []
+- repo: config-splice-plugin
+  findings: []
 - repo: configuration-as-code-groovy-plugin
   findings: []
 - repo: configuration-as-code-plugin
@@ -2459,31 +2521,22 @@
   findings: []
 - repo: conjur-credentials-plugin
   findings:
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/configuration/ConjurConfiguration/config.jelly#L22
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/configuration/ConjurConfiguration/config.jelly#L22
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/configuration/GlobalConjurConfiguration/config.jelly#L36
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/configuration/GlobalConjurConfiguration/config.jelly#L38
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/configuration/GlobalConjurConfiguration/config.jelly#L39
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/configuration/GlobalConjurConfiguration/config.jelly#L41
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/configuration/ConjurConfiguration/config.jelly#L31
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/disco/config/DiscoExporterConfiguration/config.jelly#L85
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/configuration/ConjurConfiguration/config.jelly#L39
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/configuration/GlobalConjurConfiguration/config.jelly#L64
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/conjursecrets/ConjurSecretCredentialsImpl/credentials.jelly#L8
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/conjursecrets/ConjurSecretStringCredentialsImpl/credentials.jelly#L8
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/conjursecrets/ConjurSecretUsernameCredentialsImpl/credentials.jelly#L12
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/5bc3033f279d33cf64bfbd779039e75925607774/src/main/resources/org/conjur/jenkins/conjursecrets/ConjurSecretUsernameSSHKeyCredentialsImpl/credentials.jelly#L18
+    - url: https://github.com/jenkinsci/conjur-credentials-plugin/blob/4bfc8e6a10dbf09e4014047d5e7eb4d82005e197/src/main/resources/org/conjur/jenkins/disco/config/DiscoExporterConfiguration/config.jelly#L95
       type: Inline Script Block
       assessment: TODO
 - repo: conjur-simple-integration-plugin
@@ -2511,27 +2564,29 @@
   findings: []
 - repo: contrast-continuous-application-security-plugin
   findings:
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/VulnerabilityTrendRecorder/config.jelly#L117
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/VulnerabilityTrendRecorder/config.jelly#L117
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L13
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L13
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L16
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L16
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L19
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L19
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L22
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L22
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L25
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L25
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/725c21f4a7452656bb4ef2ad05b301b54da66817/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L8
+    - url: https://github.com/jenkinsci/contrast-continuous-application-security-plugin/blob/39ecb6e84b992cd075a32a255526f3e06bec6c98/src/main/resources/com/aspectsecurity/contrast/contrastjenkins/ContrastPluginConfig/global.jelly#L8
       type: Legacy checkUrl
       assessment: TODO
+- repo: controller-clock-plugin
+  findings: []
 - repo: conventional-commits-plugin
   findings: []
 - repo: convert-to-pipeline-plugin
@@ -3638,6 +3693,8 @@
   findings: []
 - repo: cors-filter-plugin
   findings: []
+- repo: cortex-cloud-plugin
+  findings: []
 - repo: cortex-metrics-plugin
   findings: []
 - repo: couchdb-statistics-plugin
@@ -3728,6 +3785,8 @@
       assessment: TODO
 - repo: createjobadvanced-plugin
   findings: []
+- repo: createos-sandbox-plugin
+  findings: []
 - repo: credentials-binding-plugin
   findings: []
 - repo: credentials-plugin
@@ -3800,6 +3859,8 @@
       type: Inline Script Block
       assessment: TODO
 - repo: curseforge-publisher-plugin
+  findings: []
+- repo: cursor-origin-branch-source-plugin
   findings: []
 - repo: custom-build-properties-plugin
   findings: []
@@ -4285,6 +4346,8 @@
       assessment: TODO
 - repo: doxygen-plugin
   findings: []
+- repo: dracula-theme-plugin
+  findings: []
 - repo: drmemory-plugin
   findings: []
 - repo: dropdown-viewstabbar-plugin
@@ -4345,6 +4408,8 @@
       type: Inline Script Block
       assessment: TODO
 - repo: dynamic-search-view-plugin
+  findings: []
+- repo: dynamic-view-filter-plugin
   findings: []
 - repo: dynatrace-plugin
   findings:
@@ -4448,6 +4513,8 @@
   findings: []
 - repo: editable-choice-plugin
   findings: []
+- repo: editor-search-plugin
+  findings: []
 - repo: eggplant-runner-plugin
   findings: []
 - repo: eiffel-broadcaster-plugin
@@ -4508,6 +4575,8 @@
     - url: https://github.com/jenkinsci/emotional-jenkins-plugin/blob/729f237a771acdc3789e28787ca67a4bcde1d559/src/main/resources/org/jenkinsci/plugins/emotional_jenkins/EmotionalJenkinsAction/summary.jelly#L3
       type: Inline Script Block
       assessment: TODO
+- repo: endtest-plugin
+  findings: []
 - repo: enhanced-credentials-plugin
   findings: []
 - repo: enhanced-metrics-plugin
@@ -4573,6 +4642,8 @@
     - url: https://github.com/jenkinsci/environment-variables-status-sync-plugin/blob/e803ec734e0ee425918291f6496456b07280632a/src/main/resources/io/jenkins/plugins/env_variables_status_sync/JobRunListenerSysConfig/config.jelly#L15
       type: Inline Event Handler
       assessment: TODO
+- repo: ephemeral-credentials-plugin
+  findings: []
 - repo: escaped-markup-plugin
   findings: []
 - repo: exam-plugin
@@ -4590,6 +4661,8 @@
 - repo: exclusive-execution-plugin
   findings: []
 - repo: exclusive-labels-plugin
+  findings: []
+- repo: executors-monitor-plugin
   findings: []
 - repo: experitest-cloud-plugin
   findings:
@@ -4732,6 +4805,8 @@
   findings: []
 - repo: failedjobdeactivator-plugin
   findings: []
+- repo: failure-provenance-plugin
+  findings: []
 - repo: fast-track-plugin
   findings: []
 - repo: favorite-plugin
@@ -4870,6 +4945,11 @@
   findings: []
 - repo: forensics-api-plugin
   findings: []
+- repo: forgeai-pipeline-intelligence-plugin
+  findings:
+    - url: https://github.com/jenkinsci/forgeai-pipeline-intelligence-plugin/blob/31d1ae88ad5365063f2a4a50b25f9d1c212d7340/docs/index.html#L805
+      type: Inline Script Block
+      assessment: TODO
 - repo: form-element-path-plugin
   findings: []
 - repo: forticwp-cicd-plugin
@@ -4979,6 +5059,8 @@
   findings: []
 - repo: gcr-scanner-plugin
   findings: []
+- repo: gcs-jobcacher-storage-plugin
+  findings: []
 - repo: gearman-plugin
   findings: []
 - repo: gem-publisher-plugin
@@ -5000,6 +5082,8 @@
     - url: https://github.com/jenkinsci/gerrit-code-review-plugin/blob/a069e24d74f04db87a517c80ea11d950702bf727/src/main/java/jenkins/plugins/gerrit/GerritLogo.java#L22
       type: Avatar images extension points
       assessment: False Positive # Always local
+- repo: gerrit-lightweight-checkout-plugin
+  findings: []
 - repo: gerrit-trigger-plugin
   findings: []
 - repo: gerrit-verify-status-reporter
@@ -5017,6 +5101,8 @@
 - repo: git-chooser-alternative-plugin
   findings: []
 - repo: git-client-plugin
+  findings: []
+- repo: git-collect-plugin
   findings: []
 - repo: git-forensics-plugin
   findings: []
@@ -5106,6 +5192,8 @@
     - url: https://github.com/jenkinsci/gitflow-plugin/blob/18a48b8944a388db402af35895549844ac379d6c/doc/presentation/index.html#L807
       type: Inline Script Block
       assessment: TODO
+- repo: github-actions-cloud-plugin
+  findings: []
 - repo: github-api-plugin
   findings: []
 - repo: github-app-kubernetes-credentials-plugin
@@ -5138,6 +5226,8 @@
   findings: []
 - repo: github-plugin
   findings: []
+- repo: github-pr-approval-plugin
+  findings: []
 - repo: github-pr-comment-build-plugin
   findings: []
 - repo: github-pr-coverage-status-plugin
@@ -5153,14 +5243,33 @@
     - url: https://github.com/jenkinsci/gitlab-branch-source-plugin/blob/73c84b04428fc0f54bfa4caf9cb5dbe656c8ba5c/src/main/java/io/jenkins/plugins/gitlabbranchsource/helpers/GitLabAvatar.java#L8
       type: Avatar images extension points
       assessment: False Positive
+- repo: gitlab-checks-plugin
+  findings: []
 - repo: gitlab-kubernetes-credentials-plugin
+  findings: []
+- repo: gitlab-label-filter-plugin
   findings: []
 - repo: gitlab-logo-plugin
   findings: []
 - repo: gitlab-oauth-plugin
   findings: []
+- repo: gitlab-package-registry-parameter-plugin
+  findings:
+    - url: https://github.com/jenkinsci/gitlab-package-registry-parameter-plugin/blob/0b06360ed477b6964d9184ead65ac06692170339/src/main/java/io/jenkins/plugins/gitlabpackage/GitLabPackageRegistryParameterDefinition.java#L71
+      type: Javascript scheme (Java)
+      assessment: False Positive
 - repo: gitlab-plugin
   findings: []
+- repo: gitlab-registry-image-parameter-plugin
+  findings:
+    - url: https://github.com/jenkinsci/gitlab-registry-image-parameter-plugin/blob/4d79140a7dfd3da4dc9db5fbfacb7b92cf8835d7/src/main/java/io/jenkins/plugins/gitlabregistry/GitLabRegistryImageParameterDefinition.java#L71
+      type: Javascript scheme (Java)
+      assessment: False Positive
+- repo: gitlab-repository-refs-parameter-plugin
+  findings:
+    - url: https://github.com/jenkinsci/gitlab-repository-refs-parameter-plugin/blob/ad50d385b692b7bfc63383464e2b0ade6dfd812c/src/main/java/io/jenkins/plugins/gitlabrefs/GitLabRepositoryRefsParameterDefinition.java#L66
+      type: Javascript scheme (Java)
+      assessment: False Positive
 - repo: global-build-stats-plugin
   findings:
     - url: https://github.com/jenkinsci/global-build-stats-plugin/blob/03b3fbd5517e6b3055a6462d12c3d1e41193edc1/src/main/resources/hudson/plugins/global_build_stats/GlobalBuildStatsPlugin/buildHistory.jelly#L25
@@ -5184,19 +5293,19 @@
       assessment: TODO
 - repo: global-yaml-properties-plugin
   findings:
-    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/2ac81236663b4f4e03fdd808bff38450252660b8/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigurationManagementLink/index.jelly#L37
+    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/ebe5f917c26c3b2879dd1178b0f8a95fef21d113/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigurationManagementLink/index.jelly#L37
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/2ac81236663b4f4e03fdd808bff38450252660b8/src/main/resources/io/jenkins/plugins/globalyamlproperties/MultibranchYAMLJobProperty/config.jelly#L11
+    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/ebe5f917c26c3b2879dd1178b0f8a95fef21d113/src/main/resources/io/jenkins/plugins/globalyamlproperties/MultibranchYAMLJobProperty/config.jelly#L11
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/2ac81236663b4f4e03fdd808bff38450252660b8/src/main/resources/io/jenkins/plugins/globalyamlproperties/PipelineYAMLJobProperty/config.jelly#L11
+    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/ebe5f917c26c3b2879dd1178b0f8a95fef21d113/src/main/resources/io/jenkins/plugins/globalyamlproperties/PipelineYAMLJobProperty/config.jelly#L11
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/2ac81236663b4f4e03fdd808bff38450252660b8/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigSourceManual/config.jelly#L9
+    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/ebe5f917c26c3b2879dd1178b0f8a95fef21d113/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigSourceManual/config.jelly#L9
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/2ac81236663b4f4e03fdd808bff38450252660b8/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigurationManagementLink/index.jelly#L21
+    - url: https://github.com/jenkinsci/global-yaml-properties-plugin/blob/ebe5f917c26c3b2879dd1178b0f8a95fef21d113/src/main/resources/io/jenkins/plugins/globalyamlproperties/ConfigurationManagementLink/index.jelly#L21
       type: Legacy checkUrl
       assessment: TODO
 - repo: gnat-plugin
@@ -5227,6 +5336,8 @@
 - repo: google-container-registry-auth-plugin
   findings: []
 - repo: google-git-notes-publisher-plugin
+  findings: []
+- repo: google-groups-oauth-plugin
   findings: []
 - repo: google-kubernetes-engine-plugin
   findings: []
@@ -5280,7 +5391,7 @@
       assessment: TODO
 - repo: gravatar-plugin
   findings:
-    - url: https://github.com/jenkinsci/gravatar-plugin/blob/3d6b1c13ea582ef03f01e11bfe84568d9e599fc2/src/main/java/org/jenkinsci/plugins/gravatar/UserGravatarResolver.java#L39
+    - url: https://github.com/jenkinsci/gravatar-plugin/blob/03b802cc4e2126959056f90f0c6ed9bed340b32e/src/main/java/org/jenkinsci/plugins/gravatar/UserGravatarResolver.java#L39
       type: Avatar images extension points
       assessment: False Positive # Fixed in https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8
 - repo: greenballs-plugin
@@ -5297,6 +5408,8 @@
   findings: []
 - repo: growl-plugin
   findings: []
+- repo: gruvbox-theme-plugin
+  findings: []
 - repo: grypescanner-plugin
   findings: []
 - repo: gson-api-plugin
@@ -5310,6 +5423,8 @@
 - repo: handy-uri-templates-2-api-plugin
   findings: []
 - repo: harbor-plugin
+  findings: []
+- repo: harness-plugin
   findings: []
 - repo: harvest-plugin
   findings:
@@ -5342,7 +5457,7 @@
   findings: []
 - repo: hetzner-cloud-plugin
   findings:
-    - url: https://github.com/jenkinsci/hetzner-cloud-plugin/blob/064cfd5e869903f2bc36c5363fcfda04cc2718ce/src/main/resources/cloud/dnation/jenkins/plugins/hetzner/HetznerCloud/config.jelly#L19
+    - url: https://github.com/jenkinsci/hetzner-cloud-plugin/blob/aa514bc4a3ce009ad22a69654c594df3c65fed5b/src/main/resources/cloud/dnation/jenkins/plugins/hetzner/HetznerCloud/config.jelly#L19
       type: Legacy checkUrl
       assessment: TODO
 - repo: hidden-parameter-plugin
@@ -5351,6 +5466,14 @@
   findings: []
 - repo: hipchat-plugin
   findings: []
+- repo: holistic-plugin
+  findings:
+    - url: https://github.com/jenkinsci/holistic-plugin/blob/889824c1247298a91e51be02a21aea5266e9020e/docs/preview.html#L25
+      type: Inline Script Block
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/holistic-plugin/blob/889824c1247298a91e51be02a21aea5266e9020e/docs/preview.html#L304
+      type: Inline Script Block
+      assessment: False Positive
 - repo: horreum-plugin
   findings: []
 - repo: housekeeper-plugin
@@ -5584,6 +5707,8 @@
     - url: https://github.com/jenkinsci/html-audio-notifier-plugin/blob/6443c8abd0e02aa62e1d5f883850eca867010fc1/src/main/resources/jenkins/plugins/htmlaudio/app/PageDecorator/footer.jelly#L14
       type: Inline Script Block
       assessment: TODO
+- repo: html-parameters-plugin
+  findings: []
 - repo: html5-notifier-plugin
   findings:
     - url: https://github.com/jenkinsci/html5-notifier-plugin/blob/626c707990e4e8b68d91380de0b675a0520f43cc/src/main/resources/org/jenkins/ci/plugins/html5_notifier/PageDecoratorImpl/header.jelly#L28
@@ -5806,18 +5931,20 @@
   findings: []
 - repo: integrity-plugin
   findings:
-    - url: https://github.com/jenkinsci/integrity-plugin/blob/19eb0b54c8a64bc9932c96f4c4727bdb234b0fac/src/main/resources/hudson/scm/IntegrityCheckpointAction/config.jelly#L9
+    - url: https://github.com/jenkinsci/integrity-plugin/blob/a3e01c698dcc0af58c54ea08b5c5263a4f9dba77/src/main/resources/hudson/scm/IntegrityCheckpointAction/config.jelly#L9
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/integrity-plugin/blob/19eb0b54c8a64bc9932c96f4c4727bdb234b0fac/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L68
+    - url: https://github.com/jenkinsci/integrity-plugin/blob/a3e01c698dcc0af58c54ea08b5c5263a4f9dba77/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L68
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/integrity-plugin/blob/19eb0b54c8a64bc9932c96f4c4727bdb234b0fac/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L85
+    - url: https://github.com/jenkinsci/integrity-plugin/blob/a3e01c698dcc0af58c54ea08b5c5263a4f9dba77/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L85
       type: Legacy checkUrl
       assessment: TODO
-    - url: https://github.com/jenkinsci/integrity-plugin/blob/19eb0b54c8a64bc9932c96f4c4727bdb234b0fac/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L90
+    - url: https://github.com/jenkinsci/integrity-plugin/blob/a3e01c698dcc0af58c54ea08b5c5263a4f9dba77/src/main/resources/hudson/scm/IntegritySCM/config.jelly#L90
       type: Legacy checkUrl
       assessment: TODO
+- repo: interactive-ci-plugin
+  findings: []
 - repo: internet-meme-plugin
   findings: []
 - repo: ionicons-api-plugin
@@ -5861,7 +5988,7 @@
   findings: []
 - repo: ivytrigger-plugin
   findings:
-    - url: https://github.com/jenkinsci/ivytrigger-plugin/blob/e4e74190d1b19d1033a878da382db39b828fb4f0/src/main/resources/org/jenkinsci/plugins/ivytrigger/IvyTrigger/config.jelly#L48
+    - url: https://github.com/jenkinsci/ivytrigger-plugin/blob/c3adad4ddcc67577523cddc8c810e678e9dfa12f/src/main/resources/org/jenkinsci/plugins/ivytrigger/IvyTrigger/config.jelly#L48
       type: Legacy checkUrl
       assessment: TODO
 - repo: jabber-plugin
@@ -5884,6 +6011,8 @@
 - repo: jabber-server-plugin
   findings: []
 - repo: jacked-plugin
+  findings: []
+- repo: jackson-annotations2-api-plugin
   findings: []
 - repo: jackson-databind-plugin
   findings: []
@@ -6040,7 +6169,7 @@
       assessment: TODO
 - repo: jms-messaging-plugin
   findings:
-    - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/baeec2b2664e516e9aacc570af74b1c6f912d872/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L76
+    - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/5c43e2c35a023a7e01a5563a4f57cd5d82125735/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L76
       type: Legacy checkUrl
       assessment: TODO
 - repo: jnr-posix-api-plugin
@@ -6102,16 +6231,16 @@
   findings: []
 - repo: jqs-monitoring-plugin
   findings:
-    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/f50a82a0bf323c647c68aadd9eda9590a9468c2d/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L123
+    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/01faad5df947ce21ca2bf43e0f500c32a58beca5/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L123
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/f50a82a0bf323c647c68aadd9eda9590a9468c2d/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L138
+    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/01faad5df947ce21ca2bf43e0f500c32a58beca5/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L138
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/f50a82a0bf323c647c68aadd9eda9590a9468c2d/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L150
+    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/01faad5df947ce21ca2bf43e0f500c32a58beca5/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L150
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/f50a82a0bf323c647c68aadd9eda9590a9468c2d/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L153
+    - url: https://github.com/jenkinsci/jqs-monitoring-plugin/blob/01faad5df947ce21ca2bf43e0f500c32a58beca5/src/main/resources/org/jenkinsci/plugins/jqsmonitoring/jqscore/JQSMonitoring/config.jelly#L153
       type: Inline Script Block
       assessment: TODO
 - repo: jquery-detached
@@ -6208,6 +6337,8 @@
 - repo: junit-realtime-test-reporter-plugin
   findings: []
 - repo: junit-sql-storage-plugin
+  findings: []
+- repo: jwt-auth-filter-plugin
   findings: []
 - repo: jwt-auth-plugin
   findings: []
@@ -6323,6 +6454,116 @@
   findings: []
 - repo: koji-plugin
   findings: []
+- repo: koji-scm-plugin
+  findings:
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L595
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L901
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L908
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L913
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/core/utils/matrix/formatter/HtmlAjaxFormatter.java#L64
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/core/utils/matrix/formatter/HtmlAjaxFormatter.java#L65
+      type: Inline Event Handler (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1027
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1034
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1035
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1036
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1037
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1038
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1039
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1040
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1042
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1042
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1198
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1216
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1221
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1229
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1230
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1234
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1246
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1247
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L420
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L65
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L966
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L994
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L453
+      type: Inline Script Block (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L81
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L582
+      type: Javascript scheme (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L595
+      type: Javascript scheme (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/java/org/fakekoji/api/http/rest/ResultsDb.java#L616
+      type: Javascript scheme (Java)
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L1031
+      type: Javascript scheme
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L908
+      type: Javascript scheme
+      assessment: TODO
+    - url: https://github.com/jenkinsci/koji-scm-plugin/blob/63c6264c2c24d7d44fe51035803ac2618bc78c74/fake-koji/src/main/resources/org/fakekoji/core/utils/matrix/formatter/ajax.html#L966
+      type: Javascript scheme
+      assessment: TODO
 - repo: kotlin-v1-stdlib-jdk8-plugin
   findings: []
 - repo: kpp-management-plugin
@@ -6420,10 +6661,10 @@
       assessment: TODO
 - repo: leapwork-plugin
   findings:
-    - url: https://github.com/jenkinsci/leapwork-plugin/blob/ac430703b705a1e9cc146e8760e011e422c985d8/src/main/resources/com/Leapwork/Leapwork_plugin/LeapworkJenkinsBridgeBuilder/config.jelly#L45
+    - url: https://github.com/jenkinsci/leapwork-plugin/blob/1befbb7a4c9d7e0ceb42e6553cfcd56db870efa6/src/main/resources/com/Leapwork/Leapwork_plugin/LeapworkJenkinsBridgeBuilder/config.jelly#L45
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/leapwork-plugin/blob/ac430703b705a1e9cc146e8760e011e422c985d8/src/main/resources/com/Leapwork/Leapwork_plugin/LeapworkJenkinsBridgeBuilder/config.jelly#L71
+    - url: https://github.com/jenkinsci/leapwork-plugin/blob/1befbb7a4c9d7e0ceb42e6553cfcd56db870efa6/src/main/resources/com/Leapwork/Leapwork_plugin/LeapworkJenkinsBridgeBuilder/config.jelly#L71
       type: Inline Script Block
       assessment: TODO
 - repo: leastload-plugin
@@ -6433,26 +6674,155 @@
 - repo: lenient-shutdown-plugin
   findings: []
 - repo: levo-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L100
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L104
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L108
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L112
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L116
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L120
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L124
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L128
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L132
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L136
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L140
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L144
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L148
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L152
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L156
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L160
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L164
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L224
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L225
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L230
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L234
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L238
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L242
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L246
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L250
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L254
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L258
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L262
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L266
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L270
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L274
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L278
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L282
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L286
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L290
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L294
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L298
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L90
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L91
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L96
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L352
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L224
+      type: Javascript scheme
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L225
+      type: Javascript scheme
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L90
+      type: Javascript scheme
+      assessment: TODO
+    - url: https://github.com/jenkinsci/levo-plugin/blob/1739ae5cffbd1e6d57459d9a27c4478596d87fed/src/main/resources/io/jenkins/plugins/levo/TestPlanBuilder/config.jelly#L91
+      type: Javascript scheme
+      assessment: TODO
 - repo: libvirt-agent-plugin
   findings:
-    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/56f075b4edd0506f834187dcc30d1f65b04610f6/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L5
+    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/13a515e2bf1a7150bd956bc0b22edd26a8d9b77e/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L5
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/56f075b4edd0506f834187dcc30d1f65b04610f6/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L9
+    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/13a515e2bf1a7150bd956bc0b22edd26a8d9b77e/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L9
       type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/56f075b4edd0506f834187dcc30d1f65b04610f6/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L45
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/libvirt-agent-plugin/blob/56f075b4edd0506f834187dcc30d1f65b04610f6/src/main/resources/hudson/plugins/libvirt/VirtualMachineSlave/configure-entries.jelly#L49
-      type: Legacy checkUrl
       assessment: TODO
 - repo: lifx-notifier-plugin
   findings: []
 - repo: lighthouse-report-plugin
   findings:
-    - url: https://github.com/jenkinsci/lighthouse-report-plugin/blob/b2f989ae43c69635bfdad19d17ed1333cc98bbb3/src/main/resources/io/jenkins/plugins/LighthouseReportBuildAction/client.jelly#L20
+    - url: https://github.com/jenkinsci/lighthouse-report-plugin/blob/ac1efaa25c7f328004e218cbb375ea5c74facf54/src/main/resources/io/jenkins/plugins/LighthouseReportBuildAction/client.jelly#L20
       type: Inline Script Block
       assessment: TODO
 - repo: linenumbers-plugin
@@ -6467,13 +6837,15 @@
   findings: []
 - repo: list-git-branches-parameter-plugin
   findings: []
+- repo: live-wall-plugin
+  findings: []
 - repo: livescreenshot-plugin
   findings: []
 - repo: llvm-cov-plugin
   findings: []
 - repo: loadcomplete-plugin
   findings: []
-- repo: loadfocus-jmeter-load-test-plugin
+- repo: loadfocus-jmeter-load-testing-integration-plugin
   findings: []
 - repo: loadfocus-loadtest-plugin
   findings: []
@@ -6538,22 +6910,22 @@
       assessment: TODO
 - repo: macstadium-orka-plugin
   findings:
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L105
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L105
       type: (g)eval Call
       assessment: False Positive # Tests
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L111
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L111
       type: (g)eval Call
       assessment: False Positive # Tests
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L117
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L117
       type: (g)eval Call
       assessment: False Positive # Tests
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L120
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L120
       type: (g)eval Call
       assessment: False Positive # Tests
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L126
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L126
       type: (g)eval Call
       assessment: False Positive # Tests
-    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/fc9e4e006ef03d50bdf2533b2b6ac123ae419d2e/integration-tests/tests/index.js#L163
+    - url: https://github.com/jenkinsci/macstadium-orka-plugin/blob/389168b97419ce4727993a16873f9032fcabff11/integration-tests/tests/index.js#L163
       type: (g)eval Call
       assessment: False Positive # Tests
 - repo: mail-commander-plugin
@@ -6982,6 +7354,10 @@
       assessment: TODO
 - repo: microdocs-integration-plugin
   findings: []
+- repo: micrometer-core-api-plugin
+  findings: []
+- repo: microsoft-graph-api-plugin
+  findings: []
 - repo: mina-sshd-api-plugin
   findings: []
 - repo: minio-plugin
@@ -6995,17 +7371,38 @@
       assessment: TODO
 - repo: miniorange-two-factor-plugin
   findings:
-    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/195b89c2d8c355f0ed080e832c539b2e3b401837/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L52
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/assets/JS/modal.js#L261
+      type: (g)eval Call
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L52
       type: FormApply#applyResponse
       assessment: TODO
-    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/195b89c2d8c355f0ed080e832c539b2e3b401837/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L64
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L64
       type: FormApply#applyResponse
       assessment: TODO
-    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/195b89c2d8c355f0ed080e832c539b2e3b401837/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L89
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/java/io/jenkins/plugins/twofactor/jenkins/MoIPRestrictionsConfig.java#L89
       type: FormApply#applyResponse
       assessment: TODO
-    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/195b89c2d8c355f0ed080e832c539b2e3b401837/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/index.jelly#L61
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L27
       type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L86
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/users.jelly#L42
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L153
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L162
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L171
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/miniorange-two-factor-plugin/blob/98e688c96c4f023d50b34dff458d05f5e5eb65ab/src/main/resources/io/jenkins/plugins/twofactor/jenkins/MoUserManagement/groups.jelly#L180
+      type: Inline Script Block
       assessment: TODO
 - repo: misc-info-tools-plugin
   findings: []
@@ -7227,6 +7624,8 @@
   findings: []
 - repo: multibranch-job-tear-down-plugin
   findings: []
+- repo: multibranch-params-plugin
+  findings: []
 - repo: multibranch-scan-webhook-trigger
   findings: []
 - repo: multiple-scms-plugin
@@ -7243,6 +7642,8 @@
 - repo: myst-plugin
   findings: []
 - repo: naginator-plugin
+  findings: []
+- repo: namespace-cloud-plugin
   findings: []
 - repo: nant-plugin
   findings: []
@@ -7278,13 +7679,13 @@
       assessment: TODO
 - repo: nested-data-reporting-plugin
   findings:
-    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/ad60c6f536a939bcab48ef5862a45c6b45d1bb61/src/main/resources/io/jenkins/plugins/reporter/JobAction/floatingBox.jelly#L12
+    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/34a23ba49bd53963c2d3efe9a55ee9ae5579dd9e/src/main/resources/io/jenkins/plugins/reporter/JobAction/floatingBox.jelly#L12
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/ad60c6f536a939bcab48ef5862a45c6b45d1bb61/src/main/resources/io/jenkins/plugins/reporter/JobAction/floatingBox.jelly#L13
+    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/34a23ba49bd53963c2d3efe9a55ee9ae5579dd9e/src/main/resources/io/jenkins/plugins/reporter/JobAction/floatingBox.jelly#L13
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/ad60c6f536a939bcab48ef5862a45c6b45d1bb61/src/main/resources/io/jenkins/plugins/reporter/ReportDetails/index.jelly#L44
+    - url: https://github.com/jenkinsci/nested-data-reporting-plugin/blob/34a23ba49bd53963c2d3efe9a55ee9ae5579dd9e/src/main/resources/io/jenkins/plugins/reporter/ReportDetails/index.jelly#L44
       type: Inline Script Block
       assessment: TODO
 - repo: nested-view-plugin
@@ -7320,6 +7721,8 @@
 - repo: next-executions-plugin
   findings: []
 - repo: nexus-artifact-uploader-plugin
+  findings: []
+- repo: nimbus-jose-jwt-api-plugin
   findings: []
 - repo: nirmata-plugin
   findings: []
@@ -7420,6 +7823,11 @@
   findings: []
 - repo: oauth-credentials-plugin
   findings: []
+- repo: octane-status-tracker-plugin
+  findings:
+    - url: https://github.com/jenkinsci/octane-status-tracker-plugin/blob/5aa0a3449e3aae881a8b342948671deadb60f39a/src/main/java/io/jenkins/plugins/octanesuitegatebyembiti/services/OctaneReportZoneHtmlRenderer.java#L688
+      type: Inline Script Block (Java)
+      assessment: TODO
 - repo: octoperf-plugin
   findings: []
 - repo: octopusdeploy-plugin
@@ -7451,6 +7859,8 @@
 - repo: okhttp-api-plugin
   findings: []
 - repo: oki-docki-plugin
+  findings: []
+- repo: ompass-2fa-plugin
   findings: []
 - repo: one-shot-executor-plugin
   findings: []
@@ -7494,19 +7904,18 @@
   findings: []
 - repo: openid-plugin
   findings:
-    - url: https://github.com/jenkinsci/openid-plugin/blob/db4b037329b74100646ea4e852b1da381b0d3241/src/main/webapp/openid-prototype.js#L142
-      type: (g)eval Call
-      assessment: TODO
-    - url: https://github.com/jenkinsci/openid-plugin/blob/db4b037329b74100646ea4e852b1da381b0d3241/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L37
+    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L37
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/openid-plugin/blob/db4b037329b74100646ea4e852b1da381b0d3241/src/main/resources/hudson/plugins/openid/OpenIdLoginService/_openid-form-body.jelly#L16
+    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdLoginService/_openid-form-body.jelly#L11
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/openid-plugin/blob/db4b037329b74100646ea4e852b1da381b0d3241/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L39
+    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L39
       type: Inline Script Block
       assessment: TODO
 - repo: openid4java-plugin
+  findings: []
+- repo: openmfa-plugin
   findings: []
 - repo: openshift-client-plugin
   findings: []
@@ -7559,18 +7968,24 @@
       assessment: TODO
 - repo: oracle-cloud-infrastructure-compute-plugin
   findings:
-    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/3d45a65861f1f545beb69c373d16984d5209a57a/src/main/resources/com/oracle/cloud/baremetal/jenkins/lib/validateButton_.js#L32
+    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/386954f0770db1561f241ec483455ec8734d9b82/src/main/resources/com/oracle/cloud/baremetal/jenkins/lib/validateButton_.js#L32
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/3d45a65861f1f545beb69c373d16984d5209a57a/src/main/resources/com/oracle/cloud/baremetal/jenkins/lib/validateButton.jelly#L11
+    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/386954f0770db1561f241ec483455ec8734d9b82/src/main/resources/com/oracle/cloud/baremetal/jenkins/lib/validateButton_.js#L47
+      type: (g)eval Call
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/386954f0770db1561f241ec483455ec8734d9b82/src/main/resources/com/oracle/cloud/baremetal/jenkins/lib/validateButton.jelly#L11
       type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/oracle-cloud-infrastructure-compute-plugin/blob/3d45a65861f1f545beb69c373d16984d5209a57a/src/main/resources/com/oracle/cloud/baremetal/jenkins/BaremetalCloud/computerSet.jelly#L20
-      type: Inline Script Block
       assessment: TODO
 - repo: oracle-cloud-infrastructure-devops-plugin
   findings: []
+- repo: oras-artifact-manager-plugin
+  findings: []
 - repo: oras-java-api-plugin
+  findings: []
+- repo: oras-parameters-plugin
+  findings: []
+- repo: oras-scm-plugin
   findings: []
 - repo: osf-builder-suite-for-sfcc-credentials-plugin
   findings: []
@@ -7635,6 +8050,11 @@
   findings: []
 - repo: parallels-desktop-plugin
   findings: []
+- repo: parallels-devops-plugin
+  findings:
+    - url: https://github.com/jenkinsci/parallels-devops-plugin/blob/ce508edb55698f11bc0bcaa2e9c892864d793e37/src/main/resources/com/parallels/jenkins/PrlDevopsCloud/config.jelly#L28
+      type: Inline Script Block
+      assessment: TODO
 - repo: parameter-pool-plugin
   findings: []
 - repo: parameter-separator-plugin
@@ -7647,19 +8067,19 @@
   findings: []
 - repo: parasoft-findings-plugin
   findings:
-    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/8523ea9664c845912c4c2dc10a0b07eab10b9fdb/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/source/SourceViewModel/index.jelly#L71
+    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/317ac2bda39ac23857992497f2cf549a4674c5e8/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/source/SourceViewModel/index.jelly#L71
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/8523ea9664c845912c4c2dc10a0b07eab10b9fdb/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/steps/CoverageViewModel/index.jelly#L90
+    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/317ac2bda39ac23857992497f2cf549a4674c5e8/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/steps/CoverageViewModel/index.jelly#L90
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/8523ea9664c845912c4c2dc10a0b07eab10b9fdb/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/steps/echarts-trend-default-setup.jelly#L37
+    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/317ac2bda39ac23857992497f2cf549a4674c5e8/src/main/resources/com/parasoft/findings/jenkins/coverage/api/metrics/steps/echarts-trend-default-setup.jelly#L37
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/8523ea9664c845912c4c2dc10a0b07eab10b9fdb/src/main/resources/parasoftCoverage/chart-setup.jelly#L88
+    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/317ac2bda39ac23857992497f2cf549a4674c5e8/src/main/resources/parasoftCoverage/chart-setup.jelly#L88
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/8523ea9664c845912c4c2dc10a0b07eab10b9fdb/src/main/resources/parasoftCoverage/trend-chart.jelly#L68
+    - url: https://github.com/jenkinsci/parasoft-findings-plugin/blob/317ac2bda39ac23857992497f2cf549a4674c5e8/src/main/resources/parasoftCoverage/trend-chart.jelly#L68
       type: Inline Script Block
       assessment: TODO
 - repo: partyparrotstatus-plugin
@@ -7962,6 +8382,9 @@
     - url: https://github.com/jenkinsci/piketec-tpt-plugin/blob/d586eafe9ece7e2b04e2f2c2da3d9d0305e9d9e3/src/main/webapp/TrendGraph/index.html#L63
       type: Inline Event Handler
       assessment: TODO
+    - url: https://github.com/jenkinsci/piketec-tpt-plugin/blob/d586eafe9ece7e2b04e2f2c2da3d9d0305e9d9e3/src/main/webapp/TrendGraph/index.html#L16
+      type: Inline Script Block
+      assessment: TODO
     - url: https://github.com/jenkinsci/piketec-tpt-plugin/blob/d586eafe9ece7e2b04e2f2c2da3d9d0305e9d9e3/src/main/webapp/TrendGraph/index.html#L75
       type: Inline Script Block
       assessment: TODO
@@ -7976,13 +8399,13 @@
   findings: []
 - repo: pipeline-as-yaml-plugin
   findings:
-    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/4bccae0aafbc3d09e27049138118c29c00ba2a22/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L47
+    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/dd4493b606efb79a60d06c063505ed52af8d8b5c/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L47
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/4bccae0aafbc3d09e27049138118c29c00ba2a22/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L58
+    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/dd4493b606efb79a60d06c063505ed52af8d8b5c/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L58
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/4bccae0aafbc3d09e27049138118c29c00ba2a22/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L67
+    - url: https://github.com/jenkinsci/pipeline-as-yaml-plugin/blob/dd4493b606efb79a60d06c063505ed52af8d8b5c/src/main/resources/io/jenkins/plugins/pipeline/PipelineAsYamlSnippetizer/index.jelly#L67
       type: Inline Script Block
       assessment: TODO
 - repo: pipeline-aws-plugin
@@ -8026,6 +8449,8 @@
 - repo: pipeline-dependency-walker-plugin
   findings: []
 - repo: pipeline-deploymon-plugin
+  findings: []
+- repo: pipeline-dora-metrics-plugin
   findings: []
 - repo: pipeline-gcp-plugin
   findings: []
@@ -8113,7 +8538,7 @@
   findings: []
 - repo: poll-mailbox-trigger-plugin
   findings:
-    - url: https://github.com/jenkinsci/poll-mailbox-trigger-plugin/blob/e8b93fe5a26d75c9d2eb89e3e66de12bb7dd5406/src/main/resources/org/jenkinsci/plugins/pollmailboxtrigger/PollMailboxTrigger/config.jelly#L38
+    - url: https://github.com/jenkinsci/poll-mailbox-trigger-plugin/blob/916f3bb8101bc26464959328a440c28a9ebfa3b2/src/main/resources/org/jenkinsci/plugins/pollmailboxtrigger/PollMailboxTrigger/config.jelly#L39
       type: Legacy checkUrl
       assessment: TODO
 - repo: pollscm-plugin
@@ -8125,6 +8550,8 @@
 - repo: popper2-api-plugin
   findings: []
 - repo: port-allocator-plugin
+  findings: []
+- repo: portainer-plugin
   findings: []
 - repo: portscanner-plugin
   findings: []
@@ -8156,7 +8583,7 @@
   findings: []
 - repo: probely-security-plugin
   findings:
-    - url: https://github.com/jenkinsci/probely-security-plugin/blob/d488a2734e302b3f68a3f3e02c05338c0a577ad2/src/main/resources/com/probely/plugin/ProbelyScanBuilder/config.jelly#L22
+    - url: https://github.com/jenkinsci/probely-security-plugin/blob/036d53feff892e0ecb39ba62ad43f95faf32a4be/src/main/resources/com/probely/plugin/ProbelyScanBuilder/config.jelly#L22
       type: Inline Script Block
       assessment: TODO
 - repo: proc-cleaner-plugin
@@ -8183,10 +8610,12 @@
       assessment: TODO
 - repo: propelo-job-reporter-plugin
   findings:
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/a8748082c7c6483f341e081598c736d225983e08/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L118
+    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/3b5badc075e0b534d84f026e6ea34a2ac6850fe9/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L137
       type: Legacy checkUrl
       assessment: False Positive
 - repo: provar-automation-plugin
+  findings: []
+- repo: proxmox-cloud-plugin
   findings: []
 - repo: proxmox-plugin
   findings: []
@@ -8229,6 +8658,8 @@
   findings: []
 - repo: purge-job-history-plugin
   findings: []
+- repo: pushplus-plugin
+  findings: []
 - repo: pvcs_scm-plugin
   findings:
     - url: https://github.com/jenkinsci/pvcs_scm-plugin/blob/7b355d6fef27bf5ed7457b361b455ad2bbd62587/src/main/resources/hudson/plugins/pvcs_scm/PvcsScm/global.jelly#L15
@@ -8237,6 +8668,8 @@
 - repo: pwauth-plugin
   findings: []
 - repo: pyenv-pipeline-plugin
+  findings: []
+- repo: python-tool-plugin
   findings: []
 - repo: qc-plugin
   findings: []
@@ -8266,19 +8699,7 @@
       type: Legacy checkUrl
       assessment: TODO
 - repo: qtest-plugin
-  findings:
-    - url: https://github.com/jenkinsci/qtest-plugin/blob/76038b6b0fe74abca5d2d148920df3baaca1c3be/src/main/resources/com/qasymphony/ci/plugin/action/PipelineStatisticsAction/index.jelly#L13
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/qtest-plugin/blob/76038b6b0fe74abca5d2d148920df3baaca1c3be/src/main/resources/com/qasymphony/ci/plugin/action/PushingResultAction/config.jelly#L34
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/qtest-plugin/blob/76038b6b0fe74abca5d2d148920df3baaca1c3be/src/main/resources/com/qasymphony/ci/plugin/action/StatisticsAction/index.jelly#L13
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/qtest-plugin/blob/76038b6b0fe74abca5d2d148920df3baaca1c3be/src/main/resources/com/qasymphony/ci/plugin/action/SubmitJUnitStep/config.jelly#L37
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: quali-torque-plugin
   findings: []
 - repo: quality-gates-plugin
@@ -8287,93 +8708,102 @@
   findings: []
 - repo: qualys-cs-plugin
   findings:
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L169
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L171
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L295
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L297
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/config/QualysGlobalConfig/config.jelly#L179
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/config/QualysGlobalConfig/config.jelly#L179
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L359
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L361
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L64
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/GetImageVulnsNotifier/config.jelly#L64
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/config/QualysGlobalConfig/config.jelly#L237
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/config/QualysGlobalConfig/config.jelly#L237
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/ab5e8c023dc5ef6268cb629380676779de4bd993/src/main/resources/com/qualys/plugins/containerSecurity/report/ReportAction/index.jelly#L259
+    - url: https://github.com/jenkinsci/qualys-cs-plugin/blob/1f0729b88a18dc020f4803d6386a035b18091a3e/src/main/resources/com/qualys/plugins/containerSecurity/report/ReportAction/index.jelly#L259
       type: Inline Script Block
       assessment: TODO
 - repo: qualys-iac-security-plugin
   findings:
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L10
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L10
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L13
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L13
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L17
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L4
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L21
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L40
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L4
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L44
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L14
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L48
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L25
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L52
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L30
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/Config/config.jelly#L56
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L38
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L14
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L41
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L25
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L44
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L30
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L49
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L38
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L52
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L41
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L8
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L44
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L14
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L49
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L25
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L52
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L30
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuildStep/config.jelly#L8
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L38
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L14
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L41
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L25
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L44
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L30
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L49
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L38
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/54301d489cdf5f70521732a6c40db96fa377bc69/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L52
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L41
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L44
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L49
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/qualys-iac-security-plugin/blob/f4e10d807b87ad6a932ed0bdc7fffd206f024997/src/main/resources/io/jenkins/plugins/actions/TemplateScanBuilder/config.jelly#L52
       type: Inline Event Handler
       assessment: TODO
 - repo: qualys-pc-plugin
@@ -8448,58 +8878,66 @@
       assessment: TODO
 - repo: qualys-was-plugin
   findings:
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L199
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L201
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L207
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L209
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L262
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L264
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L277
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L279
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L291
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L293
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L305
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L307
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L223
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L225
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L232
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L234
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L238
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L240
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L241
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L243
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L270
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L272
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L281
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L283
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L293
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L295
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L305
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L307
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/report/ReportAction/index.jelly#L95
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/report/ReportAction/index.jelly#L95
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L56
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanBuildStep/config.jelly#L56
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L65
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/WASScanNotifier/config.jelly#L65
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/90c311042b39f831ed2a978875bc6850648db1f4/src/main/resources/com/qualys/plugins/wasPlugin/report/ReportAction/index.jelly#L209
+    - url: https://github.com/jenkinsci/qualys-was-plugin/blob/8d35e55096f29e9b6b1ada533e5cfe985c9f1783/src/main/resources/com/qualys/plugins/wasPlugin/report/ReportAction/index.jelly#L209
+      type: Inline Script Block
+      assessment: TODO
+- repo: quay-tag-parameter-plugin
+  findings:
+    - url: https://github.com/jenkinsci/quay-tag-parameter-plugin/blob/85333fe91472bbb922afb4cfdbcec42260e1db74/src/main/resources/io/jenkins/plugins/quay/QuayImageParameterDefinition/index.jelly#L35
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/quay-tag-parameter-plugin/blob/85333fe91472bbb922afb4cfdbcec42260e1db74/src/main/resources/io/jenkins/plugins/quay/QuayRepositoryParameterDefinition/index.jelly#L22
       type: Inline Script Block
       assessment: TODO
 - repo: quayio-trigger-plugin
@@ -8563,6 +9001,8 @@
       type: Legacy checkUrl
       assessment: TODO
 - repo: rally-plugin
+  findings: []
+- repo: rancher-manager-plugin
   findings: []
 - repo: rancher-plugin
   findings: []
@@ -8669,10 +9109,18 @@
   findings: []
 - repo: relution-publisher-plugin
   findings: []
+- repo: remote-env-file-plugin
+  findings: []
 - repo: remote-file-plugin
   findings: []
 - repo: remote-result-trigger-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/remote-result-trigger-plugin/blob/b989325edd9cadbdc9e8909b7c6cb79ba9358d9b/src/main/resources/io/jenkins/plugins/remote/result/trigger/RemoteBuildResultTriggerProjectAction/index.jelly#L34
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/remote-result-trigger-plugin/blob/b989325edd9cadbdc9e8909b7c6cb79ba9358d9b/src/main/resources/io/jenkins/plugins/remote/result/trigger/RemoteBuildResultTriggerProjectAction/index.jelly#L84
+      type: Inline Script Block
+      assessment: TODO
 - repo: remote-terminal-access-plugin
   findings: []
 - repo: remoting-kafka-plugin
@@ -8699,100 +9147,100 @@
       assessment: TODO
 - repo: report-jtreg-plugin
   findings:
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-lib/src/main/java/io/jenkins/plugins/report/jtreg/formatters/HtmlFormatter.java#L164
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-lib/src/main/java/io/jenkins/plugins/report/jtreg/formatters/HtmlFormatter.java#L165
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/java/io/jenkins/plugins/report/jtreg/main/web/ContextExecutingHandler.java#L158
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/java/io/jenkins/plugins/report/jtreg/main/web/ContextExecutingHandler.java#L158
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L201
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L201
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L202
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L202
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L205
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L205
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L208
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L208
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L211
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L211
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L214
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L214
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L203
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L203
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L204
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L204
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L207
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L207
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L210
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L210
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L213
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L213
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L216
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L216
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L199
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L199
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L200
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L200
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L203
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L203
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L206
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L206
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L209
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L209
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L212
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L212
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L251
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L251
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L274
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L274
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L288
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L288
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L289
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L289
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L302
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L302
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L303
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L303
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg/src/main/resources/io/jenkins/plugins/report/jtreg/BuildReportExtendedPlugin/index.jelly#L62
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg/src/main/resources/io/jenkins/plugins/report/jtreg/BuildReportExtendedPlugin/index.jelly#L72
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg/src/main/resources/io/jenkins/plugins/report/jtreg/BuildReportExtendedPlugin/index.jelly#L67
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg/src/main/resources/io/jenkins/plugins/report/jtreg/BuildReportExtendedPlugin/index.jelly#L77
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-lib/src/main/java/io/jenkins/plugins/report/jtreg/Constants.java#L84
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-lib/src/main/java/io/jenkins/plugins/report/jtreg/Constants.java#L124
       type: Inline Script Block (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L6
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/comp.html#L6
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L7
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/diff.html#L7
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/98ac4dfa4468ae81ffff01f3115a5274cc4bc4d5/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L6
+    - url: https://github.com/jenkinsci/report-jtreg-plugin/blob/28cddefe758668b9be74534a59718f1f32427e10/report-jtreg-service/src/main/resources/io/jenkins/plugins/report/jtreg/main/web/list.html#L6
       type: Inline Script Block
       assessment: TODO
 - repo: reportportal-plugin
@@ -8853,7 +9301,13 @@
 - repo: resources-ai-chatbot-plugin
   findings: []
 - repo: rest-list-parameter-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/rest-list-parameter-plugin/blob/4925cf54d6af48dd43fb5e8c10cc1a6db5ce104a/src/main/resources/io/jenkins/plugins/restlistparam/RestListParameterDefinition/index.jelly#L13
+      type: st:bind with complex argument
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/rest-list-parameter-plugin/blob/4925cf54d6af48dd43fb5e8c10cc1a6db5ce104a/src/main/resources/io/jenkins/plugins/restlistparam/RestMultiListParameterDefinition/index.jelly#L12
+      type: st:bind with complex argument
+      assessment: False Positive
 - repo: restricted-register-plugin
   findings:
     - url: https://github.com/jenkinsci/restricted-register-plugin/blob/0815b48c507f878185b3eb9b3217dbe9f0e1cc42/src/main/resources/com/infullmobile/jenkins/plugin/restrictedregister/security/hudson/HudsonSecurityRealmRegistration/activateFragment.jelly#L39
@@ -8883,6 +9337,8 @@
 - repo: rocketchatnotifier-plugin
   findings: []
 - repo: role-strategy-plugin
+  findings: []
+- repo: rolestrategy-patternmacros-plugin
   findings: []
 - repo: rpi-build-status-plugin
   findings: []
@@ -9086,10 +9542,10 @@
   findings: []
 - repo: sauce-ondemand-plugin
   findings:
-    - url: https://github.com/jenkinsci/sauce-ondemand-plugin/blob/80a33c71b64dcd19b328cb76ceefb7e10903905a/src/main/resources/hudson/plugins/sauce_ondemand/PluginImpl/config.jelly#L21
+    - url: https://github.com/jenkinsci/sauce-ondemand-plugin/blob/3c4939e23f66f5093d2eef3c2c143741639c3eee/src/main/resources/hudson/plugins/sauce_ondemand/PluginImpl/config.jelly#L21
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/sauce-ondemand-plugin/blob/80a33c71b64dcd19b328cb76ceefb7e10903905a/src/main/resources/hudson/plugins/sauce_ondemand/SauceOnDemandBuildWrapper/config.jelly#L94
+    - url: https://github.com/jenkinsci/sauce-ondemand-plugin/blob/3c4939e23f66f5093d2eef3c2c143741639c3eee/src/main/resources/hudson/plugins/sauce_ondemand/SauceOnDemandBuildWrapper/config.jelly#L94
       type: Inline Script Block
       assessment: TODO
 - repo: sbt-plugin
@@ -9169,9 +9625,11 @@
   findings: []
 - repo: secondary-timestamper-plugin
   findings: []
-- repo: secone-sca-sast-security-scanner-plugin
-  findings: []
 - repo: secone-security-plugin
+  findings: []
+- repo: secone-security-scanner-plugin
+  findings: []
+- repo: secret-guard-plugin
   findings: []
 - repo: sectioned-view-plugin
   findings: []
@@ -9371,13 +9829,13 @@
       assessment: TODO
 - repo: servicenow-devops-plugin
   findings:
-    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/c68e6a3a6b86b5ac086f38acb968e7e649087ba8/src/main/resources/io/jenkins/plugins/freestyle/steps/DevOpsFreestyleRegisterSecurityStep/config.jelly#L7
+    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/a1040c926508f837ad19980030e9ab3939ffdc4c/src/main/resources/io/jenkins/plugins/freestyle/steps/DevOpsFreestyleRegisterSecurityStep/config.jelly#L7
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/c68e6a3a6b86b5ac086f38acb968e7e649087ba8/src/main/resources/io/jenkins/plugins/freestyle/steps/DevOpsFreestyleRegisterSecurityStep/config.jelly#L18
+    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/a1040c926508f837ad19980030e9ab3939ffdc4c/src/main/resources/io/jenkins/plugins/freestyle/steps/DevOpsFreestyleRegisterSecurityStep/config.jelly#L18
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/c68e6a3a6b86b5ac086f38acb968e7e649087ba8/src/main/resources/io/jenkins/plugins/pipeline/steps/DevOpsPipelineRegisterSecurityStep/config.jelly#L20
+    - url: https://github.com/jenkinsci/servicenow-devops-plugin/blob/a1040c926508f837ad19980030e9ab3939ffdc4c/src/main/resources/io/jenkins/plugins/pipeline/steps/DevOpsPipelineRegisterSecurityStep/config.jelly#L20
       type: Inline Script Block
       assessment: TODO
 - repo: shared-library-version-override-plugin
@@ -9438,40 +9896,52 @@
   findings: []
 - repo: simple-queue-plugin
   findings:
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L100
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L102
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L275
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L299
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/404.html#L42
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L331
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L109
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L45
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L46
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L1026
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/CLI/index.html#L727
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L1058
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L107
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L111
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L369
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L49
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/index.html#L44
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L109
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L107
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L403
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L435
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L435
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/cebddcf88eed36a788ec55b24c9e441306088397/docs/pluginDevelopment/index.html#L44
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L47
+      type: Inline Script Block
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L109
+      type: Inline Script Block
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L47
+      type: Inline Script Block
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L495
+      type: Inline Script Block
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L527
       type: Inline Script Block
       assessment: False Positive
 - repo: simple-theme-plugin
@@ -9626,6 +10096,8 @@
     - url: https://github.com/jenkinsci/smart-jenkins-plugin/blob/971e6e208b57df2dc12ceea62fed99af05db9da2/src/main/resources/smartjenkins/SmartJenkinsAction/index.jelly#L161
       type: Javascript scheme
       assessment: TODO
+- repo: smart-retry-plugin
+  findings: []
 - repo: smartfrog-plugin
   findings: []
 - repo: smilehubnotifier-plugin
@@ -9715,6 +10187,10 @@
       type: Inline Script Block
       assessment: TODO
 - repo: sourcemonitor-plugin
+  findings: []
+- repo: specs-monitor-plugin
+  findings: []
+- repo: spectrum-theme-plugin
   findings: []
 - repo: split-admin-plugin
   findings: []
@@ -9889,6 +10365,8 @@
     - url: https://github.com/jenkinsci/stackrox-container-image-scanner-plugin/blob/153d4965cbc884ddba865ab9ff61380dfa545536/src/main/resources/com/stackrox/jenkins/plugins/ViewStackroxResultsAction/index.jelly#L90
       type: Inline Script Block
       assessment: TODO
+- repo: stagefy-plugin
+  findings: []
 - repo: started-by-envvar-plugin
   findings: []
 - repo: startup-trigger-plugin
@@ -10120,12 +10598,14 @@
       assessment: TODO
 - repo: sysdig-secure-plugin
   findings:
-    - url: https://github.com/jenkinsci/sysdig-secure-plugin/blob/5c91b842dee2230a1eeb66a6727d8b8c91761080/src/main/resources/com/sysdig/jenkins/plugins/sysdig/infrastructure/jenkins/vm/ui/SysdigAction/index.jelly#L92
+    - url: https://github.com/jenkinsci/sysdig-secure-plugin/blob/7af3b9d36d64941f26ba12e9695cf0676e7a97fd/src/main/resources/com/sysdig/jenkins/plugins/sysdig/infrastructure/jenkins/vm/ui/SysdigAction/index.jelly#L92
       type: Inline Event Handler
       assessment: True Positive
 - repo: syslog-logger-plugin
   findings: []
 - repo: systemloadaverage-monitor-plugin
+  findings: []
+- repo: tabs-parameter-plugin
   findings: []
 - repo: tacotruck-plugin
   findings: []
@@ -10158,6 +10638,8 @@
 - repo: tap-plugin
   findings: []
 - repo: tattletale-plugin
+  findings: []
+- repo: tdoms-plugin
   findings: []
 - repo: teamconcert-git-plugin
   findings: []
@@ -10413,100 +10895,100 @@
   findings: []
 - repo: tics-plugin
   findings:
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L20
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L20
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L23
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L23
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L24
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L24
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L27
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L27
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L28
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L28
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L29
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L29
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L36
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L36
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L37
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L37
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L38
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L38
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L39
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L39
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L43
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L43
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L44
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L44
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L45
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L45
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L46
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L46
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L50
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L50
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L51
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L51
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L55
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L55
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L56
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L56
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L57
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L57
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L63
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L63
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L64
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L64
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L65
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L65
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L69
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L69
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L70
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L70
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L71
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L71
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L72
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L72
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L76
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L76
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L77
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L77
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L78
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L78
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L79
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L79
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L83
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L83
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/tics-plugin/blob/86f29e4e9155b182a9e3e6e4f9914d4a1ee2f0c4/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L84
+    - url: https://github.com/jenkinsci/tics-plugin/blob/795de66ef1817818ee0e141359b265f8daf43680/src/main/resources/hudson/plugins/tics/Metrics/config.jelly#L84
       type: Inline Event Handler
       assessment: TODO
 - repo: timestamper-plugin
@@ -10687,6 +11169,8 @@
   findings: []
 - repo: uptime-plugin
   findings: []
+- repo: upx-compress-plugin
+  findings: []
 - repo: urbancode-velocity-plugin
   findings: []
 - repo: url-auth-sso-plugin
@@ -10797,7 +11281,25 @@
 - repo: views-containing-job-plugin
   findings: []
 - repo: vigilnz-security-plugin
-  findings: []
+  findings:
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L11
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L12
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L13
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L14
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L15
+      type: Inline Event Handler
+      assessment: TODO
+    - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/bda67e607cb7a8a917fcc140706e4d4da90b1424/src/main/resources/io/jenkins/plugins/vigilnz/pipeline/PipelineStep/config.jelly#L48
+      type: Inline Script Block
+      assessment: TODO
 - repo: violation-columns-plugin
   findings: []
 - repo: violation-comments-to-github-plugin
@@ -10830,23 +11332,31 @@
   findings: []
 - repo: vk-notifier-plugin
   findings: []
+- repo: vmanager-charts-plugin
+  findings: []
 - repo: vmanager-plugin
   findings:
-    - url: https://github.com/jenkinsci/vmanager-plugin/blob/e94fd1a794575587131b4ad2a245524842c577e2/src/main/webapp/js/vmanager_report.js#L607
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/webapp/js/vmanager_report.js#L607
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/vmanager-plugin/blob/e94fd1a794575587131b4ad2a245524842c577e2/src/main/webapp/js/vmanager_report.js#L614
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/webapp/js/vmanager_report.js#L614
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/vmanager-plugin/blob/e94fd1a794575587131b4ad2a245524842c577e2/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L555
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L559
       type: Inline Script Block (Java)
-      assessment: TODO
-    - url: https://github.com/jenkinsci/vmanager-plugin/blob/e94fd1a794575587131b4ad2a245524842c577e2/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L559
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L563
       type: Inline Script Block (Java)
-      assessment: TODO
-    - url: https://github.com/jenkinsci/vmanager-plugin/blob/e94fd1a794575587131b4ad2a245524842c577e2/docs/vmanager-plugin.html#L12
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L610
+      type: Inline Script Block (Java)
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/src/main/java/org/jenkinsci/plugins/vmanager/ReportManager.java#L614
+      type: Inline Script Block (Java)
+      assessment: False Positive
+    - url: https://github.com/jenkinsci/vmanager-plugin/blob/b28b1924c7877217d591ae6862d72342584870c7/docs/vmanager-plugin.html#L12
       type: Inline Script Block
-      assessment: TODO
+      assessment: False Positive
 - repo: vmware-vrealize-automation-plugin
   findings: []
 - repo: vmware-vrealize-codestream-plugin
@@ -20449,6 +20959,10 @@
   findings: []
 - repo: webhook-eventsource-plugin
   findings: []
+- repo: webhook-relay-plugin
+  findings: []
+- repo: webhook-secret-credentials-provider-plugin
+  findings: []
 - repo: webhook-step-plugin
   findings: []
 - repo: webload-plugin
@@ -20499,6 +21013,8 @@
 - repo: wix-plugin
   findings: []
 - repo: wiz-scanner-plugin
+  findings: []
+- repo: woodstox-core-api-plugin
   findings: []
 - repo: workflow-aggregator-plugin
   findings: []
@@ -20643,15 +21159,20 @@
   findings: []
 - repo: xldeploy-plugin
   findings:
-    - url: https://github.com/jenkinsci/xldeploy-plugin/blob/c330f46e307ba51811ebc1c4a0dfe2d79ba18f7b/src/main/webapp/js/combobox.js#L20
+    - url: https://github.com/jenkinsci/xldeploy-plugin/blob/ae422d24bcf9134ff77b7546339ab282859c87c7/src/main/webapp/js/combobox.js#L20
       type: (g)eval Call
       assessment: TODO
-    - url: https://github.com/jenkinsci/xldeploy-plugin/blob/c330f46e307ba51811ebc1c4a0dfe2d79ba18f7b/src/main/resources/lib/xld/publisherFix.jelly#L8
+    - url: https://github.com/jenkinsci/xldeploy-plugin/blob/ae422d24bcf9134ff77b7546339ab282859c87c7/src/main/resources/com/xebialabs/deployit/ci/Credential/config.jelly#L46
+      type: Inline Script Block
+      assessment: TODO
+    - url: https://github.com/jenkinsci/xldeploy-plugin/blob/ae422d24bcf9134ff77b7546339ab282859c87c7/src/main/resources/lib/xld/publisherFix.jelly#L8
       type: Inline Script Block
       assessment: TODO
 - repo: xlrelease-plugin
   findings: []
 - repo: xlrelease-var-setter-plugin
+  findings: []
+- repo: xml-editor-plugin
   findings: []
 - repo: xml-job-to-dsl-plugin
   findings:
@@ -20760,6 +21281,10 @@
     - url: https://github.com/jenkinsci/youtrack-plugin/blob/7844f96bb89e7584f9bb1c63473c79c850310adb/src/main/resources/org/jenkinsci/plugins/youtrack/YouTrackProjectProperty/global.jelly#L13
       type: Legacy checkUrl
       assessment: TODO
+- repo: z-bom-plugin
+  findings: []
+- repo: zadviser-pipeline-analysis-plugin
+  findings: []
 - repo: zanata-plugin
   findings: []
 - repo: zap-pipeline-plugin
