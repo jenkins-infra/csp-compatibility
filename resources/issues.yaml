@@ -105,7 +105,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74125
     fix: https://github.com/jenkinsci/atlassian-jira-software-cloud-plugin/pull/133
-  - issue: https://issues.jenkins.io/browse/JENKINS-74126
+  # issue: https://issues.jenkins.io/browse/JENKINS-74126 -- Seems False Positive, some weird test file?
   - issue: https://issues.jenkins.io/browse/JENKINS-74895
     fix: https://github.com/jenkinsci/atlassian-jira-software-cloud-plugin/pull/132
 - id: attention
@@ -1077,7 +1077,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74243
 - id: jquery
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73953
+  - issue: https://github.com/jenkinsci/jquery-plugin/issues/49
     fix: https://github.com/jenkinsci/jquery-plugin/pull/12
     release: https://github.com/jenkinsci/jquery-plugin/releases/tag/jquery-1.12.4-3
 - id: jslint
@@ -1517,9 +1517,9 @@
     release: https://github.com/jenkinsci/pipeline-build-step-plugin/releases/tag/516.v8ee60a_81c5b_9
 - id: pipeline-config-history
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74196
-  - issue: https://issues.jenkins.io/browse/JENKINS-74197
-  - issue: https://issues.jenkins.io/browse/JENKINS-74198
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/40
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/39
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/41
 - id: pipeline-model-definition
   findings:
   - issue: https://github.com/jenkinsci/pipeline-model-definition-plugin/issues/1476
@@ -1688,7 +1688,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74678
 - id: release
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74151
+  - issue: https://github.com/jenkinsci/release-plugin/issues/147
     fix: https://github.com/jenkinsci/release-plugin/pull/48
 - id: remote-result-trigger
   findings:
