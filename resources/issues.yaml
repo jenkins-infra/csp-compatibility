@@ -60,18 +60,18 @@
   - issue: https://github.com/jenkinsci/appscan-plugin/issues/271
 - id: arestocats
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74681
-  - issue: https://issues.jenkins.io/browse/JENKINS-74682
-  - issue: https://issues.jenkins.io/browse/JENKINS-74683
-  - issue: https://issues.jenkins.io/browse/JENKINS-74684
-  - issue: https://issues.jenkins.io/browse/JENKINS-74685
-  - issue: https://issues.jenkins.io/browse/JENKINS-74686
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/7
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/8
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/9
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/10
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/11
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/12
 - id: artifact-diff-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74412
 - id: artifact-repository-parameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74449
+  - issue: https://github.com/jenkinsci/artifact-repository-parameter-plugin/issues/32
 - id: artifactory
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74041
@@ -195,7 +195,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74101
 - id: build-executors-filter-offline
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74642
+  - issue: https://github.com/jenkinsci/build-executors-filter-offline-plugin/issues/6
 - id: build-failure-analyzer
   findings:
   - issue: https://github.com/jenkinsci/build-failure-analyzer-plugin/issues/412
@@ -242,7 +242,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74705
 - id: build-steps-from-json
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74364
+  - issue: https://github.com/jenkinsci/build-steps-from-json-plugin/issues/14
 - id: build-timestamp
   findings:
   - issue: https://github.com/jenkinsci/build-timestamp-plugin/issues/107
@@ -257,14 +257,14 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74180
 - id: bumblebee
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74537
+  - issue: https://github.com/jenkinsci/bumblebee-plugin/issues/6
 - id: ca-mat-performance-benchmarking-by-broadcom
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74670
-  - issue: https://issues.jenkins.io/browse/JENKINS-74671
-  - issue: https://issues.jenkins.io/browse/JENKINS-74672
-  - issue: https://issues.jenkins.io/browse/JENKINS-74673
-  - issue: https://issues.jenkins.io/browse/JENKINS-74674
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/8
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/9
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/10
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/11
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/12
 - id: calendar-view
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74178
@@ -308,7 +308,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74348
 - id: chosen-views-tabbar
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74481
+  - issue: https://github.com/jenkinsci/chosen-views-tabbar/issues/5
 - id: chucknorris
   findings:
   - issue: https://github.com/jenkinsci/chucknorris-plugin/issues/258
@@ -363,7 +363,7 @@
     release: https://github.com/jenkinsci/cloudbees-disk-usage-simple-plugin/releases/tag/232.v713eeed2e1f4
 - id: cloudbees-feature-management
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74560
+  - issue: https://github.com/jenkinsci/cloudbees-feature-management-plugin/issues/91
 - id: cloudbees-folder
   findings:
   - issue: https://github.com/jenkinsci/cloudbees-folder-plugin/issues/710
@@ -377,7 +377,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74478
 - id: codethreat-scanner
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74646
+  - issue: https://github.com/jenkinsci/codethreat-scanner-plugin/issues/20
 - id: collabnet
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74743
@@ -388,7 +388,7 @@
     release: https://github.com/jenkinsci/collapsing-console-sections-plugin/releases/tag/collapsing-console-sections-1.10.0
 - id: compressed_files_viewer
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74536
+  - issue: https://github.com/jenkinsci/compressed_files_viewer-plugin/issues/61
 - id: computer-queue-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74505
@@ -423,8 +423,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74440
 - id: coordinator
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74760
-  - issue: https://issues.jenkins.io/browse/JENKINS-74761
+  - issue: https://github.com/jenkinsci/coordinator-plugin/issues/61
+  # Is a duplicate of the above:
+  # issue: https://issues.jenkins.io/browse/JENKINS-74761
 - id: copy-project-link
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74240
@@ -571,8 +572,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74317
 - id: deployment-sphere
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74528
-  - issue: https://issues.jenkins.io/browse/JENKINS-74529
+  - issue: https://github.com/jenkinsci/deployment-sphere-plugin/issues/2
+  - issue: https://github.com/jenkinsci/deployment-sphere-plugin/issues/3
 - id: design-library
   findings:
   # issue: https://issues.jenkins.io/browse/JENKINS-74553 -> https://github.com/jenkinsci/design-library-plugin/issues/457
@@ -581,8 +582,8 @@
     release: https://github.com/jenkinsci/design-library-plugin/releases/tag/417.vce0571393f5b_
 - id: devops-portal
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74453
-  - issue: https://issues.jenkins.io/browse/JENKINS-74454
+  - issue: https://github.com/jenkinsci/devops-portal-plugin/issues/14
+  - issue: https://github.com/jenkinsci/devops-portal-plugin/issues/15
 - id: diagnostics
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74531
@@ -780,7 +781,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74236
 - id: gamekins
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74704
+  - issue: https://github.com/jenkinsci/gamekins-plugin/issues/4
 - id: gatling
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74752
@@ -882,8 +883,8 @@
     release: https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8
 - id: helix-alm-test-management
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74629
-  - issue: https://issues.jenkins.io/browse/JENKINS-74630
+  - issue: https://github.com/jenkinsci/helix-alm-test-management-plugin/issues/15
+  - issue: https://github.com/jenkinsci/helix-alm-test-management-plugin/issues/16
 - id: hetzner-cloud
   findings:
   - issue: https://github.com/jenkinsci/hetzner-cloud-plugin/issues/108
@@ -961,7 +962,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74445
 - id: issue-link
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74532
+  - issue: https://github.com/jenkinsci/jenkins/issues/25813
 - id: itest
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74632
@@ -1013,7 +1014,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74754
 - id: jetbrains-space
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74690
+  - issue: https://github.com/jenkinsci/jetbrains-space-plugin/issues/37
 - id: jira-ext
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74245
@@ -1039,7 +1040,7 @@
     release: https://github.com/jenkinsci/JiraTestResultReporter-plugin/releases/tag/245.v5a_2d45c771c9
 - id: jmh-report
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74765
+  - issue: https://github.com/jenkinsci/jmh-report-plugin/issues/17
 - id: jms-messaging
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74469
@@ -1154,7 +1155,7 @@
     release: https://github.com/jenkinsci/ldap-plugin/releases/tag/711.vb_d1a_491714dc
 - id: leanix-microservice-intelligence
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74740
+  - issue: https://github.com/jenkinsci/leanix-microservice-intelligence-plugin/issues/32
 - id: leapwork
   findings:
   - issue: https://github.com/jenkinsci/leapwork-plugin/issues/45
@@ -1302,9 +1303,9 @@
     release: https://github.com/jenkinsci/metrics-plugin/releases/tag/4.2.21-458.vcf496cb_839e4
 - id: metrics-aggregation
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74563
+  - issue: https://github.com/jenkinsci/metrics-aggregation-plugin/issues/33
     fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
-  - issue: https://issues.jenkins.io/browse/JENKINS-74564
+  - issue: https://github.com/jenkinsci/metrics-aggregation-plugin/issues/34
     fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
 - id: micro-focus-performance-center-integration
   findings:
@@ -1405,9 +1406,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74610
 - id: oes-template
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74633
-  - issue: https://issues.jenkins.io/browse/JENKINS-74634
-  - issue: https://issues.jenkins.io/browse/JENKINS-74635
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/87
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/88
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/89
 - id: oic-auth
   findings:
   - issue: https://github.com/jenkinsci/oic-auth-plugin/issues/680
@@ -1473,22 +1474,22 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74341
 - id: peass-ci
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74650
-  - issue: https://issues.jenkins.io/browse/JENKINS-74651
-  - issue: https://issues.jenkins.io/browse/JENKINS-74652
-  - issue: https://issues.jenkins.io/browse/JENKINS-74653
-  - issue: https://issues.jenkins.io/browse/JENKINS-74654
-  - issue: https://issues.jenkins.io/browse/JENKINS-74655
-  - issue: https://issues.jenkins.io/browse/JENKINS-74656
-  - issue: https://issues.jenkins.io/browse/JENKINS-74657
-  - issue: https://issues.jenkins.io/browse/JENKINS-74658
-  - issue: https://issues.jenkins.io/browse/JENKINS-74659
-  - issue: https://issues.jenkins.io/browse/JENKINS-74660
-  - issue: https://issues.jenkins.io/browse/JENKINS-74661
-  - issue: https://issues.jenkins.io/browse/JENKINS-74662
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/306
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/307
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/308
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/309
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/310
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/311
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/312
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/313
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/314
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/315
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/316
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/317
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/318
 - id: performance-signature-ui
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74430
+  - issue: https://github.com/jenkinsci/performance-signature-dynatrace-plugin/issues/326
 - id: perfpublisher
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74252
@@ -1621,8 +1622,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74316
 - id: pull-request-monitoring
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74418
-  - issue: https://issues.jenkins.io/browse/JENKINS-74419
+  - issue: https://github.com/jenkinsci/pull-request-monitoring-plugin/issues/307
+  - issue: https://github.com/jenkinsci/pull-request-monitoring-plugin/issues/308
 - id: pvcs_scm
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74572
@@ -1804,7 +1805,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74242
 - id: send-stacktrace-to-eclipse-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74565
+  - issue: https://github.com/jenkinsci/send-stacktrace-to-eclipse-plugin/issues/21
 - id: serenity
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74367
@@ -1812,17 +1813,17 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74369
 - id: servicenow-cicd
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74441
-  - issue: https://issues.jenkins.io/browse/JENKINS-74442
-  - issue: https://issues.jenkins.io/browse/JENKINS-74443
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/63
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/64
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/65
 - id: servicenow-devops
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74466
   - issue: https://issues.jenkins.io/browse/JENKINS-74467
 - id: shortcut-job
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74616
-  - issue: https://issues.jenkins.io/browse/JENKINS-74742
+  - issue: https://github.com/jenkinsci/shortcut-job-plugin/issues/13
+  - issue: https://github.com/jenkinsci/shortcut-job-plugin/issues/12
 - id: sidebar-link
   findings:
   - issue: https://github.com/jenkinsci/sidebar-link-plugin/issues/106
@@ -1896,15 +1897,15 @@
     release: https://github.com/jenkinsci/splunk-devops-plugin/releases/tag/1.10.2
 - id: spoonscript
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74713
-  - issue: https://issues.jenkins.io/browse/JENKINS-74714
-  - issue: https://issues.jenkins.io/browse/JENKINS-74715
-  - issue: https://issues.jenkins.io/browse/JENKINS-74716
-  - issue: https://issues.jenkins.io/browse/JENKINS-74717
-  - issue: https://issues.jenkins.io/browse/JENKINS-74718
-  - issue: https://issues.jenkins.io/browse/JENKINS-74719
-  - issue: https://issues.jenkins.io/browse/JENKINS-74720
-  - issue: https://issues.jenkins.io/browse/JENKINS-74721
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/2
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/3
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/4
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/5
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/6
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/7
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/8
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/9
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/10
 - id: spring-initalzr
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74465
@@ -2040,9 +2041,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74687
 - id: ui-test-capture
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74490
-  - issue: https://issues.jenkins.io/browse/JENKINS-74491
-  - issue: https://issues.jenkins.io/browse/JENKINS-74492
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/1
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/2
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/3
 - id: uleska
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74694
@@ -2252,8 +2253,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74265
 - id: zap-pipeline
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74756
+  - issue: https://github.com/jenkinsci/zap-pipeline-plugin/issues/53
 - id: zscaler-iac-scan
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74668
-  - issue: https://issues.jenkins.io/browse/JENKINS-74669
+  - issue: https://github.com/jenkinsci/zscaler-iac-scan-plugin/issues/66
+  - issue: https://github.com/jenkinsci/zscaler-iac-scan-plugin/issues/65
