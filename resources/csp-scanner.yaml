@@ -2490,6 +2490,8 @@
   findings: []
 - repo: compuware-zadviser-api-plugin
   findings: []
+- repo: concierge-plugin
+  findings: []
 - repo: concordionpresenter-plugin
   findings: []
 - repo: concurrent-login-plugin
@@ -5756,37 +5758,37 @@
   findings: []
 - repo: ibm-asoc-plugin
   findings:
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L36
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L32
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L40
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L36
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L44
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanBuildStep/config.jelly#L40
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L138
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L138
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L142
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L142
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L18
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/builders/AppScanEnterpriseBuildStep/config.jelly#L18
       type: Inline Event Handler
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ResultsRetriever/summary.jelly#L22
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ResultsRetriever/summary.jelly#L22
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L8
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L8
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/DynamicAnalyzer/config.jelly#L64
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/DynamicAnalyzer/config.jelly#L64
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/StaticAnalyzer/config.jelly#L82
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/scanners/StaticAnalyzer/config.jelly#L82
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/455535db6854cfd6642a492896d9da5dd483846c/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L9
+    - url: https://github.com/jenkinsci/ibm-asoc-plugin/blob/c3e63dac126a015eb9b970caea2427ad12a55875/src/main/resources/com/hcl/appscan/jenkins/plugin/actions/ScanResultsTrend/trendChart.jelly#L9
       type: Outside script src
       assessment: TODO
 - repo: ibm-cloud-devops-plugin
@@ -8314,28 +8316,28 @@
       assessment: TODO
 - repo: perfpublisher-plugin
   findings:
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L223
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L215
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L224
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L216
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L300
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L287
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L302
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/java/hudson/plugins/PerfPublisher/projectsAction/PerfPublisherMatrixProjectAction.java#L288
       type: Inline Event Handler (Java)
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L13
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L14
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L11
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L12
       type: Outside script src
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L7
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L8
       type: Outside script src
       assessment: TODO
-    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/63df9cbff4ebb57bb3027370445443a6528116b6/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L8
+    - url: https://github.com/jenkinsci/perfpublisher-plugin/blob/47a030a88d94640d1def8f52b26d56c57b4ce963/src/main/resources/hudson/plugins/PerfPublisher/PerfPublisherBuildAction/testDetails.jelly#L9
       type: Outside script src
       assessment: TODO
 - repo: periodic-reincarnation-plugin
@@ -9056,16 +9058,10 @@
   findings: []
 - repo: redhat-dependency-analytics-plugin
   findings:
-    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/33389b4cc844eb5d46146d86a8a55c3f5f04962a/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L131
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/33389b4cc844eb5d46146d86a8a55c3f5f04962a/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L133
+    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/ff204c8528535af70f02fff35d257d418b0749cc/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L32
       type: Inline Script Block
       assessment: TODO
-    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/33389b4cc844eb5d46146d86a8a55c3f5f04962a/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L22
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/33389b4cc844eb5d46146d86a8a55c3f5f04962a/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L20
+    - url: https://github.com/jenkinsci/redhat-dependency-analytics-plugin/blob/ff204c8528535af70f02fff35d257d418b0749cc/src/main/resources/redhat/jenkins/plugins/rhda/action/CRDAAction/index.jelly#L30
       type: Outside script src
       assessment: TODO
 - repo: redis-fingerprint-storage-plugin
@@ -9128,6 +9124,8 @@
     - url: https://github.com/jenkinsci/remoting-kafka-plugin/blob/deea1a234b9a156b4135550c71f6d5da7fa18056/plugin/src/main/resources/io/jenkins/plugins/remotingkafka/GlobalKafkaConfiguration/config.jelly#L62
       type: Inline Script Block
       assessment: TODO
+- repo: remoting-opentelemetry-plugin
+  findings: []
 - repo: repo-plugin
   findings: []
 - repo: report-diff-plugin
@@ -10098,6 +10096,11 @@
       assessment: TODO
 - repo: smart-retry-plugin
   findings: []
+- repo: smart-select-parameter-plugin
+  findings:
+    - url: https://github.com/jenkinsci/smart-select-parameter-plugin/blob/8f23ce90f9ff70e30e06ab13f9594bda8686881e/docs/demo.html#L47
+      type: Inline Script Block
+      assessment: False Positive
 - repo: smartfrog-plugin
   findings: []
 - repo: smilehubnotifier-plugin
