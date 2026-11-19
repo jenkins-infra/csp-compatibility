@@ -1,9 +1,9 @@
 - id: active-directory
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74035
+  - issue: https://github.com/jenkinsci/active-directory-plugin/issues/665
     fix: https://github.com/jenkinsci/active-directory-plugin/pull/210
     release: https://github.com/jenkinsci/active-directory-plugin/releases/tag/active-directory-2.38
-  - issue: https://issues.jenkins.io/browse/JENKINS-74036
+  - issue: https://github.com/jenkinsci/active-directory-plugin/issues/666
     fix: https://github.com/jenkinsci/active-directory-plugin/pull/209
     release: https://github.com/jenkinsci/active-directory-plugin/releases/tag/active-directory-2.38
 - id: acunetix-360-scan
@@ -18,11 +18,11 @@
     release: https://github.com/jenkinsci/agent-server-parameter-plugin/releases/tag/1.21.v71e7962a_b_456
 - id: alibabacloud-ecs
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74516
+  - issue: https://github.com/jenkinsci/alibabacloud-ecs-plugin/issues/65
 - id: amazon-inspector-image-scanner
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74551
-  - issue: https://issues.jenkins.io/browse/JENKINS-74552
+  - issue: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/issues/158
+  - issue: https://github.com/jenkinsci/amazon-inspector-image-scanner-plugin/issues/157
 - id: anchore-container-scanner
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74264
@@ -53,25 +53,25 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74631
 - id: appscan
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74370
-  - issue: https://issues.jenkins.io/browse/JENKINS-74371
-  - issue: https://issues.jenkins.io/browse/JENKINS-74372
-  - issue: https://issues.jenkins.io/browse/JENKINS-74373
-  - issue: https://issues.jenkins.io/browse/JENKINS-74374
+  - issue: https://github.com/jenkinsci/appscan-plugin/issues/275
+  - issue: https://github.com/jenkinsci/appscan-plugin/issues/274
+  - issue: https://github.com/jenkinsci/appscan-plugin/issues/273
+  - issue: https://github.com/jenkinsci/appscan-plugin/issues/272
+  - issue: https://github.com/jenkinsci/appscan-plugin/issues/271
 - id: arestocats
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74681
-  - issue: https://issues.jenkins.io/browse/JENKINS-74682
-  - issue: https://issues.jenkins.io/browse/JENKINS-74683
-  - issue: https://issues.jenkins.io/browse/JENKINS-74684
-  - issue: https://issues.jenkins.io/browse/JENKINS-74685
-  - issue: https://issues.jenkins.io/browse/JENKINS-74686
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/7
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/8
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/9
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/10
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/11
+  - issue: https://github.com/jenkinsci/arestocats-plugin/issues/12
 - id: artifact-diff-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74412
 - id: artifact-repository-parameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74449
+  - issue: https://github.com/jenkinsci/artifact-repository-parameter-plugin/issues/32
 - id: artifactory
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74041
@@ -105,7 +105,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74125
     fix: https://github.com/jenkinsci/atlassian-jira-software-cloud-plugin/pull/133
-  - issue: https://issues.jenkins.io/browse/JENKINS-74126
+  # issue: https://issues.jenkins.io/browse/JENKINS-74126 -- Seems False Positive, some weird test file?
   - issue: https://issues.jenkins.io/browse/JENKINS-74895
     fix: https://github.com/jenkinsci/atlassian-jira-software-cloud-plugin/pull/132
 - id: attention
@@ -114,10 +114,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74598
 - id: authorize-project
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73958
+  - issue: https://github.com/jenkinsci/authorize-project-plugin/issues/456
     fix: https://github.com/jenkinsci/authorize-project-plugin/pull/269
     release: https://github.com/jenkinsci/authorize-project-plugin/releases/tag/authorize-project-1.8.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74037
+  - issue: https://github.com/jenkinsci/authorize-project-plugin/issues/457
     fix: https://github.com/jenkinsci/authorize-project-plugin/pull/272
     release: https://github.com/jenkinsci/authorize-project-plugin/releases/tag/authorize-project-1.8.1
 - id: aws-codebuild
@@ -156,21 +156,21 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74401
 - id: blueocean
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74010
+  - issue: https://github.com/jenkinsci/blueocean-plugin/issues/5193
     fix: https://github.com/jenkinsci/blueocean-plugin/pull/2587
     release: https://github.com/jenkinsci/blueocean-plugin/releases/tag/blueocean-parent-1.27.17
-  - issue: https://issues.jenkins.io/browse/JENKINS-74011
+  - issue: https://github.com/jenkinsci/blueocean-plugin/issues/5194
     fix: https://github.com/jenkinsci/blueocean-plugin/pull/2588
     release: https://github.com/jenkinsci/blueocean-plugin/releases/tag/blueocean-parent-1.27.17
-  - issue: https://issues.jenkins.io/browse/JENKINS-74883
+  - issue: https://github.com/jenkinsci/blueocean-plugin/issues/5195
     fix: https://github.com/jenkinsci/blueocean-plugin/pull/2589
     release: https://github.com/jenkinsci/blueocean-plugin/releases/tag/blueocean-parent-1.27.17
 - id: bmc-cfa
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74677
+  - issue: https://github.com/jenkinsci/bmc-cfa-plugin/issues/49
 - id: bmc-change-manager-imstm
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74703
+  - issue: https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/issues/36
 - id: bmc-rpd
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74573
@@ -180,7 +180,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74577
 - id: branch-api
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73947
+  - issue: https://github.com/jenkinsci/branch-api-plugin/issues/788
     fix: https://github.com/jenkinsci/branch-api-plugin/pull/490
     release: https://github.com/jenkinsci/branch-api-plugin/releases/tag/2.1182.va_e67548fb_ed2
 - id: browserstack-integration
@@ -195,10 +195,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74101
 - id: build-executors-filter-offline
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74642
+  - issue: https://github.com/jenkinsci/build-executors-filter-offline-plugin/issues/6
 - id: build-failure-analyzer
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74893
+  - issue: https://github.com/jenkinsci/build-failure-analyzer-plugin/issues/412
     fix: https://github.com/jenkinsci/build-failure-analyzer-plugin/pull/184
     release: https://github.com/jenkinsci/build-failure-analyzer-plugin/releases/tag/build-failure-analyzer-2.5.4
 - id: build-line
@@ -218,34 +218,34 @@
     release: https://github.com/jenkinsci/build-monitor-plugin/releases/tag/1.14-943.vf82794123d4e
 - id: build-pipeline-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73960
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/405
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/142
-  - issue: https://issues.jenkins.io/browse/JENKINS-73961
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/406
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/144
-  - issue: https://issues.jenkins.io/browse/JENKINS-74053
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/407
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/145
     release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74054
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/408
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/147
-  - issue: https://issues.jenkins.io/browse/JENKINS-74055
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/409
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/149
     release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74056
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/410
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/148
-  - issue: https://issues.jenkins.io/browse/JENKINS-74057
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/411
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/146
     release: https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74806
+  - issue: https://github.com/jenkinsci/build-pipeline-plugin/issues/414
     fix: https://github.com/jenkinsci/build-pipeline-plugin/pull/150
 - id: build-requester
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74705
 - id: build-steps-from-json
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74364
+  - issue: https://github.com/jenkinsci/build-steps-from-json-plugin/issues/14
 - id: build-timestamp
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74014
+  - issue: https://github.com/jenkinsci/build-timestamp-plugin/issues/107
     fix: https://github.com/jenkinsci/build-timestamp-plugin/pull/76
     release: https://github.com/jenkinsci/build-timestamp-plugin/releases/tag/build-timestamp-1.0.4
 - id: buildgraph-view
@@ -257,14 +257,14 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74180
 - id: bumblebee
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74537
+  - issue: https://github.com/jenkinsci/bumblebee-plugin/issues/6
 - id: ca-mat-performance-benchmarking-by-broadcom
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74670
-  - issue: https://issues.jenkins.io/browse/JENKINS-74671
-  - issue: https://issues.jenkins.io/browse/JENKINS-74672
-  - issue: https://issues.jenkins.io/browse/JENKINS-74673
-  - issue: https://issues.jenkins.io/browse/JENKINS-74674
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/8
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/9
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/10
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/11
+  - issue: https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin/issues/12
 - id: calendar-view
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74178
@@ -308,13 +308,13 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74348
 - id: chosen-views-tabbar
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74481
+  - issue: https://github.com/jenkinsci/chosen-views-tabbar/issues/5
 - id: chucknorris
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74157
+  - issue: https://github.com/jenkinsci/chucknorris-plugin/issues/258
     fix: https://github.com/jenkinsci/chucknorris-plugin/pull/240
     release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
-  - issue: https://issues.jenkins.io/browse/JENKINS-74158
+  - issue: https://github.com/jenkinsci/chucknorris-plugin/issues/259
     fix: https://github.com/jenkinsci/chucknorris-plugin/pull/241
     release: https://github.com/jenkinsci/chucknorris-plugin/releases/tag/217.v74019404a_cca_
 - id: ci-with-toad-edge
@@ -363,10 +363,10 @@
     release: https://github.com/jenkinsci/cloudbees-disk-usage-simple-plugin/releases/tag/232.v713eeed2e1f4
 - id: cloudbees-feature-management
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74560
+  - issue: https://github.com/jenkinsci/cloudbees-feature-management-plugin/issues/91
 - id: cloudbees-folder
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69914
+  - issue: https://github.com/jenkinsci/cloudbees-folder-plugin/issues/710
     fix: https://github.com/jenkinsci/cloudbees-folder-plugin/pull/268
     release: https://github.com/jenkinsci/cloudbees-folder-plugin/releases/tag/6.784.vc60058fa_f269
 - id: cloudcoreo-deploytime
@@ -377,7 +377,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74478
 - id: codethreat-scanner
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74646
+  - issue: https://github.com/jenkinsci/codethreat-scanner-plugin/issues/20
 - id: collabnet
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74743
@@ -388,7 +388,7 @@
     release: https://github.com/jenkinsci/collapsing-console-sections-plugin/releases/tag/collapsing-console-sections-1.10.0
 - id: compressed_files_viewer
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74536
+  - issue: https://github.com/jenkinsci/compressed_files_viewer-plugin/issues/61
 - id: computer-queue-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74505
@@ -423,8 +423,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74440
 - id: coordinator
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74760
-  - issue: https://issues.jenkins.io/browse/JENKINS-74761
+  - issue: https://github.com/jenkinsci/coordinator-plugin/issues/61
+  # Is a duplicate of the above:
+  # issue: https://issues.jenkins.io/browse/JENKINS-74761
 - id: copy-project-link
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74240
@@ -432,7 +433,7 @@
     release: https://github.com/jenkinsci/copy-project-link-plugin/releases/tag/171.va_078d4fc7da_0
 - id: copyartifact
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73956
+  - issue: https://github.com/jenkinsci/copyartifact-plugin/issues/563
     fix: https://github.com/jenkinsci/copyartifact-plugin/pull/241
     release: https://github.com/jenkinsci/copyartifact-plugin/releases/tag/757.v05365583a_455
 - id: covcomplplot
@@ -446,7 +447,7 @@
     fix: https://github.com/jenkinsci/create-fingerprint-plugin/pull/4
 - id: credentials
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69653
+  - issue: https://github.com/jenkinsci/credentials-plugin/issues/928
     fix: https://github.com/jenkinsci/credentials-plugin/pull/378
     release: https://github.com/jenkinsci/credentials-plugin/releases/tag/1214.v1de940103927
 - id: cucumber-perf
@@ -468,22 +469,22 @@
     release: https://github.com/jenkinsci/custom-checkbox-parameter-plugin/releases/tag/1.69.v27b_2c5306e46
 - id: custom-folder-icon
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74254
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/522
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
-  - issue: https://issues.jenkins.io/browse/JENKINS-74255
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/523
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
-  - issue: https://issues.jenkins.io/browse/JENKINS-74256
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/524
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
-  - issue: https://issues.jenkins.io/browse/JENKINS-74257
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/525
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
-  - issue: https://issues.jenkins.io/browse/JENKINS-74258
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/526
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
-  - issue: https://issues.jenkins.io/browse/JENKINS-74259
+  - issue: https://github.com/jenkinsci/custom-folder-icon-plugin/issues/527
     fix: https://github.com/jenkinsci/custom-folder-icon-plugin/pull/399
     release: https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.15
 - id: custom-job-icon
@@ -571,8 +572,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74317
 - id: deployment-sphere
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74528
-  - issue: https://issues.jenkins.io/browse/JENKINS-74529
+  - issue: https://github.com/jenkinsci/deployment-sphere-plugin/issues/2
+  - issue: https://github.com/jenkinsci/deployment-sphere-plugin/issues/3
 - id: design-library
   findings:
   # issue: https://issues.jenkins.io/browse/JENKINS-74553 -> https://github.com/jenkinsci/design-library-plugin/issues/457
@@ -581,8 +582,8 @@
     release: https://github.com/jenkinsci/design-library-plugin/releases/tag/417.vce0571393f5b_
 - id: devops-portal
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74453
-  - issue: https://issues.jenkins.io/browse/JENKINS-74454
+  - issue: https://github.com/jenkinsci/devops-portal-plugin/issues/14
+  - issue: https://github.com/jenkinsci/devops-portal-plugin/issues/15
 - id: diagnostics
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74531
@@ -598,7 +599,7 @@
     release: https://github.com/jenkinsci/dingtalk-plugin/releases/tag/dingding-notifications-2.7.4
 - id: docker-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73955
+  - issue: https://github.com/jenkinsci/docker-plugin/issues/1352
     fix: https://github.com/jenkinsci/docker-plugin/pull/1107
     release: https://github.com/jenkinsci/docker-plugin/releases/tag/docker-plugin-1.7
 - id: docker-swarm
@@ -635,7 +636,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74607
 - id: ec2
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74071
+  - issue: https://github.com/jenkinsci/ec2-plugin/issues/1936
     fix: https://github.com/jenkinsci/ec2-plugin/pull/997
     release: https://github.com/jenkinsci/ec2-plugin/releases/tag/1723.v132eb_a_549b_21
 - id: ec2-deployment-dashboard
@@ -643,10 +644,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74358
 - id: echarts-api
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73911
+  - issue: https://github.com/jenkinsci/echarts-api-plugin/issues/467
     fix: https://github.com/jenkinsci/echarts-api-plugin/pull/357
     release: https://github.com/jenkinsci/echarts-api-plugin/releases/tag/v5.5.1-2
-  - issue: https://issues.jenkins.io/browse/JENKINS-73939
+  - issue: https://github.com/jenkinsci/echarts-api-plugin/issues/469
     fix: https://github.com/jenkinsci/echarts-api-plugin/pull/358
     release: https://github.com/jenkinsci/echarts-api-plugin/releases/tag/v5.5.1-3
 - id: ecs-publisher
@@ -655,7 +656,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74462
 - id: eggplant-runner
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74585
+  - issue: https://github.com/jenkinsci/eggplant-runner-plugin/issues/81
     fix: https://github.com/jenkinsci/eggplant-runner-plugin/pull/83
     release: https://github.com/jenkinsci/eggplant-runner-plugin/releases/tag/0.0.1.306.v3b_311e4c99e2
 - id: electricflow
@@ -689,12 +690,12 @@
   # release: https://github.com/jenkinsci/email-ext-plugin/releases/tag/1866.v14fa_6d201654
 - id: emailext-template
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74892
+  - issue: https://github.com/jenkinsci/emailext-template-plugin/issues/185
     fix: https://github.com/jenkinsci/emailext-template-plugin/pull/128
     release: https://github.com/jenkinsci/emailext-template-plugin/releases/tag/219.v14fff547f78d
 - id: embeddable-build-status
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74745
+  - issue: https://github.com/jenkinsci/embeddable-build-status-plugin/issues/512
     fix: https://github.com/jenkinsci/embeddable-build-status-plugin/pull/458
     release: https://github.com/jenkinsci/embeddable-build-status-plugin/releases/tag/637.vd878e68178f8
   - issue: https://github.com/jenkinsci/embeddable-build-status-plugin/issues/457
@@ -733,7 +734,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74768
 - id: favorite-view
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74315
+  - issue: https://github.com/jenkinsci/favorite-view-plugin/issues/35
     fix: https://github.com/jenkinsci/favorite-view-plugin/pull/7
     release: https://github.com/jenkinsci/favorite-view-plugin/releases/tag/19.v7d532cccd44e
 - id: files-found-trigger
@@ -780,7 +781,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74236
 - id: gamekins
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74704
+  - issue: https://github.com/jenkinsci/gamekins-plugin/issues/4
 - id: gatling
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74752
@@ -790,18 +791,18 @@
   - url: https://github.com/jenkinsci/ghprb-plugin/blob/a46e77fb8645ee29267bbc07f0e99a174894d5d5/src/main/resources/org/jenkinsci/plugins/ghprb/GhprbTrigger/global.groovy#L47
 - id: git
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69861
+  - issue: https://github.com/jenkinsci/git-plugin/issues/3757
     fix: https://github.com/jenkinsci/git-plugin/pull/1341
     release: https://github.com/jenkinsci/git-plugin/releases/tag/git-4.13.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-69862
+  - issue: https://github.com/jenkinsci/git-plugin/issues/3758
     fix: https://github.com/jenkinsci/git-plugin/pull/1336
     release: https://github.com/jenkinsci/git-plugin/releases/tag/git-4.13.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-69911
+  - issue: https://github.com/jenkinsci/git-plugin/issues/3760
     fix: https://github.com/jenkinsci/git-plugin/pull/1344
     release: https://github.com/jenkinsci/git-plugin/releases/tag/git-4.13.0
 - id: git-parameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74019
+  - issue: https://github.com/jenkinsci/git-parameter-plugin/issues/309
     fix: https://github.com/jenkinsci/git-parameter-plugin/pull/133
     release: https://github.com/jenkinsci/git-parameter-plugin/releases/tag/git-parameter-0.10.0
 - id: gitblit
@@ -812,17 +813,17 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74390
 - id: github
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-72788
+  - issue: https://github.com/jenkinsci/github-plugin/issues/756
     fix: https://github.com/jenkinsci/github-plugin/pull/383
     release: https://github.com/jenkinsci/github-plugin/releases/tag/v1.40.0
 - id: github-branch-source
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-76302
+  - issue: https://github.com/jenkinsci/github-branch-source-plugin/issues/1485
     fix: https://github.com/jenkinsci/github-branch-source-plugin/pull/917
     release: https://github.com/jenkinsci/github-branch-source-plugin/releases/tag/1925.v62fb_7ffb_08ce
 - id: gitlab-branch-source
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74070
+  - issue: https://github.com/jenkinsci/gitlab-branch-source-plugin/issues/733
     fix: https://github.com/jenkinsci/gitlab-branch-source-plugin/pull/457
     release: https://github.com/jenkinsci/gitlab-branch-source-plugin/releases/tag/713.v9a_03496d45b_c
 - id: gitlab-logo
@@ -877,35 +878,35 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74460
 - id: gravatar
   findings:
-  - issue: https://github.com/jenkinsci/gravatar-plugin/pull/165
+  - issue: https://github.com/jenkinsci/gravatar-plugin/issues/165
     fix: https://github.com/jenkinsci/gravatar-plugin/pull/166
     release: https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8
 - id: helix-alm-test-management
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74629
-  - issue: https://issues.jenkins.io/browse/JENKINS-74630
+  - issue: https://github.com/jenkinsci/helix-alm-test-management-plugin/issues/15
+  - issue: https://github.com/jenkinsci/helix-alm-test-management-plugin/issues/16
 - id: hetzner-cloud
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74515
+  - issue: https://github.com/jenkinsci/hetzner-cloud-plugin/issues/108
 - id: hp-application-automation-tools-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74214
-  - issue: https://issues.jenkins.io/browse/JENKINS-74215
-  - issue: https://issues.jenkins.io/browse/JENKINS-74216
-  - issue: https://issues.jenkins.io/browse/JENKINS-74217
-  - issue: https://issues.jenkins.io/browse/JENKINS-74218
-  - issue: https://issues.jenkins.io/browse/JENKINS-74219
-  - issue: https://issues.jenkins.io/browse/JENKINS-74220
-  - issue: https://issues.jenkins.io/browse/JENKINS-74221
-  - issue: https://issues.jenkins.io/browse/JENKINS-74222
-  - issue: https://issues.jenkins.io/browse/JENKINS-74223
-  - issue: https://issues.jenkins.io/browse/JENKINS-74224
-  - issue: https://issues.jenkins.io/browse/JENKINS-74225
-  - issue: https://issues.jenkins.io/browse/JENKINS-74226
-  - issue: https://issues.jenkins.io/browse/JENKINS-74227
-  - issue: https://issues.jenkins.io/browse/JENKINS-74228
-  - issue: https://issues.jenkins.io/browse/JENKINS-74229
-  - issue: https://issues.jenkins.io/browse/JENKINS-74230
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1552
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1553
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1554
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1555
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1556
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1557
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1558
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1559
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1560
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1561
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1562
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1563
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1564
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1565
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1566
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1567
+  - issue: https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/1568
 - id: hp-operations-orchestration-automation-execution-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74587
@@ -916,10 +917,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74464
 - id: htmlpublisher
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74015
+  - issue: https://github.com/jenkinsci/htmlpublisher-plugin/issues/571
     fix: https://github.com/jenkinsci/htmlpublisher-plugin/pull/312
     release: https://github.com/jenkinsci/htmlpublisher-plugin/releases/tag/htmlpublisher-1.37
-  - issue: https://issues.jenkins.io/browse/JENKINS-74746
+  - issue: https://github.com/jenkinsci/htmlpublisher-plugin/issues/572
     fix: https://github.com/jenkinsci/htmlpublisher-plugin/pull/312
     release: https://github.com/jenkinsci/htmlpublisher-plugin/releases/tag/htmlpublisher-1.37
   - issue: https://github.com/jenkinsci/htmlpublisher-plugin/issues/609
@@ -949,7 +950,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74303
 - id: implied-labels
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74512
+  - issue: https://github.com/jenkinsci/implied-labels-plugin/issues/331
     fix: https://github.com/jenkinsci/implied-labels-plugin/pull/320
     release: https://github.com/jenkinsci/implied-labels-plugin/releases/tag/439.v4900744249a_3
 - id: inedo-buildmaster
@@ -961,22 +962,22 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74445
 - id: issue-link
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74532
+  - issue: https://github.com/jenkinsci/jenkins/issues/25813
 - id: itest
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74632
 - id: ivy
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74063
+  - issue: https://github.com/jenkinsci/ivy-plugin/issues/228
     fix: https://github.com/jenkinsci/ivy-plugin/pull/112
     release: https://github.com/jenkinsci/ivy-plugin/releases/tag/ivy-2.7
-  - issue: https://issues.jenkins.io/browse/JENKINS-74064
+  - issue: https://github.com/jenkinsci/ivy-plugin/issues/229
     fix: https://github.com/jenkinsci/ivy-plugin/pull/112
     release: https://github.com/jenkinsci/ivy-plugin/releases/tag/ivy-2.7
-  - issue: https://issues.jenkins.io/browse/JENKINS-74065
+  - issue: https://github.com/jenkinsci/ivy-plugin/issues/230
     fix: https://github.com/jenkinsci/ivy-plugin/pull/112
     release: https://github.com/jenkinsci/ivy-plugin/releases/tag/ivy-2.7
-  - issue: https://issues.jenkins.io/browse/JENKINS-74066
+  - issue: https://github.com/jenkinsci/ivy-plugin/issues/231
     fix: https://github.com/jenkinsci/ivy-plugin/pull/112
     release: https://github.com/jenkinsci/ivy-plugin/releases/tag/ivy-2.7
 - id: ivytrigger
@@ -996,7 +997,7 @@
     release: https://github.com/jenkinsci/jclouds-plugin/releases/tag/jclouds-jenkins-2.36
 - id: jdk-tool
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69860
+  - issue: https://github.com/jenkinsci/jdk-tool-plugin/issues/117
     fix: https://github.com/jenkinsci/jdk-tool-plugin/pull/48
     release: https://github.com/jenkinsci/jdk-tool-plugin/releases/tag/63.v62d2fd4b_4793
 - id: jenkins-multijob-plugin
@@ -1013,14 +1014,14 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74754
 - id: jetbrains-space
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74690
+  - issue: https://github.com/jenkinsci/jetbrains-space-plugin/issues/37
 - id: jira-ext
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74245
   - issue: https://issues.jenkins.io/browse/JENKINS-74246
 - id: jira-integration
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74739
+  - issue: https://github.com/jenkinsci/jira-integration-plugin/issues/16
     fix: https://github.com/jenkinsci/jira-integration-plugin/pull/22
     release: https://github.com/jenkinsci/jira-integration-plugin/releases/tag/5.10.0-100.v711f5d839b_c8
 - id: JiraTestResultReporter
@@ -1039,7 +1040,7 @@
     release: https://github.com/jenkinsci/JiraTestResultReporter-plugin/releases/tag/245.v5a_2d45c771c9
 - id: jmh-report
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74765
+  - issue: https://github.com/jenkinsci/jmh-report-plugin/issues/17
 - id: jms-messaging
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74469
@@ -1060,16 +1061,16 @@
   - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/38e939885cb1c1bf13c1117577776f81d4fe37ac/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L56-L57
 - id: jobConfigHistory
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73883
+  - issue: https://github.com/jenkinsci/jenkins/issues/25756
     fix: https://github.com/jenkinsci/job-config-history-plugin/pull/338
     release: https://github.com/jenkinsci/job-config-history-plugin/releases/tag/1277.vb_9a_0808495d7
-  - issue: https://issues.jenkins.io/browse/JENKINS-74032
+  - issue: https://github.com/jenkinsci/job-config-history-plugin/issues/599
     fix: https://github.com/jenkinsci/job-config-history-plugin/pull/343
     release: https://github.com/jenkinsci/job-config-history-plugin/releases/tag/1283.veb_dfb_00b_5ec0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74033
+  - issue: https://github.com/jenkinsci/job-config-history-plugin/issues/600
     fix: https://github.com/jenkinsci/job-config-history-plugin/pull/343
     release: https://github.com/jenkinsci/job-config-history-plugin/releases/tag/1283.veb_dfb_00b_5ec0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74034
+  - issue: https://github.com/jenkinsci/job-config-history-plugin/issues/601
     fix: https://github.com/jenkinsci/job-config-history-plugin/pull/343
     release: https://github.com/jenkinsci/job-config-history-plugin/releases/tag/1283.veb_dfb_00b_5ec0
 - id: jqs-monitoring
@@ -1077,7 +1078,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74243
 - id: jquery
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73953
+  - issue: https://github.com/jenkinsci/jquery-plugin/issues/49
     fix: https://github.com/jenkinsci/jquery-plugin/pull/12
     release: https://github.com/jenkinsci/jquery-plugin/releases/tag/jquery-1.12.4-3
 - id: jslint
@@ -1090,19 +1091,19 @@
     release: https://github.com/jenkinsci/json-parameter-plugin/releases/tag/96.vf950fb_b_79615
 - id: junit
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69655
+  - issue: https://github.com/jenkinsci/jenkins/issues/25642
     fix: https://github.com/jenkinsci/junit-plugin/pull/625
     release: https://github.com/jenkinsci/junit-plugin/releases/tag/1279.v72cf99b_25c43
-  - issue: https://issues.jenkins.io/browse/JENKINS-69656
+  - issue: https://github.com/jenkinsci/jenkins/issues/25643
     fix: https://github.com/jenkinsci/junit-plugin/pull/444
     release: https://github.com/jenkinsci/junit-plugin/releases/tag/1153.v1c24f1a_d2553
-  - issue: https://issues.jenkins.io/browse/JENKINS-69657
+  - issue: https://github.com/jenkinsci/jenkins/issues/25644
     fix: https://github.com/jenkinsci/junit-plugin/pull/445
     release: https://github.com/jenkinsci/junit-plugin/releases/tag/1153.v1c24f1a_d2553
-  - issue: https://issues.jenkins.io/browse/JENKINS-73943
+  - issue: https://github.com/jenkinsci/jenkins/issues/25757
     fix: https://github.com/jenkinsci/junit-plugin/pull/657
     release: https://github.com/jenkinsci/junit-plugin/releases/tag/1307.vdd5b_2646279e
-  - issue: https://issues.jenkins.io/browse/JENKINS-73946
+  - issue: https://github.com/jenkinsci/jenkins/issues/25759
     fix: https://github.com/jenkinsci/junit-plugin/pull/658
     release: https://github.com/jenkinsci/junit-plugin/releases/tag/1307.vdd5b_2646279e
 - id: jython
@@ -1113,7 +1114,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74545
 - id: keeper-secrets-manager
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74514
+  - issue: https://github.com/jenkinsci/keeper-secrets-manager-plugin/issues/50
     fix: https://github.com/jenkinsci/keeper-secrets-manager-plugin/pull/53
     release: https://github.com/jenkinsci/keeper-secrets-manager-plugin/releases/tag/1.0-103.v8e5cc0b5ead3
 - id: keyboard-shortcuts-plugin
@@ -1149,15 +1150,15 @@
     release: https://github.com/jenkinsci/last-changes-plugin/releases/tag/445.v6e78a_a_05a_645
 - id: ldap
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-70529
+  - issue: https://github.com/jenkinsci/ldap-plugin/issues/580
     fix: https://github.com/jenkinsci/ldap-plugin/pull/257
     release: https://github.com/jenkinsci/ldap-plugin/releases/tag/711.vb_d1a_491714dc
 - id: leanix-microservice-intelligence
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74740
+  - issue: https://github.com/jenkinsci/leanix-microservice-intelligence-plugin/issues/32
 - id: leapwork
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74448
+  - issue: https://github.com/jenkinsci/leapwork-plugin/issues/45
 - id: libvirt-slave
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74420
@@ -1175,10 +1176,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74772
 - id: lockable-resources
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73948
+  - issue: https://github.com/jenkinsci/jenkins/issues/25760
     fix: https://github.com/jenkinsci/lockable-resources-plugin/pull/719
     release: https://github.com/jenkinsci/lockable-resources-plugin/releases/tag/1322.v102a_16ce25ec
-  - issue: https://issues.jenkins.io/browse/JENKINS-73949
+  - issue: https://github.com/jenkinsci/jenkins/issues/25761
     fix: https://github.com/jenkinsci/lockable-resources-plugin/pull/720
     release: https://github.com/jenkinsci/lockable-resources-plugin/releases/tag/1322.v102a_16ce25ec
 - id: login-theme
@@ -1210,13 +1211,13 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74477
 - id: managed-scripts
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74118
+  - issue: https://github.com/jenkinsci/managed-scripts-plugin/issues/83
     fix: https://github.com/jenkinsci/managed-scripts-plugin/pull/32
-  - issue: https://issues.jenkins.io/browse/JENKINS-74119
+  - issue: https://github.com/jenkinsci/managed-scripts-plugin/issues/84
     fix: https://github.com/jenkinsci/managed-scripts-plugin/pull/31
-  - issue: https://issues.jenkins.io/browse/JENKINS-74120
+  - issue: https://github.com/jenkinsci/managed-scripts-plugin/issues/85
     fix: https://github.com/jenkinsci/managed-scripts-plugin/pull/33
-  - issue: https://issues.jenkins.io/browse/JENKINS-74121
+  - issue: https://github.com/jenkinsci/managed-scripts-plugin/issues/86
     fix: https://github.com/jenkinsci/managed-scripts-plugin/pull/30
 - id: mantis
   findings:
@@ -1232,7 +1233,7 @@
     release: https://github.com/jenkinsci/matlab-plugin/releases/tag/1122.ve3b_d956efdfc
 - id: matomo-analytics
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74700
+  - issue: https://github.com/jenkinsci/matomo-analytics-plugin/issues/5
     fix: https://github.com/jenkinsci/matomo-analytics-plugin/pull/6
     release: https://github.com/jenkinsci/matomo-analytics-plugin/releases/tag/1.34.v7fe4d35786a_5
   - issue: https://github.com/jenkinsci/matomo-analytics-plugin/issues/7
@@ -1243,7 +1244,7 @@
     fix: https://github.com/jenkinsci/matrix-combinations-plugin/pull/54
 - id: matrix-project
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69659
+  - issue: https://github.com/jenkinsci/matrix-project-plugin/issues/736
     fix: https://github.com/jenkinsci/matrix-project-plugin/pull/130
     release: https://github.com/jenkinsci/matrix-project-plugin/releases/tag/838.v4d7b_7b_f9b_d4b_
 - id: matrix-reloaded
@@ -1302,9 +1303,9 @@
     release: https://github.com/jenkinsci/metrics-plugin/releases/tag/4.2.21-458.vcf496cb_839e4
 - id: metrics-aggregation
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74563
+  - issue: https://github.com/jenkinsci/metrics-aggregation-plugin/issues/33
     fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
-  - issue: https://issues.jenkins.io/browse/JENKINS-74564
+  - issue: https://github.com/jenkinsci/metrics-aggregation-plugin/issues/34
     fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
 - id: micro-focus-performance-center-integration
   findings:
@@ -1365,8 +1366,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74680
 - id: nested-data-reporting
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74446
-  - issue: https://issues.jenkins.io/browse/JENKINS-74447
+  - issue: https://github.com/jenkinsci/nested-data-reporting-plugin/issues/511
+  - issue: https://github.com/jenkinsci/nested-data-reporting-plugin/issues/512
 - id: nested-view
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-73971
@@ -1382,7 +1383,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74274
 - id: nodelabelparameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73974
+  - issue: https://github.com/jenkinsci/nodelabelparameter-plugin/issues/583
     fix: https://github.com/jenkinsci/nodelabelparameter-plugin/pull/349
     release: https://github.com/jenkinsci/nodelabelparameter-plugin/releases/tag/nodelabelparameter-1.13.0
 - id: nopmdcheck
@@ -1405,9 +1406,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74610
 - id: oes-template
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74633
-  - issue: https://issues.jenkins.io/browse/JENKINS-74634
-  - issue: https://issues.jenkins.io/browse/JENKINS-74635
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/87
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/88
+  - issue: https://github.com/jenkinsci/oes-template-plugin/issues/89
 - id: oic-auth
   findings:
   - issue: https://github.com/jenkinsci/oic-auth-plugin/issues/680
@@ -1436,6 +1437,7 @@
 - id: oracle-cloud-infrastructure-compute
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74321
+    fix: TODO
   - issue: https://issues.jenkins.io/browse/JENKINS-74322
   - issue: https://issues.jenkins.io/browse/JENKINS-74755
 - id: oracle-cloud-infrastructure-compute-classic
@@ -1472,22 +1474,22 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74341
 - id: peass-ci
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74650
-  - issue: https://issues.jenkins.io/browse/JENKINS-74651
-  - issue: https://issues.jenkins.io/browse/JENKINS-74652
-  - issue: https://issues.jenkins.io/browse/JENKINS-74653
-  - issue: https://issues.jenkins.io/browse/JENKINS-74654
-  - issue: https://issues.jenkins.io/browse/JENKINS-74655
-  - issue: https://issues.jenkins.io/browse/JENKINS-74656
-  - issue: https://issues.jenkins.io/browse/JENKINS-74657
-  - issue: https://issues.jenkins.io/browse/JENKINS-74658
-  - issue: https://issues.jenkins.io/browse/JENKINS-74659
-  - issue: https://issues.jenkins.io/browse/JENKINS-74660
-  - issue: https://issues.jenkins.io/browse/JENKINS-74661
-  - issue: https://issues.jenkins.io/browse/JENKINS-74662
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/306
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/307
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/308
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/309
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/310
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/311
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/312
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/313
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/314
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/315
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/316
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/317
+  - issue: https://github.com/jenkinsci/peass-ci-plugin/issues/318
 - id: performance-signature-ui
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74430
+  - issue: https://github.com/jenkinsci/performance-signature-dynatrace-plugin/issues/326
 - id: perfpublisher
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74252
@@ -1500,7 +1502,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74333
 - id: piketec-tpt
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74557
+  - issue: https://github.com/jenkinsci/piketec-tpt-plugin/issues/3
 - id: pipeline-aggregator-view
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74122
@@ -1511,17 +1513,17 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74332
 - id: pipeline-build-step
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-72145
+  - issue: https://github.com/jenkinsci/pipeline-build-step-plugin/issues/244
     fix: https://github.com/jenkinsci/pipeline-build-step-plugin/pull/126
     release: https://github.com/jenkinsci/pipeline-build-step-plugin/releases/tag/516.v8ee60a_81c5b_9
 - id: pipeline-config-history
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74196
-  - issue: https://issues.jenkins.io/browse/JENKINS-74197
-  - issue: https://issues.jenkins.io/browse/JENKINS-74198
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/40
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/39
+  - issue: https://github.com/jenkinsci/pipeline-config-history-plugin/issues/41
 - id: pipeline-model-definition
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-72136
+  - issue: https://github.com/jenkinsci/pipeline-model-definition-plugin/issues/1476
     fix: https://github.com/jenkinsci/pipeline-model-definition-plugin/pull/678
     release: https://github.com/jenkinsci/pipeline-model-definition-plugin/releases/tag/2.2150.v4cfd8916915c
 - id: pipeline-stage-view
@@ -1538,19 +1540,19 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74482
 - id: plot
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74095
+  - issue: https://github.com/jenkinsci/plot-plugin/issues/316
     fix: https://github.com/jenkinsci/plot-plugin/pull/146
     release: https://github.com/jenkinsci/plot-plugin/releases/tag/plot-2.2.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74096
+  - issue: https://github.com/jenkinsci/plot-plugin/issues/317
     fix: https://github.com/jenkinsci/plot-plugin/pull/146
     release: https://github.com/jenkinsci/plot-plugin/releases/tag/plot-2.2.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74097
+  - issue: https://github.com/jenkinsci/plot-plugin/issues/318
     fix: https://github.com/jenkinsci/plot-plugin/pull/146
     release: https://github.com/jenkinsci/plot-plugin/releases/tag/plot-2.2.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74098
+  - issue: https://github.com/jenkinsci/plot-plugin/issues/319
     fix: https://github.com/jenkinsci/plot-plugin/pull/147
     release: https://github.com/jenkinsci/plot-plugin/releases/tag/plot-2.2.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74099
+  - issue: https://github.com/jenkinsci/plot-plugin/issues/320
     fix: https://github.com/jenkinsci/plot-plugin/pull/146
     release: https://github.com/jenkinsci/plot-plugin/releases/tag/plot-2.2.0
 - id: plugin-usage-plugin
@@ -1563,22 +1565,22 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74253
 - id: pollscm
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74199
+  - issue: https://github.com/jenkinsci/pollscm-plugin/issues/79
     fix: https://github.com/jenkinsci/pollscm-plugin/pull/47
     release: https://github.com/jenkinsci/pollscm-plugin/releases/tag/pollscm-1.8
 - id: port-allocator
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74143
+  - issue: https://github.com/jenkinsci/port-allocator-plugin/issues/90
     fix: https://github.com/jenkinsci/port-allocator-plugin/pull/50
     release: https://github.com/jenkinsci/port-allocator-plugin/releases/tag/port-allocator-1.11
 - id: PrioritySorter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73910
+  - issue: https://github.com/jenkinsci/priority-sorter-plugin/issues/630
     fix: https://github.com/jenkinsci/priority-sorter-plugin/pull/397
     release: https://github.com/jenkinsci/priority-sorter-plugin/releases/tag/PrioritySorter-5.2.0
 - id: prism-api
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74012
+  - issue: https://github.com/jenkinsci/prism-api-plugin/issues/289
     fix: https://github.com/jenkinsci/prism-api-plugin/pull/181
     release: https://github.com/jenkinsci/prism-api-plugin/releases/tag/v1.29.0-18
 - id: probely-security
@@ -1620,8 +1622,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74316
 - id: pull-request-monitoring
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74418
-  - issue: https://issues.jenkins.io/browse/JENKINS-74419
+  - issue: https://github.com/jenkinsci/pull-request-monitoring-plugin/issues/307
+  - issue: https://github.com/jenkinsci/pull-request-monitoring-plugin/issues/308
 - id: pvcs_scm
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74572
@@ -1639,9 +1641,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-76362
 - id: qualys-iac-security
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74617
-  - issue: https://issues.jenkins.io/browse/JENKINS-74618
-  - issue: https://issues.jenkins.io/browse/JENKINS-74619
+  - issue: https://github.com/jenkinsci/qualys-iac-security-plugin/issues/25
+  - issue: https://github.com/jenkinsci/qualys-iac-security-plugin/issues/26
+  - issue: https://github.com/jenkinsci/qualys-iac-security-plugin/issues/27
 - id: qualys-was
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-76576
@@ -1687,7 +1689,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74678
 - id: release
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74151
+  - issue: https://github.com/jenkinsci/release-plugin/issues/147
     fix: https://github.com/jenkinsci/release-plugin/pull/48
 - id: remote-result-trigger
   findings:
@@ -1699,7 +1701,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74517
 - id: repo
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74132
+  - issue: https://github.com/jenkinsci/repo-plugin/issues/142
     fix: https://github.com/jenkinsci/repo-plugin/pull/89
     release: https://github.com/jenkinsci/repo-plugin/releases/tag/repo-1.17.0-r2
 - id: report-info
@@ -1707,7 +1709,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74268
 - id: report-jtreg
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74530
+  - issue: https://github.com/jenkinsci/report-jtreg-plugin/issues/45
 - id: reqtify
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74599
@@ -1721,7 +1723,7 @@
     release: https://github.com/jenkinsci/requests-plugin/releases/tag/requests-3.4
 - id: rest-list-parameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74375
+  - issue: https://github.com/jenkinsci/rest-list-parameter-plugin/issues/249
     fix: https://github.com/jenkinsci/rest-list-parameter-plugin/pull/258
     release: https://github.com/jenkinsci/rest-list-parameter-plugin/releases/tag/357.v98054477666d
 - id: restricted-register
@@ -1758,7 +1760,7 @@
     release: https://github.com/jenkinsci/sauce-ondemand-plugin/releases/tag/sauce-ondemand-2.0
 - id: script-security
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69651
+  - issue: https://github.com/jenkinsci/script-security-plugin/issues/877
     fix: https://github.com/jenkinsci/script-security-plugin/pull/582
     release: https://github.com/jenkinsci/script-security-plugin/releases/tag/1365.v4778ca_84b_de5
 - id: scriptler
@@ -1803,7 +1805,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74242
 - id: send-stacktrace-to-eclipse-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74565
+  - issue: https://github.com/jenkinsci/send-stacktrace-to-eclipse-plugin/issues/21
 - id: serenity
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74367
@@ -1811,17 +1813,17 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74369
 - id: servicenow-cicd
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74441
-  - issue: https://issues.jenkins.io/browse/JENKINS-74442
-  - issue: https://issues.jenkins.io/browse/JENKINS-74443
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/63
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/64
+  - issue: https://github.com/jenkinsci/servicenow-cicd-plugin/issues/65
 - id: servicenow-devops
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74466
   - issue: https://issues.jenkins.io/browse/JENKINS-74467
 - id: shortcut-job
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74616
-  - issue: https://issues.jenkins.io/browse/JENKINS-74742
+  - issue: https://github.com/jenkinsci/shortcut-job-plugin/issues/13
+  - issue: https://github.com/jenkinsci/shortcut-job-plugin/issues/12
 - id: sidebar-link
   findings:
   - issue: https://github.com/jenkinsci/sidebar-link-plugin/issues/106
@@ -1895,15 +1897,15 @@
     release: https://github.com/jenkinsci/splunk-devops-plugin/releases/tag/1.10.2
 - id: spoonscript
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74713
-  - issue: https://issues.jenkins.io/browse/JENKINS-74714
-  - issue: https://issues.jenkins.io/browse/JENKINS-74715
-  - issue: https://issues.jenkins.io/browse/JENKINS-74716
-  - issue: https://issues.jenkins.io/browse/JENKINS-74717
-  - issue: https://issues.jenkins.io/browse/JENKINS-74718
-  - issue: https://issues.jenkins.io/browse/JENKINS-74719
-  - issue: https://issues.jenkins.io/browse/JENKINS-74720
-  - issue: https://issues.jenkins.io/browse/JENKINS-74721
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/2
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/3
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/4
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/5
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/6
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/7
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/8
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/9
+  - issue: https://github.com/jenkinsci/spoonscript-plugin/issues/10
 - id: spring-initalzr
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74465
@@ -1930,16 +1932,16 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74605
 - id: subversion
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73900
+  - issue: https://github.com/jenkinsci/subversion-plugin/issues/1575
     fix: https://github.com/jenkinsci/subversion-plugin/pull/319
     release: https://github.com/jenkinsci/subversion-plugin/releases/tag/1281.vc8837f91a_07a_
-  - issue: https://issues.jenkins.io/browse/JENKINS-73951
+  - issue: https://github.com/jenkinsci/subversion-plugin/issues/1576
     fix: https://github.com/jenkinsci/subversion-plugin/pull/321
     release: https://github.com/jenkinsci/subversion-plugin/releases/tag/1278.vb_8220b_249cf5
-  - issue: https://issues.jenkins.io/browse/JENKINS-73952
+  - issue: https://github.com/jenkinsci/subversion-plugin/issues/1577
     fix: https://github.com/jenkinsci/subversion-plugin/pull/321
     release: https://github.com/jenkinsci/subversion-plugin/releases/tag/1278.vb_8220b_249cf5
-  - issue: https://issues.jenkins.io/browse/JENKINS-74013
+  - issue: https://github.com/jenkinsci/subversion-plugin/issues/1578
     fix: https://github.com/jenkinsci/subversion-plugin/pull/322
     release: https://github.com/jenkinsci/subversion-plugin/releases/tag/1280.v5465ce107f22
 - id: suite-test-groups-publisher
@@ -1968,7 +1970,7 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74596
 - id: tap
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74247
+  - issue: https://github.com/jenkinsci/tap-plugin/issues/181
     fix: https://github.com/jenkinsci/tap-plugin/pull/41
     release: https://github.com/jenkinsci/tap-plugin/releases/tag/tap-2.4.4
 - id: template-workflows
@@ -1986,15 +1988,15 @@
     release: https://github.com/jenkinsci/test-results-aggregator-plugin/releases/tag/test-results-aggregator-2.3
 - id: test-results-analyzer
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74074
+  - issue: https://github.com/jenkinsci/test-results-analyzer-plugin/issues/240
     # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
     fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
     release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
-  - issue: https://issues.jenkins.io/browse/JENKINS-74751
+  - issue: https://github.com/jenkinsci/test-results-analyzer-plugin/issues/241
     # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/122
     fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
     release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
-  - issue: https://issues.jenkins.io/browse/JENKINS-75012
+  - issue: https://github.com/jenkinsci/test-results-analyzer-plugin/issues/242
     # originally fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/123
     fix: https://github.com/jenkinsci/test-results-analyzer-plugin/pull/248
     release: https://github.com/jenkinsci/test-results-analyzer-plugin/releases/tag/345.v858c49f16cf1
@@ -2039,9 +2041,9 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74687
 - id: ui-test-capture
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74490
-  - issue: https://issues.jenkins.io/browse/JENKINS-74491
-  - issue: https://issues.jenkins.io/browse/JENKINS-74492
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/1
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/2
+  - issue: https://github.com/jenkinsci/ui-test-capture-plugin/issues/3
 - id: uleska
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74694
@@ -2053,22 +2055,22 @@
     release: https://github.com/jenkinsci/unblocked-plugin/releases/tag/1.99.v247fec9f2362
 - id: uno-choice
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74025
+  - issue: https://github.com/jenkinsci/jenkins/issues/25763
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/374
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.6
-  - issue: https://issues.jenkins.io/browse/JENKINS-74026
+  - issue: https://github.com/jenkinsci/jenkins/issues/25764
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/380
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.6
-  - issue: https://issues.jenkins.io/browse/JENKINS-74027
+  - issue: https://github.com/jenkinsci/jenkins/issues/25765
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/380
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.6
-  - issue: https://issues.jenkins.io/browse/JENKINS-74028
+  - issue: https://github.com/jenkinsci/jenkins/issues/25766
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/372
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.6
-  - issue: https://issues.jenkins.io/browse/JENKINS-74029
+  - issue: https://github.com/jenkinsci/jenkins/issues/25767
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/373
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.6
-  - issue: https://issues.jenkins.io/browse/JENKINS-74030
+  - issue: https://github.com/jenkinsci/jenkins/issues/25768
     fix: https://github.com/jenkinsci/active-choices-plugin/pull/371
     release: https://github.com/jenkinsci/active-choices-plugin/releases/tag/uno-choice-2.8.5
 - id: URLSCM
@@ -2093,7 +2095,7 @@
     release: https://github.com/jenkinsci/validating-string-parameter-plugin/releases/tag/251.vc34e592b_8a_4d
 - id: validating-yaml-parameter
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74507
+  - issue: https://github.com/jenkinsci/validating-yaml-parameter-plugin/issues/184
     fix: https://github.com/jenkinsci/validating-yaml-parameter-plugin/pull/194
     release: https://github.com/jenkinsci/validating-yaml-parameter-plugin/releases/tag/368.va_3f58ce0025e
 - id: veracode-scan
@@ -2124,8 +2126,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74421
   - issue: https://issues.jenkins.io/browse/JENKINS-74422
 - id: vmanager-plugin
-  findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74749
+  findings: []
+  # issue: https://github.com/jenkinsci/vmanager-plugin/issues/32 looks like a false positive
 - id: vsphere-cloud
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74894
@@ -2133,19 +2135,19 @@
     release: https://github.com/jenkinsci/vsphere-cloud-plugin/releases/tag/4.604.v8d1097b_6767f
 - id: warnings-ng
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73894
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3149
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1859
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.10.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-73896
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3150
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1862
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.10.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-73959
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3151
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1868
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.11.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74007
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3153
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1869
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.11.0
-  - issue: https://issues.jenkins.io/browse/JENKINS-74008
+  - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3154
     fix: https://github.com/jenkinsci/warnings-ng-plugin/pull/1884
     release: https://github.com/jenkinsci/warnings-ng-plugin/releases/tag/v11.12.0
   - issue: https://github.com/jenkinsci/warnings-ng-plugin/issues/3243
@@ -2161,31 +2163,31 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74649
 - id: windows-azure-storage
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74210
+  - issue: https://github.com/jenkinsci/jenkins/issues/25776
     fix: https://github.com/jenkinsci/azure-storage-plugin/pull/323
     release: https://github.com/jenkinsci/azure-storage-plugin/releases/tag/454.v573775e9feef
-  - issue: https://issues.jenkins.io/browse/JENKINS-74211
+  - issue: https://github.com/jenkinsci/jenkins/issues/25777
     fix: https://github.com/jenkinsci/azure-storage-plugin/pull/316
     release: https://github.com/jenkinsci/azure-storage-plugin/releases/tag/448.v6496db_f62275
 - id: workflow-cps
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69917
+  - issue: https://github.com/jenkinsci/workflow-cps-plugin/issues/1643
     fix: https://github.com/jenkinsci/workflow-cps-plugin/pull/599
     release: https://github.com/jenkinsci/workflow-cps-plugin/releases/tag/3821.v9d3888c583b_1
 - id: workflow-job
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-69915
+  - issue: https://github.com/jenkinsci/workflow-job-plugin/issues/720
     fix: https://github.com/jenkinsci/workflow-job-plugin/pull/304
     release: https://github.com/jenkinsci/workflow-job-plugin/releases/tag/1282.ve6d865025906
-  - issue: https://issues.jenkins.io/browse/JENKINS-69916
+  - issue: https://github.com/jenkinsci/workflow-job-plugin/issues/721
     fix: https://github.com/jenkinsci/workflow-job-plugin/pull/411
     release: https://github.com/jenkinsci/workflow-job-plugin/releases/tag/1441.vb_2d416905b_35
-  - issue: https://issues.jenkins.io/browse/JENKINS-73875
+  - issue: https://github.com/jenkinsci/workflow-job-plugin/issues/727
     fix: https://github.com/jenkinsci/workflow-job-plugin/pull/477
     release: https://github.com/jenkinsci/workflow-job-plugin/releases/tag/1447.v559b_c710cd2e
 - id: workflow-support
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-73944
+  - issue: https://github.com/jenkinsci/workflow-support-plugin/issues/426
     fix: https://github.com/jenkinsci/workflow-support-plugin/pull/284
     release: https://github.com/jenkinsci/workflow-support-plugin/releases/tag/930.vf51d22b_ce488
 - id: wwpass-plugin
@@ -2198,21 +2200,21 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74712
 - id: wxwork-notification
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74391
+  - issue: https://github.com/jenkinsci/wxwork-notification-plugin/issues/82
     fix: https://github.com/jenkinsci/wxwork-notification-plugin/pull/87
     release: https://github.com/jenkinsci/wxwork-notification-plugin/releases/tag/1.0.2-155.v61d48e9846a_7
 - id: xcode-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74111
+  - issue: https://github.com/jenkinsci/xcode-plugin/issues/374
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
     release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
-  - issue: https://issues.jenkins.io/browse/JENKINS-74112
+  - issue: https://github.com/jenkinsci/xcode-plugin/issues/375
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
     release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
-  - issue: https://issues.jenkins.io/browse/JENKINS-74113
+  - issue: https://github.com/jenkinsci/xcode-plugin/issues/376
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
     release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
-  - issue: https://issues.jenkins.io/browse/JENKINS-74114
+  - issue: https://github.com/jenkinsci/xcode-plugin/issues/377
     fix: https://github.com/jenkinsci/xcode-plugin/pull/160
     release: https://github.com/jenkinsci/xcode-plugin/releases/tag/2.0.17-591.v36d446c020c3
 - id: xfpanel
@@ -2227,10 +2229,10 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74559
 - id: xray-connector
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74181
-  - issue: https://issues.jenkins.io/browse/JENKINS-74182
-  - issue: https://issues.jenkins.io/browse/JENKINS-74183
-  - issue: https://issues.jenkins.io/browse/JENKINS-74184
+  - issue: https://github.com/jenkinsci/xray-connector-plugin/issues/90
+  - issue: https://github.com/jenkinsci/xray-connector-plugin/issues/93
+  - issue: https://github.com/jenkinsci/xray-connector-plugin/issues/92
+  - issue: https://github.com/jenkinsci/xray-connector-plugin/issues/91
 - id: yaml-axis
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74428
@@ -2251,8 +2253,8 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74265
 - id: zap-pipeline
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74756
+  - issue: https://github.com/jenkinsci/zap-pipeline-plugin/issues/53
 - id: zscaler-iac-scan
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74668
-  - issue: https://issues.jenkins.io/browse/JENKINS-74669
+  - issue: https://github.com/jenkinsci/zscaler-iac-scan-plugin/issues/66
+  - issue: https://github.com/jenkinsci/zscaler-iac-scan-plugin/issues/65
