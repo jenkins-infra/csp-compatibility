@@ -4570,13 +4570,7 @@
 - repo: emoji-symbols-api-plugin
   findings: []
 - repo: emotional-jenkins-plugin
-  findings:
-    - url: https://github.com/jenkinsci/emotional-jenkins-plugin/blob/729f237a771acdc3789e28787ca67a4bcde1d559/src/main/resources/org/jenkinsci/plugins/emotional_jenkins/EmotionalJenkinsAction/floatingBox.jelly#L3
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/emotional-jenkins-plugin/blob/729f237a771acdc3789e28787ca67a4bcde1d559/src/main/resources/org/jenkinsci/plugins/emotional_jenkins/EmotionalJenkinsAction/summary.jelly#L3
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: endtest-plugin
   findings: []
 - repo: enhanced-credentials-plugin
@@ -4948,10 +4942,7 @@
 - repo: forensics-api-plugin
   findings: []
 - repo: forgeai-pipeline-intelligence-plugin
-  findings:
-    - url: https://github.com/jenkinsci/forgeai-pipeline-intelligence-plugin/blob/31d1ae88ad5365063f2a4a50b25f9d1c212d7340/docs/index.html#L805
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: form-element-path-plugin
   findings: []
 - repo: forticwp-cicd-plugin
