@@ -6320,6 +6320,8 @@
   findings: []
 - repo: jswidgets-plugin
   findings: []
+- repo: jtm-plugin
+  findings: []
 - repo: junit-attachments-plugin
   findings: []
 - repo: junit-plugin
@@ -7896,16 +7898,7 @@
 - repo: openedge-plugin
   findings: []
 - repo: openid-plugin
-  findings:
-    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L37
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdLoginService/_openid-form-body.jelly#L11
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/openid-plugin/blob/3878d7cccb9190e65dc6600653a6f2149836bd3a/src/main/resources/hudson/plugins/openid/OpenIdUserProperty/config.jelly#L39
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: openid4java-plugin
   findings: []
 - repo: openmfa-plugin
@@ -9885,52 +9878,52 @@
   findings: []
 - repo: simple-queue-plugin
   findings:
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L102
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/404.html#L102
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L299
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/404.html#L299
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L331
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/404.html#L331
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/404.html#L45
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/404.html#L45
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L1026
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/CLI/index.html#L111
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L1058
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/CLI/index.html#L1454
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L111
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/CLI/index.html#L1486
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/CLI/index.html#L49
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/CLI/index.html#L49
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L109
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/index.html#L109
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L403
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/index.html#L403
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L435
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/index.html#L435
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/index.html#L47
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/index.html#L47
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L109
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/pluginDevelopment/index.html#L109
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L47
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/pluginDevelopment/index.html#L47
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L495
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/pluginDevelopment/index.html#L826
       type: Inline Script Block
       assessment: False Positive
-    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/585e137d8e2cad387d0099d933fa31fe9d18d206/docs/pluginDevelopment/index.html#L527
+    - url: https://github.com/jenkinsci/simple-queue-plugin/blob/5d6ea44f5e727f6a2a818971ba76ea8430ded27d/docs/pluginDevelopment/index.html#L858
       type: Inline Script Block
       assessment: False Positive
 - repo: simple-theme-plugin
