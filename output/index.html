@@ -267,6 +267,11 @@
             color: white;
         }
 
+        .badge-issues-fixed {
+            background-color: #fd7e14;
+            color: #000;
+        }
+
         .badge-scanner {
             background-color: #ffc107;
             color: #000;
@@ -806,7 +811,11 @@
                         // Make the badge clickable if there are issue details
                         const hasDetails = plugin.issueDetails && plugin.issueDetails.length > 0;
                         const clickableClass = hasDetails ? 'issues-clickable' : '';
-                        issuesBadge = `<span class="badge badge-issues ${clickableClass}" data-plugin-id="${escapeHtml(plugin.id)}" data-type="issue">${plugin.issues}</span>`;
+                        // Orange instead of red if every open issue has a fix, even if it's unreleased.
+                        // Compare to the count because findings without an issue URL aren't in issueDetails.
+                        const allFixed = hasDetails && plugin.issueDetails.length === plugin.issues && plugin.issueDetails.every(detail => detail.fix);
+                        const severityClass = allFixed ? 'badge-issues-fixed' : 'badge-issues';
+                        issuesBadge = `<span class="badge ${severityClass} ${clickableClass}" data-plugin-id="${escapeHtml(plugin.id)}" data-type="issue">${plugin.issues}</span>`;
                     } else {
                         issuesBadge = '0';
                     }
