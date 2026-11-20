@@ -529,16 +529,16 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74510
 - id: delivery-pipeline-plugin
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74082
+  - issue: https://github.com/jenkinsci/delivery-pipeline-plugin/issues/341
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/41
     release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
-  - issue: https://issues.jenkins.io/browse/JENKINS-74083
+  - issue: https://github.com/jenkinsci/delivery-pipeline-plugin/issues/342
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/38
     release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
-  - issue: https://issues.jenkins.io/browse/JENKINS-74084
+  - issue: https://github.com/jenkinsci/delivery-pipeline-plugin/issues/343
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/41
     release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
-  - issue: https://issues.jenkins.io/browse/JENKINS-74085
+  - issue: https://github.com/jenkinsci/delivery-pipeline-plugin/issues/344
     fix: https://github.com/jenkinsci/delivery-pipeline-plugin/pull/37
     release: https://github.com/jenkinsci/delivery-pipeline-plugin/releases/tag/1116.v779f62511800
 - id: dependency-check-jenkins-plugin
